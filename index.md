@@ -7,4 +7,4 @@ Low-resource NLP. Linguistically-driven methods.
 
 ### Publications
 #### 2021
-Muñoz-Ortiz, A., Vilares, D., & Strzyz, M. (2021). Not All Linealizations Are Equally Data-Hungry in Sequence Labeling Parsing. Recent Advances in Natural Language Processing, Varna, Bulgaria.
+Muñoz-Ortiz, A., Vilares, D., & Strzyz, M. (2021). [Not All Linealizations Are Equally Data-Hungry in Sequence Labeling Parsing](https://aclanthology.org/2021.ranlp-1.111/). Recent Advances in Natural Language Processing, Varna, Bulgaria.
