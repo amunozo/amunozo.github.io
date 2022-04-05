@@ -1,4 +1,4 @@
-## Alberto Muñoz Ortiz
+## Alberto Muñoz-Ortiz
 
 PhD student at **Universidade da Coruña**.
 
