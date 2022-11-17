@@ -12,4 +12,4 @@ Alberto Muñoz-Ortiz, Michalina Strzyz, and David Vilares. 2021. [Not All Lineal
 #### 2022
 Alberto Muñoz-Ortiz, Carlos Gómez-Rodríguez, and David Vilares. 2022. [Cross-lingual Inflection as a Data Augmentation Method](https://aclanthology.org/2022.insights-1.7/). In Proceedings of the Third Workshop on Insights from Negative Results in NLP, pages 54–61, Dublin, Ireland. Association for Computational Linguistics.
 
-Alberto Muñoz-Ortiz, Mark Anderson,  David Vilares, and Carlos Gómez-Rodríguez 2022. [Parsing linearizatons appreciate PoS tags – but some are fussy about errors](https://arxiv.org/abs/2210.15219). Asian Chapter of the Association of Computational Linguistics (AACL).
+Alberto Muñoz-Ortiz, Mark Anderson,  David Vilares, and Carlos Gómez-Rodríguez. 2022. [Parsing linearizatons appreciate PoS tags – but some are fussy about errors](https://arxiv.org/abs/2210.15219). Asian Chapter of the Association of Computational Linguistics (AACL).
