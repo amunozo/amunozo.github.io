@@ -7,7 +7,7 @@ Low-resource NLP. Linguistically-driven methods. Syntax of language models. Depe
 
 ### Publications
 #### 2023
-Alberto Muñoz-Ortiz, and David Vilares. 2023. [Another Dead End for Morphological Tags? Perturbed Inputs and Parsing](https://arxiv.org/abs/2305.15119). Findings of Association of Computational Linguistics (ACL).
+Alberto Muñoz-Ortiz, and David Vilares. 2023. [Another Dead End for Morphological Tags? Perturbed Inputs and Parsing](https://aclanthology.org/2023.findings-acl.459/). Findings of Association of Computational Linguistics (ACL).
 
 #### 2022
 Alberto Muñoz-Ortiz, Mark Anderson,  David Vilares, and Carlos Gómez-Rodríguez. 2022. [Parsing linearizatons appreciate PoS tags – but some are fussy about errors](https://aclanthology.org/2022.aacl-short.16/). Asian Chapter of the Association of Computational Linguistics (AACL).
