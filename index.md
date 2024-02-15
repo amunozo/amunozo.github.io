@@ -3,7 +3,7 @@
 PhD student at **Universidade da Coruña**.
 
 ### Research interests
-Low-resource NLP. Linguistically-driven methods. Syntax of language models. Dependency parsing.
+Low-resource NLP. Multilingual NLP. Linguistically-driven methods. Syntax of language models.
 
 ### Publications
 #### 2023
