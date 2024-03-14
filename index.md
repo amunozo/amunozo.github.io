@@ -7,7 +7,9 @@ Natural langauge processing. Low-resource setups and languages. Multilinguality.
 
 ### Publications
 #### 2023
-Alberto Muñoz-Ortiz, Carlos Gómez-Rodríguez, and David Vilares. [Assessment of Pre-Trained Models Across Languages and Grammars](https://arxiv.org/abs/2309.11165). In IJCNLP-AACL 2023 The 13th International Joint Conference on Natural Language Processing and the 3rd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics, Bali, Indonesia. 
+Alberto Muñoz-Ortiz, Carlos Gómez-Rodríguez, and David Vilares. [Assessment of Pre-Trained Models Across Languages and Grammars](https://arxiv.org/abs/2309.11165). In IJCNLP-AACL 2023 The 13th International Joint Conference on Natural Language Processing and the 3rd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics, Bali, Indonesia.
+
+Alberto Muñoz-Ortiz, and David Vilares. LyS A Coruña at GUA-SPA@IberLEF2023: [Multi-Task Learning with Large Language Model Encoders for Guarani-Spanish Code Switching Analysis](https://ruc.udc.es/dspace/handle/2183/33478), in: Proceedings of IberLEF 2023, Jaén, Spain
 
 Alberto Muñoz-Ortiz, and David Vilares. 2023. [Another Dead End for Morphological Tags? Perturbed Inputs and Parsing](https://aclanthology.org/2023.findings-acl.459/). In Findings of the Association for Computational Linguistics: ACL 2023, pages 7301–7310, Toronto, Canada. Association for Computational Linguistics.
 
