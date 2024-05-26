@@ -3,7 +3,7 @@
 PhD student in Natural Language Processing at **Universidade da Coruña**.
 
 ### Research interests
-Low-resource setups and languages. Multilinguality. Linguistically-driven methods. Language models linguistic behavior.
+Low-resource setups and languages. Multilinguality. Language models linguistic behavior.
 
 ### Preprints
 #### 2024
