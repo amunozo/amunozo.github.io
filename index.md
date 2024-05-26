@@ -1,9 +1,14 @@
 ## Alberto Muñoz-Ortiz
 
-PhD student at **Universidade da Coruña**.
+PhD student in Natural Language Processing at **Universidade da Coruña**.
 
 ### Research interests
-Natural langauge processing. Low-resource setups and languages. Multilinguality. Linguistically-driven methods.
+Low-resource setups and languages. Multilinguality. Linguistically-driven methods. Language models linguistic behavior.
+
+### Preprints
+#### 2024
+Alberto Muñoz-Ortiz, Carlos Gómez-Rodríguez, and David Vilares. [Contrasting Linguistic Patterns in Human and LLM-Generated News Text](https://www.researchsquare.com/article/rs-4077382/v1).
+
 
 ### Publications
 #### 2023
