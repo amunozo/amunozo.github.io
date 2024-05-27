@@ -1,6 +1,6 @@
 ## Alberto Muñoz-Ortiz
 
-PhD student in Natural Language Processing at **Universidade da Coruña**.
+PhD student in Natural Language Processing at **Universidade da Coruña**, Spain, under the supervision of [David Vilares](http://www.grupolys.org/~david.vilares/) and [Carlos Gómez-Rodríguez](http://www.grupolys.org/~cgomezr/). Visiting researcher at MaiNLP, LMU Munich, Germany, hosted by [Barbara Plank](https://bplank.github.io/) in Summer 2023.
 
 ### Research Interests
 - Low-resource setups and languages
@@ -8,7 +8,7 @@ PhD student in Natural Language Processing at **Universidade da Coruña**.
 - Language models linguistic behavior
 
 ### Research collaborations
-Visiting Researcher at MaiNLP with Barbara Plank, LMU Munich, Germany - July to September, 2023.
+Visiting Researcher at MaiNLP with Barbara Plank, LMU Munich, Germany - July to October, 2023.
 
 ### Preprints
 #### 2024
