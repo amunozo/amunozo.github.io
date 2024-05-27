@@ -7,6 +7,9 @@ PhD student in Natural Language Processing at **Universidade da Coruña**.
 - Multilinguality
 - Language models linguistic behavior
 
+### Research collaborations
+Visiting Researcher at MaiNLP with Barbara Plank, LMU Munich, Germany - July to September, 2023.
+
 ### Preprints
 #### 2024
 Alberto Muñoz-Ortiz, Carlos Gómez-Rodríguez, and David Vilares. [Contrasting Linguistic Patterns in Human and LLM-Generated News Text](https://www.researchsquare.com/article/rs-4077382/v1).
