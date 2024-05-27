@@ -1,14 +1,14 @@
 ## Alberto Muñoz-Ortiz
 
-PhD student in Natural Language Processing at **Universidade da Coruña**, Spain, under the supervision of [David Vilares](http://www.grupolys.org/~david.vilares/) and [Carlos Gómez-Rodríguez](http://www.grupolys.org/~cgomezr/). 
+PhD student in Natural Language Processing at **Universidade da Coruña**, Spain, under the supervision of [David Vilares](http://www.grupolys.org/~david.vilares/) and [Carlos Gómez-Rodríguez](http://www.grupolys.org/~cgomezr/).
 
 ### Research Interests
-- Low-resource setups and languages
-- Multilinguality
-- Language models linguistic behavior
+- **Low-resource setups and languages**: Studying the effect of limited data on NLP systems, developing tools to mitigate this.
+- **Multilinguality**: Enhancing NLP models to handle multiple languages effectively.
+- **Language models linguistic behavior**: Understanding how language models process and generate language.
 
-### Research collaborations
-- Visiting researcher at MaiNLP, LMU Munich, Germany, hosted by [Barbara Plank](https://bplank.github.io/) in Summer 2023.
+### Research Collaborations
+- Visiting researcher at MaiNLP, LMU Munich, Germany, hosted by [Barbara Plank](https://bplank.github.io/) in Summer 2023. Studied the use of pixel-based approaches for multilingual language models
 
 ### Preprints
 #### 2024
@@ -25,7 +25,8 @@ Alberto Muñoz-Ortiz, and David Vilares. [Another Dead End for Morphological Tag
 #### 2022
 Alberto Muñoz-Ortiz, Mark Anderson, David Vilares, and Carlos Gómez-Rodríguez. [Parsing Linearizations Appreciate PoS Tags – but Some Are Fussy about Errors](https://aclanthology.org/2022.aacl-short.16/). In **IJCNLP-AACL 2022**, Online.
 
-Alberto Muñoz-Ortiz, Carlos Gómez-Rodríguez, and David Vilares. [Cross-lingual Inflection as a Data Augmentation Method](https://aclanthology.org/2022.insights-1.7/). In **Third Workshop on Insights from Negative Results in NLP**, pages 54–61, Dublin, Ireland. Association for Computational Linguistics.
+Alberto Muñoz-Ortiz, Carlos Gómez-Rodríguez, and David Vilares. [Cross-lingual Inflection as a Data Augmentation Method](https://aclanthology.org/2022.insights-1.7/). In **Third Workshop on Insights from Negative Results in NLP**, pages 54–61, Dublin, Ireland. 
+Association for Computational Linguistics.
 
 #### 2021
 Alberto Muñoz-Ortiz, Michalina Strzyz, and David Vilares. [Not All Linearizations Are Equally Data-Hungry in Sequence Labeling Parsing](https://aclanthology.org/2021.ranlp-1.111/). In **RANLP 2021**, pages 978–988, Held Online. INCOMA Ltd.
