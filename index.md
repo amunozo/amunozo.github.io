@@ -11,9 +11,10 @@ PhD student in Natural Language Processing at **Universidade da Coruña**, Spain
 - Visiting researcher at MaiNLP, LMU Munich, Germany, hosted by [Barbara Plank](https://bplank.github.io/) in Summer 2023. Studied the use of pixel-based approaches for multilingual language models.
 
 ### Publications
+
 #### 2024
 - Alberto Muñoz-Ortiz, Carlos Gómez-Rodríguez, and David Vilares. [Contrasting Linguistic Patterns in Human and LLM-Generated News Text](https://link.springer.com/article/10.1007/s10462-024-10903-2?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20240823&utm_content=10.1007/s10462-024-10903-2#citeas). Artificial Intelligence Review 57, 265 (2024).
-- 
+
 #### 2023
 - Alberto Muñoz-Ortiz, Carlos Gómez-Rodríguez, and David Vilares. [Assessment of Pre-Trained Models Across Languages and Grammars](https://arxiv.org/abs/2309.11165). In **IJCNLP-AACL 2023**, Bali, Indonesia.
 - Alberto Muñoz-Ortiz, and David Vilares. LyS A Coruña at GUA-SPA@IberLEF2023: [Multi-Task Learning with Large Language Model Encoders for Guarani-Spanish Code Switching Analysis](https://ruc.udc.es/dspace/handle/2183/33478). In **IberLEF 2023**, Jaén, Spain.
