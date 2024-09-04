@@ -20,23 +20,6 @@ navbar:
   en:
     - title: "Home"
       url: /en/
-    <!-- - title: "CV"
-      url: /en/cv
-    - title: "Research"
-      url: /en/research
-    - title: "Blog"
-      url: /en/blog
-    - title: "About Me"
-      url: /en/about -->
   es:
     - title: "Inicio"
       url: /es/
-    <!-- - title: "CV"
-      url: /es/cv
-    - title: "Investigación"
-      url: /es/research
-    - title: "Blog"
-      url: /es/blog
-    - title: "Sobre Mí"
-      url: /es/about -->
-
