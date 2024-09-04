@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Home"
+lang: es
+---
+
 ## Alberto Muñoz-Ortiz
 
 Estudiante de doctorado en procesamiento de lenguaje natural en la **Universidade da Coruña**, España, bajo la dirección [David Vilares](http://www.grupolys.org/~david.vilares/) y [Carlos Gómez-Rodríguez](http://www.grupolys.org/~cgomezr/).
