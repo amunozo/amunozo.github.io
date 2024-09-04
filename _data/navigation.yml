@@ -1,14 +1,14 @@
 en:
   - name: Home
-    link: /
+    link: /en/
   - name: CV
-    link: en/cv/
+    link: /en/cv/
   - name: Research
-    link: en/research/
+    link: /en/research/
   - name: Blog
-    link: en/blog/
+    link: /en/blog/
   - name: About Me
-    link: en/about/
+    link: /en/about/
 
 es:
   - name: Inicio
