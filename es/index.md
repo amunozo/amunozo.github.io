@@ -15,7 +15,7 @@ Estudiante de doctorado en procesamiento de lenguaje natural en la **Universidad
 
 ### Colaboraciones
 - Investigador visitante en MaiNLP, LMU Munich, Alemania, acogido por [Barbara Plank](https://bplank.github.io/) en verano de 2023. Estudio del uso de modelos basados en píxeles para entornos multilingües.
-### Publications
+### Publicaciones
 
 #### 2024
 - Alberto Muñoz-Ortiz, Carlos Gómez-Rodríguez, y David Vilares. [Contrasting Linguistic Patterns in Human and LLM-Generated News Text](https://link.springer.com/article/10.1007/s10462-024-10903-2?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20240823&utm_content=10.1007/s10462-024-10903-2#citeas). Artificial Intelligence Review 57, 265 (2024).
