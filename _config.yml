@@ -1,0 +1,55 @@
+title: "My Jekyll Site"
+description: "A bilingual site in English and Spanish"
+baseurl: "" # or "/your-repo-name" if not using root
+url: "https://yourusername.github.io"
+theme: minima
+markdown: kramdown
+
+# Define the languages you will use
+languages: 
+  - en
+  - es
+
+defaults:
+  # English
+  - scope:
+      path: ""
+      lang: "en"
+    values:
+      layout: default
+  # Spanish
+  - scope:
+      path: "es"
+      lang: "es"
+    values:
+      layout: default
+
+# Enable collections (like blog posts)
+collections:
+  posts:
+    output: true
+
+# Define navigation links
+navbar:
+  en:
+    - title: "Home"
+      url: /
+    - title: "CV"
+      url: /cv
+    - title: "Research"
+      url: /research
+    - title: "Blog"
+      url: /blog
+    - title: "About Me"
+      url: /about
+  es:
+    - title: "Inicio"
+      url: /es/
+    - title: "CV"
+      url: /es/cv
+    - title: "Investigación"
+      url: /es/research
+    - title: "Blog"
+      url: /es/blog
+    - title: "Sobre Mí"
+      url: /es/about
