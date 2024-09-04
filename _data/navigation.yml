@@ -1,0 +1,23 @@
+en:
+  - name: Home
+    link: /
+  - name: CV
+    link: /cv/
+  - name: Research
+    link: /research/
+  - name: Blog
+    link: /blog/
+  - name: About Me
+    link: /about/
+
+es:
+  - name: Inicio
+    link: /es/
+  - name: CV
+    link: /es/cv/
+  - name: Investigación
+    link: /es/research/
+  - name: Blog
+    link: /es/blog/
+  - name: Sobre Mí
+    link: /es/about/
