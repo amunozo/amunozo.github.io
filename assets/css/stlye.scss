@@ -1,12 +1,17 @@
-@font-face {
-  font-family: 'YourCustomFont';
-  src: url('../fonts/your-custom-font.woff2') format('woff2');
-}
-
+/* Google Fonts link should be included in the HTML head */
 body {
-  font-family: 'Noto', sans-serif;
+  font-family: 'Noto', sans-serif; /* Use the Google Font here */
   background-color: #f4f4f4;
   color: #333;
+  max-width: 1200px; /* Adjust as needed */
+  margin: 0 auto; /* Centers the body content */
+  padding: 0 20px; /* Adds horizontal padding */
+}
+
+nav {
+  max-width: 1200px; /* Adjust as needed */
+  margin: 0 auto; /* Centers the navigation */
+  padding: 0 20px; /* Adds horizontal padding */
 }
 
 nav ul {
@@ -21,4 +26,12 @@ nav ul li {
 a {
   text-decoration: none;
   color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  body, nav {
+    max-width: 100%;
+    padding: 0 10px; /* Adjust padding for smaller screens */
+  }
 }
