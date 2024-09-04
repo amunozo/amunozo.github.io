@@ -3,13 +3,13 @@ body {
   font-family: 'Noto', sans-serif; /* Use the Google Font here */
   background-color: #f4f4f4;
   color: #333;
-  max-width: 1200px; /* Adjust as needed */
+  max-width: 800px; /* Adjust as needed */
   margin: 0 auto; /* Centers the body content */
   padding: 0 20px; /* Adds horizontal padding */
 }
 
 nav {
-  max-width: 1200px; /* Adjust as needed */
+  max-width: 800px; /* Adjust as needed */
   margin: 0 auto; /* Centers the navigation */
   padding: 0 20px; /* Adds horizontal padding */
 }
