@@ -1,6 +1,5 @@
 /* Google Fonts link should be included in the HTML head */
 body {
-  font-family: 'Noto', sans-serif; /* Use the Google Font here */
   background-color: #f4f4f4;
   color: #333;
   max-width: 800px; /* Adjust as needed */
