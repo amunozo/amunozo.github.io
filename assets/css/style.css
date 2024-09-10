@@ -1,6 +1,6 @@
 /* Google Fonts link should be included in the HTML head */
 body {
-  background-color: #f4f4f4;
+  background-color: #ffe6e6;
   color: #333;
   max-width: 800px; /* Adjust as needed */
   margin: 0 auto; /* Centers the body content */
@@ -11,6 +11,10 @@ element {
   line-height: 1.25;
 }
 
+header {
+  background-color: #f7a6a6; /* Base salmon color for header */
+  color: #fff; /* White text for contrast */
+}
 
 .roboto-slab-<uniquifier> {
   font-family: "Roboto Slab", serif;
@@ -24,6 +28,7 @@ nav {
   max-width: 800px; /* Adjust as needed */
   margin: 0 auto; /* Centers the navigation */
   padding: 0 20px; /* Adds horizontal padding */
+  background-color: #f28d8d;
 }
 
 nav ul {
@@ -37,7 +42,11 @@ nav ul li {
 
 a {
   text-decoration: none;
-  color: #0056b3;
+  color: #f7a6a6;
+}
+
+a:hover {
+  color: #f28d8d; /* Darker salmon color on hover */
 }
 
 /* Responsive design */
