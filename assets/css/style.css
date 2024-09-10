@@ -1,78 +1,41 @@
-/* Google Fonts link should be included in the HTML head */
 body {
-  background-color: #ffe6e6; /* Light salmon background */
-  color: #333; /* Dark text for readability */
+  background-color: #f4f4f4; /* Light gray background color */
+  color: #333; /* Dark gray text color */
   max-width: 800px; /* Adjust as needed */
   margin: 0 auto; /* Centers the body content */
   padding: 0 20px; /* Adds horizontal padding */
+  line-height: 1.6; /* Adjust line height for readability */
 }
 
-element {
-  line-height: 1.25;
-}
-
-header {
-  background-color: #f7a6a6; /* Base salmon color for header */
-  color: #fff; /* White text for contrast */
-  padding: 10px 0; /* Padding for spacing in the header */
-  text-align: center; /* Centers the header text */
-  font-family: "Roboto Slab", serif; /* Consistent with journal typography */
-}
-
-.roboto-slab-<uniquifier> {
+.besley-<uniquifier> {
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
-  font-weight: 300;
+  font-weight: 300; /* Replace <weight> with the desired value */
   font-style: normal;
 }
 
 nav {
   max-width: 800px; /* Adjust as needed */
   margin: 0 auto; /* Centers the navigation */
-  padding: 10px 20px; /* Adds padding */
-  background-color: #f28d8d; /* Darker salmon color for navigation */
+  padding: 0 20px; /* Adds horizontal padding */
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  justify-content: space-around; /* Distributes nav items evenly */
 }
 
 nav ul li {
   margin-right: 20px;
 }
 
-nav ul li:last-child {
-  margin-right: 0; /* Remove margin for the last item */
-}
-
 a {
   text-decoration: none;
-  color: #f7a6a6; /* Lighter salmon color for links */
+  color: #0056b3; /* Blue color for links */
 }
 
 a:hover {
-  color: #f28d8d; /* Darker salmon color on hover */
-}
-
-/* Adjust article section */
-article {
-  padding: 20px;
-  background-color: #fff; /* White background for readability */
-  border-radius: 8px; /* Slightly rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-}
-
-article h2 {
-  color: #f28d8d; /* Use the darker salmon color for headings */
-}
-
-footer {
-  background-color: #f7a6a6;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
+  color: #003d7a; /* Darker blue on hover */
 }
 
 /* Responsive design */
@@ -80,19 +43,6 @@ footer {
   body, nav {
     max-width: 100%;
     padding: 0 10px; /* Adjust padding for smaller screens */
-  }
-
-  nav ul {
-    flex-direction: column; /* Stack nav items vertically on smaller screens */
-    align-items: center; /* Center align items */
-  }
-
-  nav ul li {
-    margin-bottom: 10px; /* Add space between items */
-  }
-
-  nav ul li:last-child {
-    margin-bottom: 0; /* Remove bottom margin for the last item */
   }
 }
 
