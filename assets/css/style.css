@@ -7,12 +7,13 @@ body {
   padding: 0 20px; /* Adds horizontal padding */
 }
 
-.besley-<uniquifier> {
-  font-family: "Besley", serif;
+.roboto-slab-<uniquifier> {
+  font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 300;
   font-style: normal;
 }
+
 
 nav {
   max-width: 800px; /* Adjust as needed */
