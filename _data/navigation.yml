@@ -1,7 +1,7 @@
-en:
-  - name: Home
-    link: /en/
-
-es:
-  - name: Inicio
-    link: /es/
+main:
+  - name: About Me
+    link: /
+  - name: Research
+    link: /research/
+  - name: CV
+    link: /cv/
