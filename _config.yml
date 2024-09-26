@@ -1,25 +1,23 @@
-title: "amunozo"
-description: "A bilingual site in English and Spanish"
-baseurl: ""  # or "/your-repo-name" if not using root
+title: "Alberto Muñoz-Ortiz"
+description: "Personal Website of Alberto Muñoz-Ortiz"
+baseurl: "" 
 url: "https://amunozo.github.io"
 theme: minima
 markdown: kramdown
 
-# Language settings
-languages: 
-  - en
-  - es
-
-# Collection for blog posts
-collections:
-  posts:
-    output: true
-
 # Navigation links
-navbar:
-  en:
-    - title: "Home"
-      url: /en/
-  es:
-    - title: "Inicio"
-      url: /es/
+header_pages:
+  - research.md
+  - teaching.md
+  - cv.md
+
+# Social links (optional)
+twitter_username: amunozo
+github_username:  amunozo
+linkedin_username: alberto-munoz-ortiz-683470106
+
+# Google Analytics (optional)
+# google_analytics: UA-NNNNNNNN-N
+
+# Exclude files from processing
+# exclude:
