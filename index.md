@@ -1,4 +1,4 @@
-<<<## Alberto Muñoz-Ortiz
+## Alberto Muñoz-Ortiz
 
 PhD student in Natural Language Processing at **Universidade da Coruña**, Spain, under the supervision of [David Vilares](http://www.grupolys.org/~david.vilares/) and [Carlos Gómez-Rodríguez](http://www.grupolys.org/~cgomezr/).
 
