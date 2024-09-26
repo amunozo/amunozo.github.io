@@ -2,7 +2,7 @@ title: "Alberto Muñoz-Ortiz"
 description: "Personal Website of Alberto Muñoz-Ortiz"
 baseurl: "" 
 url: "https://amunozo.github.io"
-theme: minimal
+theme: minima
 markdown: kramdown
 
 # Navigation links
