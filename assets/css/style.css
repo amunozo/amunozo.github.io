@@ -8,7 +8,7 @@ body {
 }
 
 .besley-<uniquifier> {
-  font-family: "Roboto Slab", serif;
+  font-family: "Besley", slab serif;
   font-optical-sizing: auto;
   font-weight: 300; /* Replace <weight> with the desired value */
   font-style: normal;
