@@ -2,7 +2,7 @@
 
 body {
   font-family: "Besley", serif;
-  font-weight: 250;
+  font-weight: 400;
   background-color: #f4f4f4;
   color: #333;
   max-width: 700px;
@@ -14,7 +14,7 @@ body {
 .besley-<uniquifier> {
   font-family: "Besley", slab serif;
   font-optical-sizing: auto;
-  font-weight: 200; /* Replace <weight> with the desired value */
+  font-weight: 300; /* Replace <weight> with the desired value */
   font-style: normal;
 }
 
