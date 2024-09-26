@@ -1,8 +1,7 @@
 <nav>
   <ul>
-    {% for item in site.data.navigation[page.lang] %}
-      <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+    {% for item in site.data.navigation.main %}
+      <li><a href="{{ item.link | relative_url }}">{{ item.name }}</a></li>
     {% endfor %}
   </ul>
-  {% include language-switch.html %}
 </nav>
