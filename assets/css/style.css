@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:wght@300;400;700&display=swap');
+
 body {
-  background-color: #f4f4f4; /* Light gray background color */
-  color: #333; /* Dark gray text color */
-  max-width: 800px; /* Adjust as needed */
-  margin: 0 auto; /* Centers the body content */
-  padding: 0 20px; /* Adds horizontal padding */
-  line-height: 1.6; /* Adjust line height for readability */
+  font-family: "Besley", serif;
+  font-weight: 400;
+  background-color: #f4f4f4;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  line-height: 1.6;
 }
 
 .besley-<uniquifier> {
