@@ -3,8 +3,8 @@
 body {
   font-family: "Besley", serif;
   font-weight: 400;
-  background-color: #ffffff;
-  color: #333;
+  background-color: rgb(255, 244, 220);
+  color: rgb(88, 73, 43);
   max-width: 700px;
   margin: 0 auto;
   padding: 0 20px;
@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 nav {
-  max-width: 800px; /* Adjust as needed */
+  max-width: 700px; /* Adjust as needed */
   margin: 0 auto; /* Centers the navigation */
   padding: 0 20px; /* Adds horizontal padding */
 }
@@ -45,11 +45,11 @@ nav ul li {
 
 a {
   text-decoration: none;
-  color: #0056b3; /* Blue color for links */
+  color: rgb(134, 134, 134);
 }
 
 a:hover {
-  color: #003d7a; /* Darker blue on hover */
+  color: rgb(0, 0, 0);
 }
 
 /* Responsive design */
