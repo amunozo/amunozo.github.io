@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <div style="float: left; margin-right: 20px; margin-bottom: 10px;">
-  <img src="./image.png" alt="My Picture" style="border-radius: 50%; width: 150px; height: auto;" />
+  <img src="./image.png" alt="My Picture" style="border-radius: 50%; width: 175px; height: auto;" />
 </div>
 
 Hi! I’m **Alberto Muñoz-Ortiz**, a PhD student in Natural Language Processing at [LyS group](https://www.grupolys.org/) at [Universidade da Coruña](https://www.udc.es/) in A Coruña, Spain, under the supervision of [David Vilares](http://www.grupolys.org/~david.vilares/) and [Carlos Gómez-Rodríguez](http://www.grupolys.org/~cgomezr/).
