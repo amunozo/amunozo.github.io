@@ -11,12 +11,13 @@ body {
   line-height: 1.6;
 }
 
-h1 { font-size: 1.50em; }
-h2 { font-size: 1.13em; }
-h3 { font-size: 0.88em; }
-h4 { font-size: 0.75em; }
-h5 { font-size: 0.62em; }
-h6 { font-size: 0.50em; }
+html { font-size: 12px; } /* sets the base font size */
+h1 { font-size: 2rem; } /* 2 times the root size (32px) */
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1rem; }
+h6 { font-size: 0.875rem; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
