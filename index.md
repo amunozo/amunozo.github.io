@@ -6,11 +6,8 @@ permalink: /
 
 <!-- Profile Image -->
 <p align="center">
-  <img src="./image.png" alt="My Picture" style="border-radius: 50%; width: 150px;" />
+  <img src="./image.png" alt="" style="border-radius: 50%; width: 150px;" />
 </p>
-
-<!-- Name as a header -->
-<h1 align="center">Alberto Muñoz-Ortiz</h1>
 
 <!-- Title and Contact Information -->
 <p align="center">
