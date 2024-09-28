@@ -3,24 +3,22 @@ layout: page
 title: About me
 permalink: /
 ---
-<div style="display: flex; align-items: center;">
-  <div>
-    <img src="./imagen.png" alt="My Picture" style="border-radius: 50%; width: 150px; margin-right: 20px;">
-  </div>
-  <div>
-    <h4>Alberto Muñoz-Ortiz</h4>
-    <p>PhD Student in NLP<br>
-    Universidade da Coruña<br>
-    Email: example@example.com</p>
 
-    <p>
-      <a href="https://scholar.google.com/citations?user=sS5dz4QAAAAJ&hl=en">Google Scholar</a> | 
-      <a href="#">CV</a> | 
-      <a href="https://github.com/amunozo">GitHub</a> | 
-      <a href="https://linkedin.com/in/alberto-munoz-ortiz-683470106">LinkedIn</a> | 
-      <a href="https://twitter.com/amunozo">Twitter</a>
-    </p>
-  </div>
+<!-- Profile Image -->
+<p align="center">
+  <img src="./image.png" alt="My Picture" style="border-radius: 50%; width: 150px;" />
+</p>
+
+<!-- Name as a header -->
+<h1 align="center">Alberto Muñoz-Ortiz</h1>
+
+<!-- Title and Contact Information -->
+<p align="center">
+  PhD Student in NLP<br>
+  Universidade da Coruña<br>
+  Email: example@example.com
+</p>
+
 </div>
 
 
