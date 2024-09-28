@@ -27,12 +27,20 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
-.profile-img {
-  display: block;
+.about-me-section {
+  position: relative;
+  max-width: 700px; /* Adjust as needed */
   margin: 0 auto;
-  border-radius: 50%;
-  width: 150px;
-  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.about-me-img {
+  float: left; /* Makes the text wrap around the image */
+  margin-right: 20px; /* Adds space between the image and the text */
+  margin-bottom: 10px; /* Adds some bottom space in case the text is short */
+  border-radius: 50%; /* Makes the image rounded */
+  width: 150px; /* Adjust the size of the image */
+  height: auto; /* Ensures the image maintains its aspect ratio */
 }
 
 nav {
