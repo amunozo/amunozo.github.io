@@ -1,5 +1,5 @@
 title: "Alberto Muñoz-Ortiz"
-description: "Personal Website of Alberto Muñoz-Ortiz"
+description: ""
 baseurl: ""
 url: "https://amunozo.github.io"
 theme: minima
@@ -11,15 +11,15 @@ header_pages:
   - cv.md
 
 # Social links
-twitter_username: amunozo
-github_username: amunozo
-linkedin_username: alberto-munoz-ortiz-683470106
-scholar_userid: sS5dz4QAAAAJ&hl
+#twitter_username: amunozo
+#github_username: amunozo
+#linkedin_username: alberto-munoz-ortiz-683470106
+#scholar_userid: sS5dz4QAAAAJ&hl
 
 # Minima theme settings
-minima:
-  social_links:
-    twitter: amunozo
-    github: amunozo
-    linkedin: alberto-munoz-ortiz-683470106
-    google_scholar: sS5dz4QAAAAJ&hl
+#minima:
+#  social_links:
+#    twitter: amunozo
+#    github: amunozo
+#    linkedin: alberto-munoz-ortiz-683470106
+#    google_scholar: sS5dz4QAAAAJ&hl
