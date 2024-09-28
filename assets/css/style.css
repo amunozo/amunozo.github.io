@@ -59,16 +59,17 @@ nav {
 }
 
 .nav-link:hover {
-  color: #251f12; /* Optional: Change color on hover */
-}
-
-nav ul {
-  list-style-type: none; /* Removes bullets from the list */
-  padding-left: 0; /* Removes left padding */
+  color: #000; /* Optional: Change color on hover */
 }
 
 nav li {
   margin-bottom: 10px; /* Adds spacing between navigation items */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
 }
 
 nav ul li {
