@@ -44,7 +44,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/* Style the navigation links */
 .nav-link {
   font-size: 1.15rem; /* Equivalent to h4 size */
   color: #58492b; /* Same color as the text */
@@ -56,18 +55,24 @@ h1, h2, h3, h4, h5, h6 {
   color: #000; /* Optional: Change color on hover */
 }
 
+/* Add Flexbox to center the navigation links horizontally */
 nav ul {
   list-style-type: none; /* Removes default bullets from list */
   padding-left: 0; /* Removes left padding */
+  display: flex; /* Use Flexbox to align the items horizontally */
+  justify-content: center; /* Centers the links horizontally */
+  gap: 20px; /* Adds space between the links */
+  margin: 0; /* Removes any default margin on the list */
 }
 
 nav li {
-  margin-bottom: 10px; /* Adds spacing between navigation items */
+  margin: 0; /* Removes margin to ensure proper horizontal alignment */
 }
 
 h2 {
   color: #58492b; /* Matches the color of your name with the site's text color */
   font-size: 2rem; /* Adjust as needed for the size of the name */
+  text-align: center; /* Center the name */
   margin-bottom: 20px; /* Adds spacing below the name */
 }
 
