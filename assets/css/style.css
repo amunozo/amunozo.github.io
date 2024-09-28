@@ -3,8 +3,8 @@
 body {
   font-family: "Besley", serif;
   font-weight: 400;
-  background-color: #fff4dc;
-  color: #58492b;
+  background-color: #fffaee;
+  color: #7e693f;
   max-width: 750px;
   margin: 0 auto;
   padding: 0 20px;
@@ -49,11 +49,11 @@ nav ul li {
 
 a {
   text-decoration: none;
-  color: #58492b;
+  color: #818181;
 }
 
 a:hover {
-  color: #000;
+  color: #303030;
 }
 
 .social-icons {

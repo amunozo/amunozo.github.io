@@ -4,22 +4,7 @@ title: About me
 permalink: /
 ---
 
-<!-- Profile Image -->
-<p align="center">
-  <img src="./image.png" alt="" style="border-radius: 50%; width: 150px;" />
-</p>
-
-<!-- Title and Contact Information -->
-<p align="center">
-  PhD Student in NLP<br>
-  Universidade da Coruña<br>
-  Email: example@example.com
-</p>
-
-</div>
-
-
-Hi! I’m Alberto, a PhD student in Natural Language Processing at **Universidade da Coruña**, Spain, under the supervision of [David Vilares](http://www.grupolys.org/~david.vilares/) and [Carlos Gómez-Rodríguez](http://www.grupolys.org/~cgomezr/).
+Hi! I’m **Alberto Muñoz-Ortiz**, a PhD student in Natural Language Processing at **Universidade da Coruña**, Spain, under the supervision of [David Vilares](http://www.grupolys.org/~david.vilares/) and [Carlos Gómez-Rodríguez](http://www.grupolys.org/~cgomezr/).
 
 I am currently visiting the [NLP Lab](https://nlp.epfl.ch/) at [EPFL](https://www.epfl.ch/schools/ic/) in Lausanne, Switzerland, hosted by [Antoine Bosselut](https://atcbosselut.github.io/) until March 2024.
 
