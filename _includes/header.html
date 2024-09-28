@@ -4,7 +4,7 @@
 
   <ul>
     {% for item in site.data.navigation.main %}
-      <h4><a href="{{ item.link | relative_url }}">{{ item.name }}</a></h4>
+      <li><a href="{{ item.link | relative_url }}">{{ item.name }}</a></li>
     {% endfor %}
   </ul>
 </nav>
