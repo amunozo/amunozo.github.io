@@ -49,11 +49,11 @@ nav ul li {
 
 a {
   text-decoration: none;
-  color: #000000;
+  color: #0056b3;
 }
 
 a:hover {
-  color: #646464;
+  color: #003d7a;
 }
 
 .social-icons {
@@ -64,12 +64,12 @@ a:hover {
 }
 
 .social-icons a {
-  color: #58492b;
+  color: #003d7a;
   font-size: 24px;
 }
 
 .social-icons a:hover {
-  color: #646464;
+  color: #0056b3;
 }
 
 @media (max-width: 768px) {
