@@ -3,5 +3,5 @@ main:
     link: /
   - name: Research
     link: /research
-  - name: CV
-    link: /cv
+  #- name: CV
+  #  link: /cv

@@ -8,7 +8,7 @@ markdown: kramdown
 # Navigation links
 header_pages:
   - research.md
-  - cv.md
+  #- cv.md
 
 # Social links
 #twitter_username: amunozo
