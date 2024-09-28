@@ -62,7 +62,7 @@ nav {
 }
 
 nav li {
-  margin-bottom: 10px; /* Adds spacing between navigation items */
+  margin-right: 10px; /* Adds spacing between navigation items */
 }
 
 nav ul {
@@ -72,7 +72,6 @@ nav ul {
   display: flex;
   justify-content: center;
 }
-
 
 nav ul li {
   margin-right: 20px;
