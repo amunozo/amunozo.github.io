@@ -51,6 +51,14 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700; /* Bold text */
 }
 
+.header-name {
+  color: #58492b; /* Matches the color of your name with the site's text color */
+  font-size: 1.4rem; /* Adjust as needed for the size of the name */
+  text-align: center; /* Ensure it's centered */
+  margin: 0; /* Remove default margins */
+  margin-bottom: 20px; /* Add custom margin below the name for spacing */
+}
+
 .nav-link:hover {
   color: #000; /* Optional: Change color on hover */
 }
