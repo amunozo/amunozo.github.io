@@ -1,1 +1,7 @@
-Under construction.
+---
+layout: page
+title: Research
+permalink: /research/
+---
+
+Under construction

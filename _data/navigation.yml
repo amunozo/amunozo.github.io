@@ -2,6 +2,6 @@ main:
   - name: About Me
     link: /
   - name: Research
-    link: /research/
+    link: /research
   - name: CV
-    link: /cv/
+    link: /cv
