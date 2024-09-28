@@ -8,7 +8,7 @@ permalink: /
     <img src="./imagen.png" alt="My Picture" style="border-radius: 50%; width: 150px; margin-right: 20px;">
   </div>
   <div>
-    <h2>Alberto</h2>
+    <h4>Alberto Muñoz-Ortiz</h4>
     <p>PhD Student in NLP<br>
     Universidade da Coruña<br>
     Email: example@example.com</p>
@@ -30,4 +30,4 @@ I am currently visiting the [NLP Lab](https://nlp.epfl.ch/) at [EPFL](https://ww
 
 My research focuses on exploring alternative approaches for low-resource scenarios, utilizing techniques such as transfer learning, synthetic data generation, grokking, and the integration of linguistic information like syntactic dependencies. Additionally, I am interested in how large language models differ (or not) from humans in their handling of linguistic structures.
 
-Previously, I was a visiting researcher at the [MaiNLP Research Lab](https://mainlp.github.io/) at [Ludwig-Maximilians-Universität](https://www.lmu.de/en/) in Munich, Germany, hosted by [Barbara Plank](https://bplank.github.io/) during the summer of 2023. Together with Barbara and [Verena Blaschke], I explored pixel-based approaches for multilingual language models.
+Previously, I was a visiting researcher at the [MaiNLP Research Lab](https://mainlp.github.io/) at [Ludwig-Maximilians-Universität](https://www.lmu.de/en/) in Munich, Germany, hosted by [Barbara Plank](https://bplank.github.io/) during the summer of 2023. Together with Barbara and [Verena Blaschke](https://verenablaschke.github.io/), I explored pixel-based approaches for multilingual language models.
