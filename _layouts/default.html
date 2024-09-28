@@ -7,28 +7,12 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-  <!-- Include Header -->
   {% include header.html %}
-  
-  <!-- Navigation Section -->
-  <nav>
-    <!-- Name in the header (as an h2 element) -->
-    <h2>Alberto Muñoz-Ortiz</h2>
 
-    <!-- Navigation links styled as h4 elements -->
-    <ul>
-      {% for item in site.data.navigation.main %}
-        <li><a href="{{ item.link | relative_url }}" class="nav-link">{{ item.name }}</a></li>
-      {% endfor %}
-    </ul>
-  </nav>
-
-  <!-- Main Content -->
   <div class="content">
     {{ content }}
   </div>
 
-  <!-- Include Footer -->
   {% include footer.html %}
 </body>
 </html>
