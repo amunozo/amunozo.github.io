@@ -43,16 +43,32 @@ h1, h2, h3, h4, h5, h6 {
   height: auto; /* Ensures the image maintains its aspect ratio */
 }
 
+
 nav {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
+/* Change the navigation link style to h4 and match the text color */
+.nav-link {
+  font-size: 1.15rem; /* Equivalent to h4 size (18.4px) */
+  color: #58492b; /* Matches the site's text color */
+  text-decoration: none;
+  font-weight: 700; /* Makes the text bold like a heading */
+}
+
+.nav-link:hover {
+  color: #251f12; /* Optional: Change color on hover */
+}
+
 nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
+  list-style-type: none; /* Removes bullets from the list */
+  padding-left: 0; /* Removes left padding */
+}
+
+nav li {
+  margin-bottom: 10px; /* Adds spacing between navigation items */
 }
 
 nav ul li {
@@ -71,27 +87,6 @@ a:hover {
 .footer {
   text-align: center;
   padding: 20px 0;
-  background-color: #f4f4f4;
+  background-color: #fff3d6;
   margin-top: 40px;
-}
-
-.footer svg {
-  width: 32px; /* Change this to control the size of the icons */
-  height: 32px;
-  stroke: #0056b3; /* Matches the color of your text */
-  transition: stroke 0.3s ease;
-}
-
-.footer a {
-  margin: 0 15px;
-  display: inline-block;
-}
-
-.footer a:hover svg {
-  stroke: #003d7a; /* Changes icon color on hover */
-}
-
-.footer p {
-  margin-top: 20px;
-  color: #0056b3;
 }
