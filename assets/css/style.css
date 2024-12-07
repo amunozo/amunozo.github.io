@@ -4,7 +4,7 @@ body {
   font-family: "Besley", serif;
   font-weight: 400;
   background-color: #fff3d6;
-  color: #58492b;
+  color: #3e2f1b; /* Darker shade of brown */
   max-width: 700px;
   margin: 0 auto;
   padding: 0 20px;
@@ -46,13 +46,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-link {
   font-size: 1.15rem; /* Equivalent to h4 size */
-  color: #58492b; /* Same color as the text */
+  color: #3e2f1b; /* Darker shade of brown */
   text-decoration: none; /* Removes underline */
   font-weight: 700; /* Bold text */
 }
 
 .header-name {
-  color: #58492b; /* Matches the color of your name with the site's text color */
+  color: #3e2f1b; /* Darker shade of brown */
   font-size: 1.4rem; /* Adjust as needed for the size of the name */
   text-align: center; /* Ensure it's centered */
   margin: 0; /* Remove default margins */
@@ -78,7 +78,7 @@ nav li {
 }
 
 h2 {
-  color: #58492b; /* Matches the color of your name with the site's text color */
+  color: #3e2f1b; /* Darker shade of brown */
   font-size: 2rem; /* Adjust as needed for the size of the name */
   text-align: center; /* Center the name */
   margin-bottom: 20px; /* Adds spacing below the name */
