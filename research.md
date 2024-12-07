@@ -7,7 +7,7 @@ permalink: /research/
 ### Publications
 
 #### 2025
-- Alberto Muñoz-Ortiz, Verena Blaschke and Barbara Plank. **Evaluating Pixel Language Models on Non-Standardized Languages**. Accepted at **COLING 2025**.
+- Alberto Muñoz-Ortiz, Verena Blaschke and Barbara Plank. [Evaluating Pixel Language Models on Non-Standardized Languages](). In **COLING 2025**.
 
 #### 2024
 - Alberto Muñoz-Ortiz, Carlos Gómez-Rodríguez, and David Vilares. [Contrasting Linguistic Patterns in Human and LLM-Generated News Text](https://link.springer.com/article/10.1007/s10462-024-10903-2?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20240823&utm_content=10.1007/s10462-024-10903-2#citeas). **Artificial Intelligence Review 57, 265 (2024)**.
