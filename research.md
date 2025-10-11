@@ -8,7 +8,7 @@ permalink: /research/
 
 #### 2025
 
-- **Alberto Muñoz-Ortiz**, David Vilares, Caio Corro, and Carlos Gómez-Rodríguez. [Nested Named Entity Recognition as Single-Pass Sequence labeling](https://arxiv.org/abs/2505.16855). Submitted to **EMNLP 2025**.
+- **Alberto Muñoz-Ortiz**, David Vilares, Caio Corro, and Carlos Gómez-Rodríguez. [Nested Named Entity Recognition as Single-Pass Sequence labeling](https://arxiv.org/abs/2505.16855). In **Findings of EMNLP 2025**.
 - **Alberto Muñoz-Ortiz**, Verena Blaschke, and Barbara Plank. [Evaluating Pixel Language Models on Non-Standardized Languages](https://aclanthology.org/2025.coling-main.427/). In **COLING 2025**.
 - Inés Veiga Menéndez, **Alberto Muñoz-Ortiz**, and David Vilares. [On the Impact of Syntactic Infusion for Gender Categorization Across Contextual Dimensions](http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6673). In **Revista de Procesamiento de Lenguaje Natural**.
 

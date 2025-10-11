@@ -8,7 +8,7 @@ permalink: /
   <img src="./image.png" alt="My Picture" style="border-radius: 50%; width: 175px; height: auto;" />
 </div>
 
-Hi! I'm **Alberto Muñoz-Ortiz**, a PhD student in Natural Language Processing at the [LyS group](https://www.grupolys.org/) at [Universidade da Coruña](https://www.udc.es/) in A Coruña, Spain. My doctoral research is supervised by [David Vilares](http://www.grupolys.org/~david.vilares/) and [Carlos Gómez-Rodríguez](http://www.grupolys.org/~cgomezr/). I'm currently focused on writing my thesis dissertation and **actively seeking a job in industry from September 2025**.
+Hi! I'm **Alberto Muñoz-Ortiz**, a PhD student in Natural Language Processing at the [LyS group](https://www.grupolys.org/) at [Universidade da Coruña](https://www.udc.es/) in A Coruña, Spain. My doctoral research is supervised by [David Vilares](http://www.grupolys.org/~david.vilares/) and [Carlos Gómez-Rodríguez](http://www.grupolys.org/~cgomezr/). I'm currently focused on writing my thesis dissertation and **actively seeking a job in industry**.
 
 My core research focuses on innovative **data-efficient approaches** to enhance NLP system performance, particularly in **low-resource environments**. I achieve this by leveraging techniques such as **transfer learning, novel representations, synthetic data generation**, and the integration of linguistic information, particularly **syntactic dependencies**.
 
