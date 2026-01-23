@@ -1,5 +1,8 @@
 <nav>
-  <h3 class="header-name">Alberto Muñoz-Ortiz</h3>
+  <div class="header-container">
+    <span class="header-symbol">//</span>
+    <h3 class="header-name">Alberto Muñoz-Ortiz</h3>
+  </div>
   <ul>
     {% for item in site.data.navigation.main %}
       <li><a href="{{ item.link | relative_url }}" class="nav-link">{{ item.name }}</a></li>

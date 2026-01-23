@@ -51,12 +51,25 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700; /* Bold text */
 }
 
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.header-symbol {
+  color: #d9534f; /* Reddish symbol */
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
 .header-name {
   color: #3e2f1b; /* Darker shade of brown */
   font-size: 1.4rem; /* Adjust as needed for the size of the name */
   text-align: center; /* Ensure it's centered */
   margin: 0; /* Remove default margins */
-  margin-bottom: 20px; /* Add custom margin below the name for spacing */
 }
 
 .nav-link:hover {
