@@ -4,7 +4,8 @@ body {
   font-family: "Besley", serif;
   font-weight: 400;
   background-color: #fff3d6;
-  color: #3e2f1b; /* Darker shade of brown */
+  color: #3e2f1b;
+  /* Darker shade of brown */
   max-width: 700px;
   margin: 0 auto;
   padding: 0 20px;
@@ -15,73 +16,132 @@ p {
   text-align: justify;
 }
 
-html { font-size: 16px; }
-h1 { font-size: 1.9rem; text-align: center; margin-bottom: 10px; }
-h2 { font-size: 1.65rem; text-align: center; margin-bottom: 30px; }
-h3 { font-size: 1.4rem; }
-h4 { font-size: 1.15rem; }
-h5 { font-size: 0.9rem; }
-h6 { font-size: 0.8rem; }
+html {
+  font-size: 16px;
+}
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
+  font-size: 1.9rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.65rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+h4 {
+  font-size: 1.15rem;
+}
+
+h5 {
+  font-size: 0.9rem;
+}
+
+h6 {
+  font-size: 0.8rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 700;
 }
 
 .about-me-section {
   position: relative;
-  max-width: 700px; /* Adjust as needed */
+  max-width: 700px;
+  /* Adjust as needed */
   margin: 0 auto;
   line-height: 1.6;
 }
 
 .about-me-img {
-  float: left; /* Makes the text wrap around the image */
-  margin-right: 20px; /* Adds space between the image and the text */
-  margin-bottom: 10px; /* Adds some bottom space in case the text is short */
-  border-radius: 50%; /* Makes the image rounded */
-  width: 150px; /* Adjust the size of the image */
-  height: auto; /* Ensures the image maintains its aspect ratio */
+  float: left;
+  /* Makes the text wrap around the image */
+  margin-right: 20px;
+  /* Adds space between the image and the text */
+  margin-bottom: 10px;
+  /* Adds some bottom space in case the text is short */
+  border-radius: 50%;
+  /* Makes the image rounded */
+  width: 150px;
+  /* Adjust the size of the image */
+  height: auto;
+  /* Ensures the image maintains its aspect ratio */
 }
 
 
 .nav-link {
-  font-size: 1.15rem; /* Equivalent to h4 size */
-  color: #3e2f1b; /* Darker shade of brown */
-  text-decoration: none; /* Removes underline */
-  font-weight: 700; /* Bold text */
+  font-size: 1.15rem;
+  /* Equivalent to h4 size */
+  color: #3e2f1b;
+  /* Darker shade of brown */
+  text-decoration: none;
+  /* Removes underline */
+  font-weight: 700;
+  /* Bold text */
 }
 
+
+
 .header-name {
-  color: #3e2f1b; /* Darker shade of brown */
-  font-size: 1.4rem; /* Adjust as needed for the size of the name */
-  text-align: center; /* Ensure it's centered */
-  margin: 0; /* Remove default margins */
-  margin-bottom: 20px; /* Add custom margin below the name for spacing */
+  color: #3e2f1b;
+  /* Darker shade of brown */
+  font-size: 1.4rem;
+  /* Adjust as needed for the size of the name */
+  text-align: center;
+  /* Ensure it's centered */
+  margin: 0;
+  /* Remove default margins */
+  margin-bottom: 20px;
+  /* Add custom margin below the name for spacing */
 }
 
 .nav-link:hover {
-  color: #000; /* Optional: Change color on hover */
+  color: #000;
+  /* Optional: Change color on hover */
 }
 
 /* Add Flexbox to center the navigation links horizontally */
 nav ul {
-  list-style-type: none; /* Removes default bullets from list */
-  padding-left: 0; /* Removes left padding */
-  display: flex; /* Use Flexbox to align the items horizontally */
-  justify-content: center; /* Centers the links horizontally */
-  gap: 20px; /* Adds space between the links */
-  margin: 0; /* Removes any default margin on the list */
+  list-style-type: none;
+  /* Removes default bullets from list */
+  padding-left: 0;
+  /* Removes left padding */
+  display: flex;
+  /* Use Flexbox to align the items horizontally */
+  justify-content: center;
+  /* Centers the links horizontally */
+  gap: 20px;
+  /* Adds space between the links */
+  margin: 0;
+  /* Removes any default margin on the list */
 }
 
 nav li {
-  margin: 0; /* Removes margin to ensure proper horizontal alignment */
+  margin: 0;
+  /* Removes margin to ensure proper horizontal alignment */
 }
 
 h2 {
-  color: #3e2f1b; /* Darker shade of brown */
-  font-size: 2rem; /* Adjust as needed for the size of the name */
-  text-align: center; /* Center the name */
-  margin-bottom: 20px; /* Adds spacing below the name */
+  color: #3e2f1b;
+  /* Darker shade of brown */
+  font-size: 2rem;
+  /* Adjust as needed for the size of the name */
+  text-align: center;
+  /* Center the name */
+  margin-bottom: 20px;
+  /* Adds spacing below the name */
 }
 
 a {
