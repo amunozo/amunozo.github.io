@@ -5,18 +5,18 @@
   --font-body: "Instrument Sans", system-ui, sans-serif;
   --font-mono: "Space Grotesk", monospace;
 
-  --paper: oklch(98% 0.01 40);
-  --paper-soft: oklch(96% 0.018 20);
+  --paper: oklch(99.2% 0.004 40);
+  --paper-soft: oklch(97.6% 0.012 20);
   --ink: oklch(18% 0.03 300);
   --text: oklch(33% 0.02 300);
   --muted: oklch(56% 0.02 300);
   --line: oklch(89% 0.025 305);
   --line-strong: oklch(80% 0.04 305);
 
-  --blue: oklch(55% 0.16 255);
-  --coral: oklch(67% 0.18 32);
-  --gold: oklch(84% 0.14 92);
-  --berry: oklch(66% 0.11 342);
+  --blue: oklch(61% 0.22 255);
+  --coral: oklch(71% 0.23 32);
+  --gold: oklch(87% 0.19 96);
+  --berry: oklch(69% 0.17 342);
 
   --space-1: 4px;
   --space-2: 8px;
@@ -69,11 +69,11 @@ body::before {
   pointer-events: none;
   z-index: -2;
   background:
-    radial-gradient(circle at 10% 12%, oklch(67% 0.18 32 / 0.17), transparent 0 22%),
-    radial-gradient(circle at 86% 14%, oklch(55% 0.16 255 / 0.18), transparent 0 24%),
-    radial-gradient(circle at 76% 78%, oklch(84% 0.14 92 / 0.18), transparent 0 25%),
-    radial-gradient(circle at 22% 78%, oklch(66% 0.11 342 / 0.1), transparent 0 20%),
-    linear-gradient(180deg, var(--paper) 0%, color-mix(in oklch, var(--paper) 93%, var(--paper-soft) 7%) 100%);
+    radial-gradient(circle at 8% 10%, oklch(71% 0.23 32 / 0.28), transparent 0 21%),
+    radial-gradient(circle at 89% 12%, oklch(61% 0.22 255 / 0.28), transparent 0 22%),
+    radial-gradient(circle at 81% 76%, oklch(87% 0.19 96 / 0.3), transparent 0 24%),
+    radial-gradient(circle at 18% 82%, oklch(69% 0.17 342 / 0.18), transparent 0 20%),
+    linear-gradient(180deg, var(--paper) 0%, color-mix(in oklch, var(--paper) 97%, var(--paper-soft) 3%) 100%);
 }
 
 body::after {
@@ -105,7 +105,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: clamp(3.2rem, 7vw, 5.7rem);
+  font-size: clamp(2.55rem, 5.2vw, 4.45rem);
 }
 
 h2 {
@@ -272,17 +272,18 @@ a {
 }
 
 .hero-deck {
-  margin-top: var(--space-5);
-  font-size: clamp(1.08rem, 1.25vw + 0.8rem, 1.42rem);
-  line-height: 1.58;
+  margin-top: var(--space-4);
+  font-size: clamp(0.98rem, 0.7vw + 0.86rem, 1.16rem);
+  line-height: 1.56;
   color: var(--text);
+  max-width: 44ch;
 }
 
 .hero-seeking {
-  margin-top: var(--space-5);
-  max-width: 38ch;
+  margin-top: var(--space-4);
+  max-width: 36ch;
   color: var(--ink);
-  font-size: 1.02rem;
+  font-size: 0.96rem;
 }
 
 .hero-aside {
@@ -294,11 +295,11 @@ a {
 }
 
 .hero-portrait {
-  width: 102px;
+  width: 78px;
   aspect-ratio: 1;
   object-fit: cover;
-  border-radius: 20px;
-  box-shadow: 0 12px 28px oklch(18% 0.03 300 / 0.08);
+  border-radius: 18px;
+  box-shadow: 0 10px 22px oklch(18% 0.03 300 / 0.07);
 }
 
 .hero-facts {
@@ -341,10 +342,10 @@ a {
 }
 
 .statement {
-  max-width: 58ch;
+  max-width: 60ch;
   font-family: var(--font-display);
-  font-size: clamp(1.45rem, 2vw, 2rem);
-  line-height: 1.28;
+  font-size: clamp(1.12rem, 0.95vw + 0.95rem, 1.44rem);
+  line-height: 1.38;
   color: var(--ink);
 }
 
