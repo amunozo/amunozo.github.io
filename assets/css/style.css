@@ -74,13 +74,13 @@ body {
   position: fixed;
   top: 0;
   bottom: 0;
-  width: clamp(84px, 9vw, 132px);
+  width: clamp(110px, 13vw, 176px);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   pointer-events: none;
   z-index: 0;
-  opacity: 0.82;
+  opacity: 0.9;
 }
 
 .page-side--left {
@@ -550,8 +550,8 @@ a {
 
 @media (max-width: 640px) {
   .page-side {
-    width: 64px;
-    opacity: 0.42;
+    width: 72px;
+    opacity: 0.45;
   }
 
   .site-shell {
