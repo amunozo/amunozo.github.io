@@ -4,6 +4,8 @@ title: Research
 permalink: /research/
 ---
 
+My research focuses on structured, multilingual, and robust NLP. I work on efficient modeling approaches, cross-lingual transfer, and rigorous evaluation of language models. I have first-authored 8 papers at top NLP venues.
+
 ### Publications
 
 #### 2025
