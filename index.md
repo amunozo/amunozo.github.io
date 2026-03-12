@@ -20,6 +20,6 @@ I have worked on:
 - **evaluation and analysis of LLMs and autoregressive transformers**
 - **reproducible experimental pipelines** with **Python, PyTorch, Hugging Face, Docker, and GPU workflows**
 
-I previously visited the [MaiNLP Research Lab](https://mainlp.github.io/) at [LMU Munich](https://www.lmu.de/en/) and the [NLP Lab](https://nlp.epfl.ch/) at [EPFL Lausanne](https://www.epfl.ch/schools/ic/).
+I was also a visiting researcher at the [MaiNLP Research Lab](https://mainlp.github.io/) at [LMU Munich](https://www.lmu.de/en/) and the [NLP Lab](https://nlp.epfl.ch/) at [EPFL Lausanne](https://www.epfl.ch/schools/ic/).
 
 I have first-authored papers at **ACL, EMNLP, COLING, IJCNLP-AACL, and RANLP**.
