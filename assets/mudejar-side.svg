@@ -3,41 +3,44 @@
     <!-- Mudéjar palette -->
     <!-- brick:#8B3A2A cobalt:#1E4D8C emerald:#1A6B4A ochre:#B8780F plum:#6E3548 ink:#2A1F1A cream:#FAF3E5 stucco:#F0E6D0 -->
 
-    <!-- Pseudo-kufic frieze pattern -->
-    <pattern id="kufic" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
-      <rect width="32" height="32" fill="#FAF3E5"/>
+    <!-- Pseudo-kufic frieze pattern (aligned 28-unit module) -->
+    <pattern id="kufic" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
+      <rect width="28" height="28" fill="#FAF3E5"/>
       <!-- Vertical ascenders -->
-      <rect x="2" y="4" width="3.5" height="18" fill="#8B3A2A"/>
-      <rect x="14" y="8" width="3.5" height="20" fill="#8B3A2A"/>
-      <rect x="26" y="4" width="3.5" height="14" fill="#8B3A2A"/>
+      <rect x="2" y="4" width="3" height="15" fill="#8B3A2A"/>
+      <rect x="11" y="8" width="3" height="16" fill="#8B3A2A"/>
+      <rect x="20" y="5" width="3" height="13" fill="#8B3A2A"/>
       <!-- Horizontal baseline -->
-      <rect x="0" y="22" width="32" height="3" fill="#1E4D8C"/>
+      <rect x="0" y="20" width="28" height="3" fill="#1E4D8C"/>
+      <!-- Step connectors -->
+      <rect x="5" y="16" width="6" height="3" fill="#8B3A2A"/>
+      <rect x="14" y="14" width="6" height="3" fill="#8B3A2A"/>
       <!-- Small ornamental dots -->
-      <circle cx="9" cy="14" r="1.6" fill="#B8780F"/>
-      <circle cx="22" cy="10" r="1.6" fill="#B8780F"/>
+      <circle cx="8" cy="12" r="1.4" fill="#B8780F"/>
+      <circle cx="17" cy="10" r="1.4" fill="#B8780F"/>
     </pattern>
 
-    <!-- Star-and-cross tile field -->
-    <pattern id="stars" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-      <rect width="40" height="40" fill="#FAF3E5"/>
-      <!-- 8-pointed star -->
-      <path d="M20 2L24 14L36 14L27 22L30 34L20 28L10 34L13 22L4 14L16 14Z" fill="none" stroke="#1E4D8C" stroke-width="1.6"/>
+    <!-- Star-and-cross tile field (28x24 module fits 112x264 panel exactly) -->
+    <pattern id="stars" x="0" y="0" width="28" height="24" patternUnits="userSpaceOnUse">
+      <rect width="28" height="24" fill="#FAF3E5"/>
+      <!-- 8-pointed star contained inside cell -->
+      <path d="M14 2L17 8L24 9L18 13L20 20L14 16.5L8 20L10 13L4 9L11 8Z" fill="none" stroke="#1E4D8C" stroke-width="1.45"/>
       <!-- Inner star -->
-      <path d="M20 9L23 16L30 16L24 21L27 28L20 24L13 28L16 21L10 16L17 16Z" fill="#B8780F" fill-opacity="0.85" stroke="none"/>
+      <path d="M14 6L16 10L20 10.5L17 13L18.2 17L14 15.2L9.8 17L11 13L8 10.5L12 10Z" fill="#B8780F" fill-opacity="0.88"/>
       <!-- Cross lines -->
-      <line x1="0" y1="20" x2="40" y2="20" stroke="#1A6B4A" stroke-width="0.7" opacity="0.45"/>
-      <line x1="20" y1="0" x2="20" y2="40" stroke="#1A6B4A" stroke-width="0.7" opacity="0.45"/>
-      <!-- Corner diamonds -->
-      <path d="M0 0L4 4L0 8M40 0L36 4L40 8M0 32L4 36L0 40M40 32L36 36L40 40" stroke="#6E3548" stroke-width="0.9" opacity="0.55"/>
-      <circle cx="20" cy="20" r="2.6" fill="#2A1F1A"/>
+      <line x1="0" y1="12" x2="28" y2="12" stroke="#1A6B4A" stroke-width="0.75" opacity="0.45"/>
+      <line x1="14" y1="0" x2="14" y2="24" stroke="#1A6B4A" stroke-width="0.75" opacity="0.45"/>
+      <!-- Corner knots -->
+      <path d="M2 2L5 5M23 19L26 22M26 2L23 5M2 22L5 19" stroke="#6E3548" stroke-width="0.8" opacity="0.55"/>
+      <circle cx="14" cy="12" r="2.1" fill="#2A1F1A"/>
     </pattern>
 
-    <!-- Zigzag dado -->
-    <pattern id="zigzag" x="0" y="0" width="20" height="28" patternUnits="userSpaceOnUse">
-      <rect width="20" height="28" fill="#FAF3E5"/>
-      <path d="M0 20L5 8L10 20L15 8L20 20" stroke="#B8780F" stroke-width="2.4"/>
-      <path d="M0 12L5 24L10 12L15 24L20 12" stroke="#1E4D8C" stroke-width="1.6"/>
-      <circle cx="10" cy="14" r="1.2" fill="#8B3A2A"/>
+    <!-- Zigzag dado (16-unit module to align perfectly with 112px panels) -->
+    <pattern id="zigzag" x="0" y="0" width="16" height="24" patternUnits="userSpaceOnUse">
+      <rect width="16" height="24" fill="#FAF3E5"/>
+      <path d="M0 18L4 8L8 18L12 8L16 18" stroke="#B8780F" stroke-width="2.2"/>
+      <path d="M0 11L4 21L8 11L12 21L16 11" stroke="#1E4D8C" stroke-width="1.5"/>
+      <circle cx="8" cy="14" r="1.1" fill="#8B3A2A"/>
     </pattern>
 
     <!-- Sebka net lozenge -->
@@ -55,8 +58,8 @@
   <rect x="18" y="18" width="124" height="1164" fill="none" stroke="#1A6B4A" stroke-width="0.9"/>
 
   <!-- ══════ ZONE 1: Kufic frieze ══════ -->
-  <rect x="22" y="22" width="116" height="52" fill="url(#kufic)" stroke="#8B3A2A" stroke-width="1.5"/>
-  <line x1="22" y1="48" x2="138" y2="48" stroke="#B8780F" stroke-width="1.2"/>
+  <rect x="24" y="22" width="112" height="52" fill="url(#kufic)" stroke="#8B3A2A" stroke-width="1.5"/>
+  <line x1="24" y1="48" x2="136" y2="48" stroke="#B8780F" stroke-width="1.2"/>
 
   <!-- ══════ ZONE 2: Horseshoe arch panel ══════ -->
   <rect x="24" y="88" width="112" height="210" fill="#F0E6D0" stroke="#8B3A2A" stroke-width="2.2"/>
@@ -136,11 +139,13 @@
         fill="none" stroke="#1E4D8C" stroke-width="1.6"/>
 
   <!-- Spandrels -->
-  <path d="M46 856C52 862 56 870 55 880" stroke="#6E3548" stroke-width="1.5"/>
-  <path d="M46 856C50 858 55 857 60 854" stroke="#6E3548" stroke-width="1.3"/>
+  <path d="M46 856C52 862 56 870 55 880" stroke="#1A6B4A" stroke-width="1.5"/>
+  <path d="M46 856C50 858 55 857 60 854" stroke="#1A6B4A" stroke-width="1.3"/>
+  <path d="M48 864C54 866 58 864 62 860" stroke="#1A6B4A" stroke-width="1.1"/>
   <circle cx="49" cy="860" r="2.2" fill="#B8780F"/>
-  <path d="M114 856C108 862 104 870 105 880" stroke="#6E3548" stroke-width="1.5"/>
-  <path d="M114 856C110 858 105 857 100 854" stroke="#6E3548" stroke-width="1.3"/>
+  <path d="M114 856C108 862 104 870 105 880" stroke="#1A6B4A" stroke-width="1.5"/>
+  <path d="M114 856C110 858 105 857 100 854" stroke="#1A6B4A" stroke-width="1.3"/>
+  <path d="M112 864C106 866 102 864 98 860" stroke="#1A6B4A" stroke-width="1.1"/>
   <circle cx="111" cy="860" r="2.2" fill="#B8780F"/>
 
   <!-- Star medallion (cobalt) -->
@@ -151,11 +156,11 @@
 
   <!-- ══════ ZONE 7: Bottom composite register ══════ -->
   <!-- Kufic sub-band -->
-  <rect x="22" y="1016" width="116" height="48" fill="url(#kufic)" stroke="#8B3A2A" stroke-width="1.5"/>
-  <line x1="22" y1="1040" x2="138" y2="1040" stroke="#B8780F" stroke-width="1.1"/>
+  <rect x="24" y="1016" width="112" height="48" fill="url(#kufic)" stroke="#8B3A2A" stroke-width="1.5"/>
+  <line x1="24" y1="1040" x2="136" y2="1040" stroke="#B8780F" stroke-width="1.1"/>
 
   <!-- Zigzag sub-band -->
-  <rect x="22" y="1070" width="116" height="52" fill="url(#zigzag)" stroke="#1E4D8C" stroke-width="1.4"/>
+  <rect x="24" y="1070" width="112" height="52" fill="url(#zigzag)" stroke="#1E4D8C" stroke-width="1.4"/>
 
   <!-- Closing stepped lines -->
   <line x1="32" y1="1138" x2="128" y2="1138" stroke="#2A1F1A" stroke-width="2"/>
