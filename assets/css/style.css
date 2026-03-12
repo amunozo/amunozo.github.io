@@ -13,10 +13,18 @@
   --line: oklch(89% 0.025 305);
   --line-strong: oklch(80% 0.04 305);
 
-  --blue: oklch(60% 0.26 255);
-  --coral: oklch(70% 0.27 32);
-  --gold: oklch(86% 0.22 96);
-  --berry: oklch(67% 0.21 342);
+  --upper-cobalt: #4056c8;
+  --upper-teal: #1e7b6f;
+  --upper-gold: #c18a2d;
+  --upper-wine: #8b4d68;
+  --upper-ink: #2c223e;
+
+  --lower-rust: #985038;
+  --lower-viridian: #2b7a67;
+  --lower-amber: #c98925;
+  --lower-mulberry: #75486d;
+  --lower-marine: #3a5f91;
+  --lower-ink: #2b4138;
 
   --space-1: 4px;
   --space-2: 8px;
@@ -93,11 +101,19 @@ body::before {
   pointer-events: none;
   z-index: -2;
   background:
-    radial-gradient(circle at 8% 10%, oklch(70% 0.27 32 / 0.34), transparent 0 18%),
-    radial-gradient(circle at 89% 12%, oklch(60% 0.26 255 / 0.34), transparent 0 19%),
-    radial-gradient(circle at 82% 77%, oklch(86% 0.22 96 / 0.38), transparent 0 21%),
-    radial-gradient(circle at 17% 83%, oklch(67% 0.21 342 / 0.24), transparent 0 18%),
-    linear-gradient(180deg, var(--paper) 0%, color-mix(in oklch, var(--paper) 99%, var(--paper-soft) 1%) 100%);
+    radial-gradient(circle at 8% 10%, color-mix(in oklch, var(--upper-wine) 28%, transparent) 0 18%, transparent 19%),
+    radial-gradient(circle at 89% 13%, color-mix(in oklch, var(--upper-cobalt) 30%, transparent) 0 18%, transparent 19%),
+    radial-gradient(circle at 80% 28%, color-mix(in oklch, var(--upper-gold) 24%, transparent) 0 15%, transparent 16%),
+    radial-gradient(circle at 16% 74%, color-mix(in oklch, var(--lower-rust) 26%, transparent) 0 17%, transparent 18%),
+    radial-gradient(circle at 86% 81%, color-mix(in oklch, var(--lower-viridian) 28%, transparent) 0 19%, transparent 20%),
+    radial-gradient(circle at 24% 92%, color-mix(in oklch, var(--lower-mulberry) 22%, transparent) 0 14%, transparent 15%),
+    linear-gradient(
+      180deg,
+      color-mix(in oklch, var(--paper) 98.5%, var(--upper-cobalt) 1.5%) 0%,
+      color-mix(in oklch, var(--paper) 97.8%, var(--upper-gold) 2.2%) 46%,
+      color-mix(in oklch, var(--paper) 97.8%, var(--lower-viridian) 2.2%) 54%,
+      color-mix(in oklch, var(--paper) 98.4%, var(--lower-amber) 1.6%) 100%
+    );
 }
 
 body::after {
@@ -162,7 +178,7 @@ small {
 }
 
 a {
-  color: color-mix(in oklch, var(--blue) 85%, var(--ink) 15%);
+  color: color-mix(in oklch, var(--upper-cobalt) 82%, var(--upper-ink) 18%);
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 0.18em;
@@ -171,7 +187,7 @@ a {
 
  a:hover,
  a:focus-visible {
-  color: color-mix(in oklch, var(--blue) 60%, var(--ink) 40%);
+  color: color-mix(in oklch, var(--upper-teal) 54%, var(--upper-ink) 46%);
   text-decoration-thickness: 2px;
 }
 
@@ -246,7 +262,7 @@ a {
   right: 0;
   bottom: -0.35rem;
   height: 1px;
-  background: color-mix(in oklch, var(--coral) 68%, var(--ink) 32%);
+  background: color-mix(in oklch, var(--upper-gold) 72%, var(--upper-ink) 28%);
   transform: scaleX(0);
   transform-origin: left;
   transition: transform var(--duration-base) var(--ease-out);
@@ -272,7 +288,7 @@ a {
 }
 
 .section-kicker {
-  color: color-mix(in oklch, var(--coral) 68%, var(--ink) 32%);
+  color: color-mix(in oklch, var(--upper-wine) 72%, var(--upper-ink) 28%);
   margin-bottom: var(--space-4);
 }
 
@@ -339,7 +355,7 @@ a {
 }
 
 .section-number {
-  color: color-mix(in oklch, var(--berry) 70%, var(--ink) 30%);
+  color: color-mix(in oklch, var(--upper-wine) 72%, var(--upper-ink) 28%);
 }
 
 .capability-list {
@@ -367,6 +383,22 @@ a {
   color: var(--ink);
 }
 
+.capability-item:nth-child(1) .capability-label {
+  color: color-mix(in oklch, var(--upper-teal) 34%, var(--ink) 66%);
+}
+
+.capability-item:nth-child(2) .capability-label {
+  color: color-mix(in oklch, var(--upper-cobalt) 34%, var(--ink) 66%);
+}
+
+.capability-item:nth-child(3) .capability-label {
+  color: color-mix(in oklch, var(--upper-wine) 36%, var(--ink) 64%);
+}
+
+.capability-item:nth-child(4) .capability-label {
+  color: color-mix(in oklch, var(--upper-gold) 42%, var(--ink) 58%);
+}
+
 .capability-item p:last-child {
   color: var(--text);
   max-width: 47ch;
@@ -380,6 +412,23 @@ a {
 
 .home-columns > div {
   padding-top: var(--space-2);
+}
+
+.home-columns .section-number {
+  color: color-mix(in oklch, var(--lower-mulberry) 72%, var(--lower-ink) 28%);
+}
+
+.home-columns a {
+  color: color-mix(in oklch, var(--lower-viridian) 76%, var(--lower-ink) 24%);
+}
+
+.home-columns a:hover,
+.home-columns a:focus-visible {
+  color: color-mix(in oklch, var(--lower-rust) 66%, var(--lower-ink) 34%);
+}
+
+.home-columns strong {
+  color: color-mix(in oklch, var(--lower-rust) 70%, var(--ink) 30%);
 }
 
 .section-link {
@@ -411,7 +460,11 @@ a {
 .publication-year h2 {
   font-size: clamp(2rem, 3vw, 2.6rem);
   font-style: italic;
-  color: color-mix(in oklch, var(--blue) 58%, var(--ink) 42%);
+  color: color-mix(in oklch, var(--lower-marine) 58%, var(--ink) 42%);
+}
+
+.publication-year:nth-of-type(even) h2 {
+  color: color-mix(in oklch, var(--lower-rust) 56%, var(--ink) 44%);
 }
 
 .pub-list {
@@ -450,12 +503,12 @@ a {
   font-family: var(--font-display);
   font-size: 1.35rem;
   line-height: 1.05;
-  color: var(--ink);
+  color: color-mix(in oklch, var(--lower-mulberry) 38%, var(--ink) 62%);
 }
 
 .footer-subnote {
   margin-top: var(--space-2);
-  color: var(--muted);
+  color: color-mix(in oklch, var(--lower-ink) 48%, var(--muted) 52%);
   font-size: 0.9rem;
 }
 
@@ -467,7 +520,7 @@ a {
 }
 
 .footer-links a {
-  color: var(--muted);
+  color: color-mix(in oklch, var(--lower-marine) 66%, var(--lower-ink) 34%);
   text-decoration: none;
   font-size: 0.9rem;
   font-weight: 500;
@@ -475,7 +528,7 @@ a {
 
 .footer-links a:hover,
 .footer-links a:focus-visible {
-  color: var(--ink);
+  color: color-mix(in oklch, var(--lower-rust) 60%, var(--lower-ink) 40%);
 }
 
 @media (max-width: 860px) {
