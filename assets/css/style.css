@@ -288,25 +288,17 @@ a {
 
 .hero-aside {
   display: grid;
-  gap: var(--space-4);
+  gap: var(--space-3);
   align-self: end;
   justify-items: start;
-  padding-top: var(--space-4);
-}
-
-.hero-portrait {
-  width: 78px;
-  aspect-ratio: 1;
-  object-fit: cover;
-  border-radius: 18px;
-  box-shadow: 0 10px 22px oklch(18% 0.03 300 / 0.07);
 }
 
 .hero-facts {
   display: grid;
   gap: var(--space-3);
   width: 100%;
-  max-width: 19rem;
+  max-width: 18rem;
+  margin-top: var(--space-2);
 }
 
 .hero-facts div {

@@ -15,7 +15,6 @@ permalink: /
     </div>
 
     <aside class="hero-aside">
-      <img src="./image.png" alt="Alberto Muñoz-Ortiz" class="hero-portrait" />
       <dl class="hero-facts">
         <div>
           <dt>Base</dt>
