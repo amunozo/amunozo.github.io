@@ -5,18 +5,18 @@
   --font-body: "Instrument Sans", system-ui, sans-serif;
   --font-mono: "Space Grotesk", monospace;
 
-  --paper: oklch(99.2% 0.004 40);
-  --paper-soft: oklch(97.6% 0.012 20);
+  --paper: oklch(99.7% 0.001 40);
+  --paper-soft: oklch(99.1% 0.006 20);
   --ink: oklch(18% 0.03 300);
   --text: oklch(33% 0.02 300);
   --muted: oklch(56% 0.02 300);
   --line: oklch(89% 0.025 305);
   --line-strong: oklch(80% 0.04 305);
 
-  --blue: oklch(61% 0.22 255);
-  --coral: oklch(71% 0.23 32);
-  --gold: oklch(87% 0.19 96);
-  --berry: oklch(69% 0.17 342);
+  --blue: oklch(60% 0.26 255);
+  --coral: oklch(70% 0.27 32);
+  --gold: oklch(86% 0.22 96);
+  --berry: oklch(67% 0.21 342);
 
   --space-1: 4px;
   --space-2: 8px;
@@ -69,11 +69,11 @@ body::before {
   pointer-events: none;
   z-index: -2;
   background:
-    radial-gradient(circle at 8% 10%, oklch(71% 0.23 32 / 0.28), transparent 0 21%),
-    radial-gradient(circle at 89% 12%, oklch(61% 0.22 255 / 0.28), transparent 0 22%),
-    radial-gradient(circle at 81% 76%, oklch(87% 0.19 96 / 0.3), transparent 0 24%),
-    radial-gradient(circle at 18% 82%, oklch(69% 0.17 342 / 0.18), transparent 0 20%),
-    linear-gradient(180deg, var(--paper) 0%, color-mix(in oklch, var(--paper) 97%, var(--paper-soft) 3%) 100%);
+    radial-gradient(circle at 8% 10%, oklch(70% 0.27 32 / 0.34), transparent 0 18%),
+    radial-gradient(circle at 89% 12%, oklch(60% 0.26 255 / 0.34), transparent 0 19%),
+    radial-gradient(circle at 82% 77%, oklch(86% 0.22 96 / 0.38), transparent 0 21%),
+    radial-gradient(circle at 17% 83%, oklch(67% 0.21 342 / 0.24), transparent 0 18%),
+    linear-gradient(180deg, var(--paper) 0%, color-mix(in oklch, var(--paper) 99%, var(--paper-soft) 1%) 100%);
 }
 
 body::after {
@@ -105,7 +105,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: clamp(2.55rem, 5.2vw, 4.45rem);
+  font-size: clamp(2.4rem, 4.7vw, 4rem);
 }
 
 h2 {
@@ -269,6 +269,7 @@ a {
 .hero-copy h1 {
   max-width: 10ch;
   margin-left: -0.03em;
+  font-size: clamp(2.05rem, 4vw, 3.35rem);
 }
 
 .hero-deck {
