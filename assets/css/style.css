@@ -272,8 +272,8 @@ a {
 
 .hero-deck {
   margin-top: var(--space-4);
-  font-size: clamp(0.98rem, 0.7vw + 0.86rem, 1.16rem);
-  line-height: 1.56;
+  font-size: clamp(1rem, 0.75vw + 0.88rem, 1.14rem);
+  line-height: 1.58;
   color: var(--text);
   max-width: none;
 }
@@ -282,7 +282,8 @@ a {
   margin-top: var(--space-4);
   max-width: none;
   color: var(--ink);
-  font-size: 0.96rem;
+  font-size: clamp(1rem, 0.75vw + 0.88rem, 1.14rem);
+  line-height: 1.58;
 }
 
 .home-section {
@@ -299,9 +300,9 @@ a {
 
 .statement {
   max-width: none;
-  font-family: var(--font-display);
-  font-size: clamp(1.12rem, 0.95vw + 0.95rem, 1.44rem);
-  line-height: 1.38;
+  font-family: var(--font-body);
+  font-size: clamp(1rem, 0.75vw + 0.88rem, 1.14rem);
+  line-height: 1.58;
   color: var(--ink);
 }
 
