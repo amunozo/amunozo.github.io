@@ -28,7 +28,7 @@
   --space-8: 64px;
   --space-9: 96px;
 
-  --shell-width: 1120px;
+  --shell-width: 1020px;
   --content-width: 760px;
 
   --duration-fast: 160ms;
@@ -256,14 +256,11 @@ a {
 }
 
 .hero-layout {
-  display: grid;
-  grid-template-columns: minmax(0, 1.5fr) minmax(240px, 0.78fr);
-  gap: clamp(28px, 6vw, 72px);
-  align-items: start;
+  display: block;
 }
 
 .hero-copy {
-  max-width: 44rem;
+  max-width: 40rem;
 }
 
 .hero-copy h1 {
@@ -286,41 +283,6 @@ a {
   max-width: 36ch;
   color: var(--ink);
   font-size: 0.96rem;
-}
-
-.hero-aside {
-  display: grid;
-  gap: var(--space-3);
-  align-self: end;
-  justify-items: start;
-}
-
-.hero-facts {
-  display: grid;
-  gap: var(--space-3);
-  width: 100%;
-  max-width: 18rem;
-  margin-top: var(--space-2);
-}
-
-.hero-facts div {
-  padding-top: var(--space-3);
-  border-top: 1px solid var(--line);
-}
-
-.hero-facts dt {
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--muted);
-}
-
-.hero-facts dd {
-  margin-top: var(--space-1);
-  color: var(--text);
-  font-size: 0.95rem;
-  line-height: 1.55;
 }
 
 .home-section {
@@ -490,7 +452,6 @@ a {
 }
 
 @media (max-width: 860px) {
-  .hero-layout,
   .home-columns,
   .publication-year,
   .capability-item,
@@ -511,11 +472,8 @@ a {
   }
 
   .hero-copy h1 {
-    max-width: 12ch;
-  }
-
-  .hero-aside {
-    padding-top: 0;
+    max-width: none;
+    white-space: normal;
   }
 
   .publication-year {

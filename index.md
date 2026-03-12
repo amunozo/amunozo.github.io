@@ -10,26 +10,9 @@ permalink: /
   <div class="hero-layout">
     <div class="hero-copy">
       <h1>Alberto Muñoz-Ortiz</h1>
-      <p class="hero-deck">I am a final-year PhD student in <strong>Natural Language Processing</strong> at the <a href="https://www.grupolys.org/">LyS group</a> at <a href="https://www.udc.es/">Universidade da Coruña</a>. My thesis defense is expected in <strong>Q2 2026</strong>.</p>
+      <p class="hero-deck">I am a final-year PhD student in <strong>Natural Language Processing</strong> at the <a href="https://www.grupolys.org/">LyS group</a> at <a href="https://www.udc.es/">Universidade da Coruña</a>, based in <strong>Lausanne, Switzerland</strong>. My thesis defense is expected in <strong>Q2 2026</strong>.</p>
       <p class="hero-seeking">I am seeking <strong>Research Engineer</strong> and <strong>Applied Scientist</strong> roles in NLP and LLMs.</p>
     </div>
-
-    <aside class="hero-aside">
-      <dl class="hero-facts">
-        <div>
-          <dt>Base</dt>
-          <dd>Lausanne, Switzerland</dd>
-        </div>
-        <div>
-          <dt>Focus</dt>
-          <dd>Language models, multilingual NLP, evaluation</dd>
-        </div>
-        <div>
-          <dt>Next</dt>
-          <dd>Research Engineer or Applied Scientist role</dd>
-        </div>
-      </dl>
-    </aside>
   </div>
 </section>
 
