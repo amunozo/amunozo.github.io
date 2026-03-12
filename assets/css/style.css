@@ -70,30 +70,6 @@ body {
   position: relative;
 }
 
-.page-side {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  width: clamp(86px, 10vw, 150px);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  pointer-events: none;
-  z-index: 0;
-  opacity: 0.72;
-}
-
-.page-side--left {
-  left: 6px;
-  background-image: url("/assets/mudejar-side.svg");
-}
-
-.page-side--right {
-  right: 6px;
-  background-image: url("/assets/japanese-side.svg");
-  transform: scaleX(-1);
-}
-
 body::before {
   content: "";
   position: fixed;
@@ -555,11 +531,6 @@ a {
 }
 
 @media (max-width: 640px) {
-  .page-side {
-    width: 58px;
-    opacity: 0.34;
-  }
-
   .site-shell {
     width: min(100% - 20px, var(--shell-width));
     padding-top: var(--space-5);
