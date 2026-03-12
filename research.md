@@ -4,34 +4,49 @@ title: Research
 permalink: /research/
 ---
 
-## Research
+<section class="research-hero">
+  <p class="section-kicker">Publications and research</p>
+  <h1>Research</h1>
+  <p class="research-intro">My research focuses on structured, multilingual, and robust NLP. I work on efficient modeling approaches, cross-lingual transfer, and rigorous evaluation of language models. I have first-authored 8 papers at top NLP venues.</p>
+</section>
 
-My research focuses on structured, multilingual, and robust NLP. I work on efficient modeling approaches, cross-lingual transfer, and rigorous evaluation of language models. I have first-authored 8 papers at top NLP venues.
+<section class="publication-year">
+  <h2>2025</h2>
+  <ul class="pub-list">
+    <li><strong>Alberto Muñoz-Ortiz</strong>, David Vilares, Caio Corro, and Carlos Gómez-Rodríguez. <a href="https://aclanthology.org/2025.findings-emnlp.530/">Nested Named Entity Recognition as Single-Pass Sequence labeling</a>. In <strong>Findings of EMNLP 2025</strong>, Suzhou, China.</li>
+    <li><strong>Alberto Muñoz-Ortiz</strong>, Verena Blaschke, and Barbara Plank. <a href="https://aclanthology.org/2025.coling-main.427/">Evaluating Pixel Language Models on Non-Standardized Languages</a>. In <strong>COLING 2025</strong>, Abu Dhabi, UAE.</li>
+    <li>Inés Veiga Menéndez, <strong>Alberto Muñoz-Ortiz</strong>, and David Vilares. <a href="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6673">On the Impact of Syntactic Infusion for Gender Categorization Across Contextual Dimensions</a>. In <strong>Revista de Procesamiento de Lenguaje Natural</strong>, 2025.</li>
+  </ul>
+</section>
 
-### Publications
+<section class="publication-year">
+  <h2>2024</h2>
+  <ul class="pub-list">
+    <li><strong>Alberto Muñoz-Ortiz</strong>, Carlos Gómez-Rodríguez, and David Vilares. <a href="https://link.springer.com/article/10.1007/s10462-024-10903-2">Contrasting Linguistic Patterns in Human and LLM-Generated News Text</a>. In <strong>Artificial Intelligence Review</strong>, 2024.</li>
+    <li><strong>Alberto Muñoz-Ortiz</strong>, Carlos Gómez-Rodríguez and David Vilares. <a href="https://portalinvestigacion.udc.gal/documentos/67e30317d40c1252cde1f95d?lang=gl">Demographic Background Prompting Does Not Affect Linguistic Features on LLM-Generated News Texts</a>. In <strong>XoveTIC 2024</strong>.</li>
+  </ul>
+</section>
 
-#### 2025
+<section class="publication-year">
+  <h2>2023</h2>
+  <ul class="pub-list">
+    <li><strong>Alberto Muñoz-Ortiz</strong>, Carlos Gómez-Rodríguez, and David Vilares. <a href="https://aclanthology.org/2023.ijcnlp-main.23/">Assessment of Pre-Trained Models Across Languages and Grammars</a>. In <strong>IJCNLP-AACL 2023</strong>, Bali, Indonesia.</li>
+    <li><strong>Alberto Muñoz-Ortiz</strong> and David Vilares. <a href="https://ruc.udc.es/dspace/handle/2183/33478">LyS A Coruña at GUA-SPA@IberLEF2023: Multi-Task Learning with Large Language Model Encoders for Guarani-Spanish Code Switching Analysis</a>. In <strong>IberLEF 2023</strong>, Jaén, Spain.</li>
+    <li><strong>Alberto Muñoz-Ortiz</strong> and David Vilares. <a href="https://aclanthology.org/2023.findings-acl.459/">Another Dead End for Morphological Tags? Perturbed Inputs and Parsing</a>. In <strong>Findings of ACL 2023</strong>, Toronto, Canada.</li>
+  </ul>
+</section>
 
-- **Alberto Muñoz-Ortiz**, David Vilares, Caio Corro, and Carlos Gómez-Rodríguez. [Nested Named Entity Recognition as Single-Pass Sequence labeling](https://aclanthology.org/2025.findings-emnlp.530/). In **Findings of EMNLP 2025**, Suzhou, China.
-- **Alberto Muñoz-Ortiz**, Verena Blaschke, and Barbara Plank. [Evaluating Pixel Language Models on Non-Standardized Languages](https://aclanthology.org/2025.coling-main.427/). In **COLING 2025**, Abu Dhabi, UAE.
-- Inés Veiga Menéndez, **Alberto Muñoz-Ortiz**, and David Vilares. [On the Impact of Syntactic Infusion for Gender Categorization Across Contextual Dimensions](http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6673). In **Revista de Procesamiento de Lenguaje Natural**, 2025.
+<section class="publication-year">
+  <h2>2022</h2>
+  <ul class="pub-list">
+    <li><strong>Alberto Muñoz-Ortiz</strong>, Mark Anderson, David Vilares, and Carlos Gómez-Rodríguez. <a href="https://aclanthology.org/2022.aacl-short.16/">Parsing Linearizations Appreciate PoS Tags – but Some Are Fussy about Errors</a>. In <strong>IJCNLP-AACL 2022</strong>, Online.</li>
+    <li><strong>Alberto Muñoz-Ortiz</strong>, Carlos Gómez-Rodríguez, and David Vilares. <a href="https://aclanthology.org/2022.insights-1.7/">Cross-lingual Inflection as a Data Augmentation Method</a>. In the <strong>3rd Workshop on Insights from Negative Results in NLP</strong>, Dublin, Ireland.</li>
+  </ul>
+</section>
 
-#### 2024
-
-- **Alberto Muñoz-Ortiz**, Carlos Gómez-Rodríguez, and David Vilares. [Contrasting Linguistic Patterns in Human and LLM-Generated News Text](https://link.springer.com/article/10.1007/s10462-024-10903-2). In **Artificial Intelligence Review**, 2024.
-- **Alberto Muñoz-Ortiz**, Carlos Gómez-Rodríguez and David Vilares. [Demographic Background Prompting Does Not Affect Linguistic Features on LLM-Generated News Texts](https://portalinvestigacion.udc.gal/documentos/67e30317d40c1252cde1f95d?lang=gl). In **XoveTIC 2024**.
-
-#### 2023
-
-- **Alberto Muñoz-Ortiz**, Carlos Gómez-Rodríguez, and David Vilares. [Assessment of Pre-Trained Models Across Languages and Grammars](https://aclanthology.org/2023.ijcnlp-main.23/). In **IJCNLP-AACL 2023**, Bali, Indonesia.
-- **Alberto Muñoz-Ortiz** and David Vilares. [LyS A Coruña at GUA-SPA@IberLEF2023: Multi-Task Learning with Large Language Model Encoders for Guarani-Spanish Code Switching Analysis](https://ruc.udc.es/dspace/handle/2183/33478). In **IberLEF 2023**, Jaén, Spain.
-- **Alberto Muñoz-Ortiz** and David Vilares. [Another Dead End for Morphological Tags? Perturbed Inputs and Parsing](https://aclanthology.org/2023.findings-acl.459/). In **Findings of ACL 2023**, Toronto, Canada.
-
-#### 2022
-
-- **Alberto Muñoz-Ortiz**, Mark Anderson, David Vilares, and Carlos Gómez-Rodríguez. [Parsing Linearizations Appreciate PoS Tags – but Some Are Fussy about Errors](https://aclanthology.org/2022.aacl-short.16/). In **IJCNLP-AACL 2022**, Online.
-- **Alberto Muñoz-Ortiz**, Carlos Gómez-Rodríguez, and David Vilares. [Cross-lingual Inflection as a Data Augmentation Method](https://aclanthology.org/2022.insights-1.7/). In the **3rd Workshop on Insights from Negative Results in NLP**, Dublin, Ireland.
-
-#### 2021
-
-- **Alberto Muñoz-Ortiz**, Michalina Strzyz, and David Vilares. [Not All Linearizations Are Equally Data-Hungry in Sequence Labeling Parsing](https://aclanthology.org/2021.ranlp-1.111/). In **RANLP 2021**, Online.
+<section class="publication-year publication-year--last">
+  <h2>2021</h2>
+  <ul class="pub-list">
+    <li><strong>Alberto Muñoz-Ortiz</strong>, Michalina Strzyz, and David Vilares. <a href="https://aclanthology.org/2021.ranlp-1.111/">Not All Linearizations Are Equally Data-Hungry in Sequence Labeling Parsing</a>. In <strong>RANLP 2021</strong>, Online.</li>
+  </ul>
+</section>
