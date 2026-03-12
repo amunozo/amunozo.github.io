@@ -1,8 +1,12 @@
-<nav>
-  <h3 class="header-name">Alberto Muñoz-Ortiz</h3>
-  <ul>
-    {% for item in site.data.navigation.main %}
-    <li><a href="{{ item.link | relative_url }}" class="nav-link">{{ item.name }}</a></li>
-    {% endfor %}
-  </ul>
-</nav>
+<header class="site-header">
+  <div class="site-header-inner">
+    <a href="{{ '/' | relative_url }}" class="site-brand">Alberto Muñoz-Ortiz</a>
+    <nav class="site-nav" aria-label="Primary">
+      <ul>
+        {% for item in site.data.navigation.main %}
+        <li><a href="{{ item.link | relative_url }}">{{ item.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>
