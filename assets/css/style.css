@@ -66,7 +66,9 @@ body {
   position: fixed;
   width: clamp(110px, 12vw, 180px);
   aspect-ratio: 1;
-  background: url("/assets/geometric-corner.svg") no-repeat center / contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   pointer-events: none;
   z-index: 0;
   opacity: 0.78;
@@ -75,17 +77,20 @@ body {
 .page-ornament--top-left {
   top: 18px;
   left: 12px;
+  background-image: url("/assets/artdeco-corner.svg");
 }
 
 .page-ornament--top-right {
   top: 18px;
   right: 12px;
+  background-image: url("/assets/bauhaus-corner.svg");
   transform: scaleX(-1);
 }
 
 .page-ornament--bottom-left {
   bottom: 14px;
   left: 12px;
+  background-image: url("/assets/artdeco-corner.svg");
   transform: scaleY(-1);
   opacity: 0.68;
 }
@@ -93,6 +98,7 @@ body {
 .page-ornament--bottom-right {
   bottom: 14px;
   right: 12px;
+  background-image: url("/assets/bauhaus-corner.svg");
   transform: scale(-1);
   opacity: 0.72;
 }
