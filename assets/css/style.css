@@ -267,9 +267,10 @@ a {
 }
 
 .hero-copy h1 {
-  max-width: 10ch;
+  max-width: none;
   margin-left: -0.03em;
-  font-size: clamp(2.05rem, 4vw, 3.35rem);
+  font-size: clamp(1.85rem, 3.6vw, 3.05rem);
+  white-space: nowrap;
 }
 
 .hero-deck {

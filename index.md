@@ -18,7 +18,7 @@ permalink: /
       <dl class="hero-facts">
         <div>
           <dt>Base</dt>
-          <dd>A Coruña / Lausanne</dd>
+          <dd>Lausanne, Switzerland</dd>
         </div>
         <div>
           <dt>Focus</dt>
