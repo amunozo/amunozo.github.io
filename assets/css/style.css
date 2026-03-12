@@ -64,38 +64,37 @@ body {
 
 .page-ornament {
   position: fixed;
-  width: clamp(120px, 15vw, 220px);
+  width: clamp(110px, 12vw, 180px);
   aspect-ratio: 1;
-  background: url("/assets/floral-corner.svg") no-repeat center / contain;
+  background: url("/assets/geometric-corner.svg") no-repeat center / contain;
   pointer-events: none;
   z-index: 0;
-  opacity: 0.92;
-  filter: saturate(1.08);
+  opacity: 0.78;
 }
 
 .page-ornament--top-left {
-  top: 20px;
+  top: 18px;
   left: 12px;
 }
 
 .page-ornament--top-right {
   top: 18px;
-  right: 10px;
-  transform: scaleX(-1) rotate(-6deg);
+  right: 12px;
+  transform: scaleX(-1);
 }
 
 .page-ornament--bottom-left {
-  bottom: 16px;
-  left: 10px;
-  transform: scaleY(-1) rotate(-8deg);
-  opacity: 0.8;
+  bottom: 14px;
+  left: 12px;
+  transform: scaleY(-1);
+  opacity: 0.68;
 }
 
 .page-ornament--bottom-right {
-  bottom: 12px;
+  bottom: 14px;
   right: 12px;
-  transform: scale(-1) rotate(6deg);
-  opacity: 0.88;
+  transform: scale(-1);
+  opacity: 0.72;
 }
 
 body::before {
@@ -522,8 +521,8 @@ a {
 
 @media (max-width: 640px) {
   .page-ornament {
-    width: 92px;
-    opacity: 0.5;
+    width: 78px;
+    opacity: 0.38;
   }
 
   .site-shell {
