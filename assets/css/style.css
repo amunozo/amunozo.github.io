@@ -13,18 +13,18 @@
   --line: oklch(89% 0.025 305);
   --line-strong: oklch(80% 0.04 305);
 
-  --upper-cobalt: #4056c8;
-  --upper-teal: #1e7b6f;
-  --upper-gold: #c18a2d;
-  --upper-wine: #8b4d68;
-  --upper-ink: #2c223e;
+  --upper-cobalt: #2956a3;
+  --upper-teal: #1f6b5d;
+  --upper-gold: #d08b18;
+  --upper-wine: #8a4a64;
+  --upper-ink: #2b2231;
 
-  --lower-rust: #985038;
-  --lower-viridian: #2b7a67;
-  --lower-amber: #c98925;
-  --lower-mulberry: #75486d;
-  --lower-marine: #3a5f91;
-  --lower-ink: #2b4138;
+  --lower-rust: #c34a2c;
+  --lower-viridian: #2f6f57;
+  --lower-amber: #d09528;
+  --lower-mulberry: #7d4968;
+  --lower-marine: #2f5e8c;
+  --lower-ink: #233140;
 
   --space-1: 4px;
   --space-2: 8px;
@@ -85,12 +85,12 @@ body {
 
 .page-side--left {
   left: 6px;
-  background-image: url("/assets/artdeco-side.svg");
+  background-image: url("/assets/mudejar-side.svg");
 }
 
 .page-side--right {
   right: 6px;
-  background-image: url("/assets/bauhaus-side.svg");
+  background-image: url("/assets/japanese-side.svg");
   transform: scaleX(-1);
 }
 
