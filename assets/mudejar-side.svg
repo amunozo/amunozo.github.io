@@ -1,171 +1,76 @@
 <svg width="160" height="1200" viewBox="0 0 160 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Mudéjar palette -->
-    <!-- brick:#8B3A2A cobalt:#1E4D8C emerald:#1A6B4A ochre:#B8780F plum:#6E3548 ink:#2A1F1A cream:#FAF3E5 stucco:#F0E6D0 -->
+    <!-- Cohesive Mudéjar system inspired by the Munira references:
+         - kufic-like angular interlace friezes
+         - dense Nasrid-style zellij star field
+         - terracotta / cobalt / emerald / ochre / ivory palette -->
 
-    <!-- Pseudo-kufic frieze pattern (aligned 28-unit module) -->
-    <pattern id="kufic" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
-      <rect width="28" height="28" fill="#FAF3E5"/>
-      <!-- Vertical ascenders -->
-      <rect x="2" y="4" width="3" height="15" fill="#8B3A2A"/>
-      <rect x="11" y="8" width="3" height="16" fill="#8B3A2A"/>
-      <rect x="20" y="5" width="3" height="13" fill="#8B3A2A"/>
-      <!-- Horizontal baseline -->
-      <rect x="0" y="20" width="28" height="3" fill="#1E4D8C"/>
-      <!-- Step connectors -->
-      <rect x="5" y="16" width="6" height="3" fill="#8B3A2A"/>
-      <rect x="14" y="14" width="6" height="3" fill="#8B3A2A"/>
-      <!-- Small ornamental dots -->
-      <circle cx="8" cy="12" r="1.4" fill="#B8780F"/>
-      <circle cx="17" cy="10" r="1.4" fill="#B8780F"/>
+    <!-- Angular kufic-style frieze (fits 112px exactly: 4 x 28) -->
+    <pattern id="kufic-frieze" x="0" y="0" width="28" height="32" patternUnits="userSpaceOnUse">
+      <rect width="28" height="32" fill="#F8F1E2"/>
+
+      <!-- Terracotta stepped skeleton -->
+      <path d="M2 25V8H10V21H18V9H26" fill="none" stroke="#8B3A2A" stroke-width="3.8" stroke-linejoin="miter"/>
+
+      <!-- Cobalt baseline chain -->
+      <path d="M0 19H8V30H18V19H28" fill="none" stroke="#1E4D8C" stroke-width="2.6" stroke-linejoin="miter"/>
+
+      <!-- Emerald over-under link -->
+      <path d="M4 4H14V13H24" fill="none" stroke="#1A6B4A" stroke-width="2.2" stroke-linejoin="miter"/>
+
+      <!-- Ochre accents -->
+      <circle cx="13" cy="16" r="1.5" fill="#B8780F"/>
+      <circle cx="22" cy="12" r="1.5" fill="#B8780F"/>
     </pattern>
 
-    <!-- Star-and-cross tile field (28x24 module fits 112x264 panel exactly) -->
-    <pattern id="stars" x="0" y="0" width="28" height="24" patternUnits="userSpaceOnUse">
-      <rect width="28" height="24" fill="#FAF3E5"/>
-      <!-- 8-pointed star contained inside cell -->
-      <path d="M14 2L17 8L24 9L18 13L20 20L14 16.5L8 20L10 13L4 9L11 8Z" fill="none" stroke="#1E4D8C" stroke-width="1.45"/>
-      <!-- Inner star -->
-      <path d="M14 6L16 10L20 10.5L17 13L18.2 17L14 15.2L9.8 17L11 13L8 10.5L12 10Z" fill="#B8780F" fill-opacity="0.88"/>
-      <!-- Cross lines -->
-      <line x1="0" y1="12" x2="28" y2="12" stroke="#1A6B4A" stroke-width="0.75" opacity="0.45"/>
-      <line x1="14" y1="0" x2="14" y2="24" stroke="#1A6B4A" stroke-width="0.75" opacity="0.45"/>
-      <!-- Corner knots -->
-      <path d="M2 2L5 5M23 19L26 22M26 2L23 5M2 22L5 19" stroke="#6E3548" stroke-width="0.8" opacity="0.55"/>
-      <circle cx="14" cy="12" r="2.1" fill="#2A1F1A"/>
-    </pattern>
+    <!-- Nasrid-like zellij field (fits main panel exactly: 4 x 36 tiles) -->
+    <pattern id="zellij-field" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
+      <!-- Cobalt glazed ground -->
+      <rect width="28" height="28" fill="#2F79BE"/>
 
-    <!-- Zigzag dado (16-unit module to align perfectly with 112px panels) -->
-    <pattern id="zigzag" x="0" y="0" width="16" height="24" patternUnits="userSpaceOnUse">
-      <rect width="16" height="24" fill="#FAF3E5"/>
-      <path d="M0 18L4 8L8 18L12 8L16 18" stroke="#B8780F" stroke-width="2.2"/>
-      <path d="M0 11L4 21L8 11L12 21L16 11" stroke="#1E4D8C" stroke-width="1.5"/>
-      <circle cx="8" cy="14" r="1.1" fill="#8B3A2A"/>
-    </pattern>
+      <!-- Corner 4-point stars for continuity -->
+      <path d="M0 0L2 2L0 4L-2 2Z" fill="#F8F1E2"/>
+      <path d="M28 0L26 2L28 4L30 2Z" fill="#F8F1E2"/>
+      <path d="M0 28L2 26L0 24L-2 26Z" fill="#F8F1E2"/>
+      <path d="M28 28L26 26L28 24L30 26Z" fill="#F8F1E2"/>
 
-    <!-- Sebka net lozenge -->
-    <pattern id="sebka" x="0" y="0" width="28" height="40" patternUnits="userSpaceOnUse">
-      <rect width="28" height="40" fill="#FAF3E5"/>
-      <path d="M14 0L28 20L14 40L0 20Z" fill="none" stroke="#8B3A2A" stroke-width="1.6"/>
-      <path d="M14 8L22 20L14 32L6 20Z" fill="none" stroke="#1E4D8C" stroke-width="1.1"/>
-      <circle cx="14" cy="20" r="2.2" fill="#B8780F"/>
+      <!-- Outer white star frame -->
+      <path d="M14 6L17 11L22 14L17 17L14 22L11 17L6 14L11 11Z" fill="#F8F1E2"/>
+
+      <!-- Inner deep-blue star -->
+      <path d="M14 9L16 12L19 14L16 16L14 19L12 16L9 14L12 12Z" fill="#1F3472"/>
+
+      <!-- Cardinal petals (ochre) -->
+      <path d="M14 0L18 7L14 9L10 7Z" fill="#D1A22E"/>
+      <path d="M28 14L21 18L19 14L21 10Z" fill="#D1A22E"/>
+      <path d="M14 28L10 21L14 19L18 21Z" fill="#D1A22E"/>
+      <path d="M0 14L7 10L9 14L7 18Z" fill="#D1A22E"/>
+
+      <!-- Diagonal petals (green and dusty rose) -->
+      <path d="M21 5L26 10L22 12L18 8Z" fill="#2A7C4E"/>
+      <path d="M7 5L10 8L6 12L2 10Z" fill="#B67D86"/>
+      <path d="M21 23L18 20L22 16L26 18Z" fill="#B67D86"/>
+      <path d="M7 23L2 18L6 16L10 20Z" fill="#2A7C4E"/>
+
+      <!-- Fine grout-like separators -->
+      <path d="M14 0V28M0 14H28" stroke="#F8F1E2" stroke-opacity="0.35" stroke-width="0.8"/>
     </pattern>
   </defs>
 
-  <!-- ══════ OUTER FRAME ══════ -->
-  <rect x="7" y="7" width="146" height="1186" fill="#FAF3E5" stroke="#8B3A2A" stroke-width="3.8"/>
-  <rect x="14" y="14" width="132" height="1172" fill="none" stroke="#1E4D8C" stroke-width="1.5"/>
-  <rect x="18" y="18" width="124" height="1164" fill="none" stroke="#1A6B4A" stroke-width="0.9"/>
+  <!-- Outer architectural frame -->
+  <rect x="7" y="7" width="146" height="1186" fill="#F8F1E2" stroke="#8B3A2A" stroke-width="3.8"/>
+  <rect x="14" y="14" width="132" height="1172" fill="none" stroke="#1E4D8C" stroke-width="1.6"/>
+  <rect x="18" y="18" width="124" height="1164" fill="none" stroke="#1A6B4A" stroke-width="1"/>
 
-  <!-- ══════ ZONE 1: Kufic frieze ══════ -->
-  <rect x="24" y="22" width="112" height="52" fill="url(#kufic)" stroke="#8B3A2A" stroke-width="1.5"/>
-  <line x1="24" y1="48" x2="136" y2="48" stroke="#B8780F" stroke-width="1.2"/>
+  <!-- Top inscription-like frieze -->
+  <rect x="24" y="24" width="112" height="64" fill="url(#kufic-frieze)" stroke="#8B3A2A" stroke-width="1.6"/>
+  <line x1="24" y1="56" x2="136" y2="56" stroke="#B8780F" stroke-width="1.2"/>
 
-  <!-- ══════ ZONE 2: Horseshoe arch panel ══════ -->
-  <rect x="24" y="88" width="112" height="210" fill="#F0E6D0" stroke="#8B3A2A" stroke-width="2.2"/>
-  <rect x="30" y="94" width="100" height="198" fill="none" stroke="#B8780F" stroke-width="1.5"/>
-  <rect x="35" y="99" width="90" height="188" fill="#FAF3E5" stroke="#1E4D8C" stroke-width="1.3"/>
+  <!-- Main coherent zellij panel -->
+  <rect x="24" y="96" width="112" height="1008" fill="url(#zellij-field)" stroke="#1E4D8C" stroke-width="1.8"/>
+  <rect x="30" y="102" width="100" height="996" fill="none" stroke="#8B3A2A" stroke-width="1"/>
 
-  <!-- Alfiz frame around the arch -->
-  <rect x="42" y="140" width="76" height="146" fill="none" stroke="#2A1F1A" stroke-width="1.8"/>
-
-  <!-- Horseshoe arch: wider above spring, narrows below -->
-  <path d="M56 280V230C56 228 55 224 54 220C52 212 52 202 56 192C60 180 68 170 80 166C92 170 100 180 104 192C108 202 108 212 106 220C105 224 104 228 104 230V280"
-        fill="none" stroke="#2A1F1A" stroke-width="2.6"/>
-  <!-- Inner arch echo -->
-  <path d="M62 280V234C62 230 61 226 60 222C58 214 58 206 62 196C65 186 72 178 80 174C88 178 95 186 98 196C102 206 102 214 100 222C99 226 98 230 98 234V280"
-        fill="none" stroke="#6E3548" stroke-width="1.6"/>
-
-  <!-- Spandrel arabesques (left) -->
-  <path d="M46 148C52 154 56 162 55 172" stroke="#1A6B4A" stroke-width="1.5"/>
-  <path d="M46 148C50 150 55 149 60 146" stroke="#1A6B4A" stroke-width="1.3"/>
-  <path d="M48 156C54 158 58 156 62 152" stroke="#1A6B4A" stroke-width="1.1"/>
-  <circle cx="48" cy="152" r="2.4" fill="#B8780F"/>
-  <!-- Spandrel arabesques (right) -->
-  <path d="M114 148C108 154 104 162 105 172" stroke="#1A6B4A" stroke-width="1.5"/>
-  <path d="M114 148C110 150 105 149 100 146" stroke="#1A6B4A" stroke-width="1.3"/>
-  <path d="M112 156C106 158 102 156 98 152" stroke="#1A6B4A" stroke-width="1.1"/>
-  <circle cx="112" cy="152" r="2.4" fill="#B8780F"/>
-
-  <!-- Star medallion inside arch -->
-  <path d="M80 196L88 216L108 224L88 232L80 252L72 232L52 224L72 216Z" fill="#B8780F" fill-opacity="0.9" stroke="#1E4D8C" stroke-width="1.5"/>
-  <path d="M80 206L84 218L96 222L84 226L80 238L76 226L64 222L76 218Z" fill="#FAF3E5" stroke="#8B3A2A" stroke-width="1"/>
-  <circle cx="80" cy="222" r="4.5" fill="#2A1F1A"/>
-  <circle cx="80" cy="222" r="2" fill="#B8780F"/>
-
-  <!-- ══════ ZONE 3: Sebka net band ══════ -->
-  <rect x="24" y="312" width="112" height="92" fill="url(#sebka)" stroke="#1E4D8C" stroke-width="1.5"/>
-  <rect x="30" y="318" width="100" height="80" fill="none" stroke="#B8780F" stroke-width="1"/>
-  <!-- Horizontal accent -->
-  <line x1="30" y1="358" x2="130" y2="358" stroke="#8B3A2A" stroke-width="1.4"/>
-
-  <!-- ══════ ZONE 4: Zigzag dado ══════ -->
-  <rect x="24" y="416" width="112" height="100" fill="url(#zigzag)" stroke="#8B3A2A" stroke-width="1.5"/>
-  <!-- Diamond cross overlay -->
-  <path d="M46 448L80 480L114 448" stroke="#1A6B4A" stroke-width="2"/>
-  <path d="M46 488L80 456L114 488" stroke="#1A6B4A" stroke-width="2"/>
-  <circle cx="80" cy="468" r="9" fill="#FAF3E5" stroke="#2A1F1A" stroke-width="1.8"/>
-  <circle cx="80" cy="468" r="3.8" fill="#8B3A2A"/>
-  <circle cx="80" cy="468" r="1.5" fill="#B8780F"/>
-
-  <!-- ══════ ZONE 5: Large star tile field ══════ -->
-  <rect x="24" y="528" width="112" height="264" fill="url(#stars)" stroke="#8B3A2A" stroke-width="1.8"/>
-  <rect x="30" y="534" width="100" height="252" fill="none" stroke="#1A6B4A" stroke-width="1.2"/>
-  <!-- Register dividers -->
-  <line x1="30" y1="588" x2="130" y2="588" stroke="#B8780F" stroke-width="1.1" opacity="0.7"/>
-  <line x1="30" y1="654" x2="130" y2="654" stroke="#B8780F" stroke-width="1.1" opacity="0.7"/>
-  <line x1="30" y1="720" x2="130" y2="720" stroke="#B8780F" stroke-width="1.1" opacity="0.7"/>
-  <!-- Central rosette accents -->
-  <circle cx="80" cy="558" r="12" fill="#FAF3E5" stroke="#1E4D8C" stroke-width="1.8"/>
-  <path d="M80 550L83 554L88 554L84 558L86 562L80 560L74 562L76 558L72 554L77 554Z" fill="#8B3A2A"/>
-  <circle cx="80" cy="558" r="3" fill="#B8780F"/>
-
-  <circle cx="80" cy="690" r="12" fill="#FAF3E5" stroke="#6E3548" stroke-width="1.8"/>
-  <path d="M80 682L83 686L88 686L84 690L86 694L80 692L74 694L76 690L72 686L77 686Z" fill="#1A6B4A"/>
-  <circle cx="80" cy="690" r="3" fill="#B8780F"/>
-
-  <!-- ══════ ZONE 6: Second horseshoe arch panel ══════ -->
-  <rect x="24" y="806" width="112" height="196" fill="#F0E6D0" stroke="#8B3A2A" stroke-width="2.2"/>
-  <rect x="30" y="812" width="100" height="184" fill="none" stroke="#B8780F" stroke-width="1.5"/>
-  <rect x="35" y="817" width="90" height="174" fill="#FAF3E5" stroke="#1A6B4A" stroke-width="1.3"/>
-
-  <!-- Alfiz frame -->
-  <rect x="42" y="850" width="76" height="136" fill="none" stroke="#2A1F1A" stroke-width="1.8"/>
-
-  <!-- Horseshoe arch (cobalt variant) -->
-  <path d="M56 980V936C56 934 55 930 54 926C52 918 52 910 56 900C60 890 68 882 80 878C92 882 100 890 104 900C108 910 108 918 106 926C105 930 104 934 104 936V980"
-        fill="none" stroke="#2A1F1A" stroke-width="2.6"/>
-  <path d="M62 980V940C62 936 61 932 60 928C58 920 58 914 62 904C65 896 72 888 80 884C88 888 95 896 98 904C102 914 102 920 100 928C99 932 98 936 98 940V980"
-        fill="none" stroke="#1E4D8C" stroke-width="1.6"/>
-
-  <!-- Spandrels -->
-  <path d="M46 856C52 862 56 870 55 880" stroke="#1A6B4A" stroke-width="1.5"/>
-  <path d="M46 856C50 858 55 857 60 854" stroke="#1A6B4A" stroke-width="1.3"/>
-  <path d="M48 864C54 866 58 864 62 860" stroke="#1A6B4A" stroke-width="1.1"/>
-  <circle cx="49" cy="860" r="2.2" fill="#B8780F"/>
-  <path d="M114 856C108 862 104 870 105 880" stroke="#1A6B4A" stroke-width="1.5"/>
-  <path d="M114 856C110 858 105 857 100 854" stroke="#1A6B4A" stroke-width="1.3"/>
-  <path d="M112 864C106 866 102 864 98 860" stroke="#1A6B4A" stroke-width="1.1"/>
-  <circle cx="111" cy="860" r="2.2" fill="#B8780F"/>
-
-  <!-- Star medallion (cobalt) -->
-  <path d="M80 902L87 918L104 924L87 930L80 946L73 930L56 924L73 918Z" fill="#1E4D8C" fill-opacity="0.92" stroke="#B8780F" stroke-width="1.4"/>
-  <path d="M80 910L83 920L93 923L83 926L80 936L77 926L67 923L77 920Z" fill="#FAF3E5" stroke="#8B3A2A" stroke-width="0.9"/>
-  <circle cx="80" cy="923" r="4" fill="#B8780F"/>
-  <circle cx="80" cy="923" r="1.6" fill="#2A1F1A"/>
-
-  <!-- ══════ ZONE 7: Bottom composite register ══════ -->
-  <!-- Kufic sub-band -->
-  <rect x="24" y="1016" width="112" height="48" fill="url(#kufic)" stroke="#8B3A2A" stroke-width="1.5"/>
-  <line x1="24" y1="1040" x2="136" y2="1040" stroke="#B8780F" stroke-width="1.1"/>
-
-  <!-- Zigzag sub-band -->
-  <rect x="24" y="1070" width="112" height="52" fill="url(#zigzag)" stroke="#1E4D8C" stroke-width="1.4"/>
-
-  <!-- Closing stepped lines -->
-  <line x1="32" y1="1138" x2="128" y2="1138" stroke="#2A1F1A" stroke-width="2"/>
-  <line x1="40" y1="1150" x2="120" y2="1150" stroke="#8B3A2A" stroke-width="1.6"/>
-  <line x1="48" y1="1160" x2="112" y2="1160" stroke="#B8780F" stroke-width="1.3"/>
-  <line x1="56" y1="1168" x2="104" y2="1168" stroke="#1A6B4A" stroke-width="1.1"/>
-  <line x1="64" y1="1174" x2="96" y2="1174" stroke="#6E3548" stroke-width="0.9"/>
+  <!-- Bottom inscription-like frieze -->
+  <rect x="24" y="1112" width="112" height="64" fill="url(#kufic-frieze)" stroke="#8B3A2A" stroke-width="1.6"/>
+  <line x1="24" y1="1144" x2="136" y2="1144" stroke="#B8780F" stroke-width="1.2"/>
 </svg>
