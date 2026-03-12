@@ -70,6 +70,30 @@ body {
   position: relative;
 }
 
+.page-side {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: clamp(84px, 9vw, 132px);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.82;
+}
+
+.page-side--left {
+  left: 8px;
+  background-image: url("/assets/mudejar-side.svg");
+}
+
+.page-side--right {
+  right: 8px;
+  background-image: url("/assets/mudejar-side.svg");
+  transform: scaleX(-1);
+}
+
 body::before {
   content: "";
   position: fixed;
@@ -78,10 +102,8 @@ body::before {
   z-index: -2;
   background: linear-gradient(
     180deg,
-    color-mix(in oklch, var(--paper) 99.4%, var(--upper-cobalt) 0.6%) 0%,
-    color-mix(in oklch, var(--paper) 99.4%, var(--upper-gold) 0.6%) 49.5%,
-    color-mix(in oklch, var(--paper) 99.4%, var(--lower-viridian) 0.6%) 50.5%,
-    color-mix(in oklch, var(--paper) 99.4%, var(--lower-amber) 0.6%) 100%
+    color-mix(in oklch, var(--paper) 99.2%, var(--upper-gold) 0.8%) 0%,
+    color-mix(in oklch, var(--paper) 99.6%, var(--upper-cobalt) 0.4%) 100%
   );
 }
 
@@ -257,7 +279,7 @@ a {
 }
 
 .section-kicker {
-  color: color-mix(in oklch, var(--upper-wine) 72%, var(--upper-ink) 28%);
+  color: color-mix(in oklch, var(--upper-wine) 70%, var(--upper-ink) 30%);
   margin-bottom: var(--space-4);
 }
 
@@ -324,7 +346,7 @@ a {
 }
 
 .section-number {
-  color: color-mix(in oklch, var(--upper-wine) 72%, var(--upper-ink) 28%);
+  color: color-mix(in oklch, var(--upper-gold) 72%, var(--upper-ink) 28%);
 }
 
 .capability-list {
@@ -353,19 +375,19 @@ a {
 }
 
 .capability-item:nth-child(1) .capability-label {
-  color: color-mix(in oklch, var(--upper-teal) 34%, var(--ink) 66%);
+  color: color-mix(in oklch, var(--upper-teal) 40%, var(--ink) 60%);
 }
 
 .capability-item:nth-child(2) .capability-label {
-  color: color-mix(in oklch, var(--upper-cobalt) 34%, var(--ink) 66%);
+  color: color-mix(in oklch, var(--upper-cobalt) 40%, var(--ink) 60%);
 }
 
 .capability-item:nth-child(3) .capability-label {
-  color: color-mix(in oklch, var(--upper-wine) 36%, var(--ink) 64%);
+  color: color-mix(in oklch, var(--upper-wine) 42%, var(--ink) 58%);
 }
 
 .capability-item:nth-child(4) .capability-label {
-  color: color-mix(in oklch, var(--upper-gold) 42%, var(--ink) 58%);
+  color: color-mix(in oklch, var(--upper-gold) 48%, var(--ink) 52%);
 }
 
 .capability-item p:last-child {
@@ -383,21 +405,17 @@ a {
   padding-top: var(--space-2);
 }
 
-.home-columns .section-number {
-  color: color-mix(in oklch, var(--lower-mulberry) 72%, var(--lower-ink) 28%);
-}
-
 .home-columns a {
-  color: color-mix(in oklch, var(--lower-viridian) 76%, var(--lower-ink) 24%);
+  color: color-mix(in oklch, var(--upper-cobalt) 82%, var(--upper-ink) 18%);
 }
 
 .home-columns a:hover,
 .home-columns a:focus-visible {
-  color: color-mix(in oklch, var(--lower-rust) 66%, var(--lower-ink) 34%);
+  color: color-mix(in oklch, var(--upper-teal) 62%, var(--upper-ink) 38%);
 }
 
 .home-columns strong {
-  color: color-mix(in oklch, var(--lower-rust) 70%, var(--ink) 30%);
+  color: color-mix(in oklch, var(--upper-wine) 72%, var(--ink) 28%);
 }
 
 .section-link {
@@ -429,11 +447,11 @@ a {
 .publication-year h2 {
   font-size: clamp(2rem, 3vw, 2.6rem);
   font-style: italic;
-  color: color-mix(in oklch, var(--lower-marine) 58%, var(--ink) 42%);
+  color: color-mix(in oklch, var(--upper-cobalt) 60%, var(--ink) 40%);
 }
 
 .publication-year:nth-of-type(even) h2 {
-  color: color-mix(in oklch, var(--lower-rust) 56%, var(--ink) 44%);
+  color: color-mix(in oklch, var(--upper-wine) 56%, var(--ink) 44%);
 }
 
 .pub-list {
@@ -472,12 +490,12 @@ a {
   font-family: var(--font-display);
   font-size: 1.35rem;
   line-height: 1.05;
-  color: color-mix(in oklch, var(--lower-mulberry) 38%, var(--ink) 62%);
+  color: color-mix(in oklch, var(--upper-wine) 40%, var(--ink) 60%);
 }
 
 .footer-subnote {
   margin-top: var(--space-2);
-  color: color-mix(in oklch, var(--lower-ink) 48%, var(--muted) 52%);
+  color: color-mix(in oklch, var(--upper-ink) 44%, var(--muted) 56%);
   font-size: 0.9rem;
 }
 
@@ -489,7 +507,7 @@ a {
 }
 
 .footer-links a {
-  color: color-mix(in oklch, var(--lower-marine) 66%, var(--lower-ink) 34%);
+  color: color-mix(in oklch, var(--upper-cobalt) 74%, var(--upper-ink) 26%);
   text-decoration: none;
   font-size: 0.9rem;
   font-weight: 500;
@@ -497,7 +515,7 @@ a {
 
 .footer-links a:hover,
 .footer-links a:focus-visible {
-  color: color-mix(in oklch, var(--lower-rust) 60%, var(--lower-ink) 40%);
+  color: color-mix(in oklch, var(--upper-teal) 62%, var(--upper-ink) 38%);
 }
 
 @media (max-width: 860px) {
@@ -531,6 +549,11 @@ a {
 }
 
 @media (max-width: 640px) {
+  .page-side {
+    width: 64px;
+    opacity: 0.42;
+  }
+
   .site-shell {
     width: min(100% - 20px, var(--shell-width));
     padding-top: var(--space-5);
