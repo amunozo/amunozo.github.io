@@ -1,69 +1,123 @@
 <svg width="160" height="1200" viewBox="0 0 160 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <pattern id="kufic-band" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
-      <rect width="24" height="24" fill="#FCF7ED"/>
-      <path d="M2 18V6H10V14H22" stroke="#B85A3B" stroke-width="2.2"/>
-      <path d="M12 22V12H20" stroke="#2956A3" stroke-width="1.4"/>
+    <!-- Mudéjar palette:
+         brick:     #8B3A2A  (terracotta brick)
+         cobalt:    #1E4D8C  (deep lapis-cobalt)
+         emerald:   #1A6B4A  (glazed emerald)
+         ochre:     #B8780F  (golden ochre)
+         plum:      #6E3548  (warm plum)
+         ink:       #2A1F1A  (dark umber)
+         cream:     #FAF3E5  (ivory plaster)
+         stucco:    #F0E6D0  (warm stucco)
+    -->
+
+    <pattern id="kufic-band" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
+      <rect width="28" height="28" fill="#FAF3E5"/>
+      <path d="M2 20V6H12V16H26" stroke="#8B3A2A" stroke-width="3"/>
+      <path d="M14 24V13H24" stroke="#1E4D8C" stroke-width="2"/>
     </pattern>
+
     <pattern id="tile-field" x="0" y="0" width="36" height="36" patternUnits="userSpaceOnUse">
-      <rect width="36" height="36" fill="#FCF7ED"/>
-      <path d="M18 4L22 14L32 18L22 22L18 32L14 22L4 18L14 14L18 4Z" fill="none" stroke="#2956A3" stroke-width="1.35"/>
-      <path d="M18 10L20.8 15.2L26 18L20.8 20.8L18 26L15.2 20.8L10 18L15.2 15.2L18 10Z" fill="#D08B18" opacity="0.88"/>
-      <path d="M0 18H36M18 0V36" stroke="#1F6B5D" stroke-width="0.65" opacity="0.6"/>
-      <path d="M6 6L12 12M24 24L30 30M30 6L24 12M6 30L12 24" stroke="#8A4A64" stroke-width="0.8" opacity="0.7"/>
-      <circle cx="18" cy="18" r="2.2" fill="#2B2231"/>
+      <rect width="36" height="36" fill="#FAF3E5"/>
+      <!-- 8-pointed star -->
+      <path d="M18 3L22.5 13.5L33 18L22.5 22.5L18 33L13.5 22.5L3 18L13.5 13.5L18 3Z" fill="none" stroke="#1E4D8C" stroke-width="1.8"/>
+      <path d="M18 9L21.5 14.5L27 18L21.5 21.5L18 27L14.5 21.5L9 18L14.5 14.5L18 9Z" fill="#B8780F" opacity="0.9"/>
+      <!-- cross grid -->
+      <path d="M0 18H36M18 0V36" stroke="#1A6B4A" stroke-width="0.9" opacity="0.55"/>
+      <!-- diagonal ties -->
+      <path d="M5 5L13 13M23 23L31 31M31 5L23 13M5 31L13 23" stroke="#6E3548" stroke-width="1.1" opacity="0.65"/>
+      <circle cx="18" cy="18" r="2.8" fill="#2A1F1A"/>
     </pattern>
+
     <pattern id="zigzag-band" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
-      <rect width="24" height="24" fill="#FCF7ED"/>
-      <path d="M0 18L6 6L12 18L18 6L24 18" stroke="#D08B18" stroke-width="1.6"/>
-      <path d="M0 10L6 22L12 10L18 22L24 10" stroke="#2956A3" stroke-width="1.1"/>
+      <rect width="24" height="24" fill="#FAF3E5"/>
+      <path d="M0 18L6 6L12 18L18 6L24 18" stroke="#B8780F" stroke-width="2.2"/>
+      <path d="M0 10L6 22L12 10L18 22L24 10" stroke="#1E4D8C" stroke-width="1.6"/>
     </pattern>
   </defs>
 
-  <rect x="10" y="10" width="140" height="1180" fill="#FCF7ED" stroke="#B85A3B" stroke-width="2.6"/>
-  <rect x="16" y="16" width="128" height="1168" fill="none" stroke="#2956A3" stroke-width="1.15"/>
-  <rect x="22" y="22" width="116" height="52" fill="url(#kufic-band)" stroke="#1F6B5D" stroke-width="1.2"/>
+  <!-- Outer frame: thick brick border -->
+  <rect x="8" y="8" width="144" height="1184" fill="#FAF3E5" stroke="#8B3A2A" stroke-width="3.5"/>
+  <!-- Inner frame: cobalt -->
+  <rect x="15" y="15" width="130" height="1170" fill="none" stroke="#1E4D8C" stroke-width="1.6"/>
 
-  <rect x="28" y="96" width="104" height="188" fill="#F9F2E6" stroke="#B85A3B" stroke-width="1.4"/>
-  <rect x="34" y="102" width="92" height="176" fill="none" stroke="#1F6B5D" stroke-width="1"/>
-  <rect x="44" y="120" width="72" height="144" fill="#FCF7ED" stroke="#2956A3" stroke-width="1"/>
-  <rect x="38" y="114" width="84" height="156" fill="none" stroke="#D08B18" stroke-width="1"/>
-  <path d="M52 252V194C52 171 63 154 80 149C97 154 108 171 108 194V252" fill="none" stroke="#2B2231" stroke-width="1.6"/>
-  <path d="M56 196C60 183 67 175 76 172C77 164 83 158 90 158C97 158 103 164 104 172C113 175 120 183 124 196" stroke="#8A4A64" stroke-width="1.2"/>
-  <path d="M64 132C71 138 74 146 72 154C79 148 88 146 96 150" stroke="#1F6B5D" stroke-width="1.05"/>
-  <path d="M96 132C89 138 86 146 88 154C81 148 72 146 64 150" stroke="#1F6B5D" stroke-width="1.05"/>
-  <path d="M80 190L88 210L108 218L88 226L80 246L72 226L52 218L72 210L80 190Z" fill="#D08B18" opacity="0.92" stroke="#2956A3" stroke-width="0.95"/>
-  <circle cx="80" cy="218" r="4.2" fill="#2B2231"/>
+  <!-- ═══ ZONE 1: Top kufic frieze ═══ -->
+  <rect x="21" y="21" width="118" height="56" fill="url(#kufic-band)" stroke="#1A6B4A" stroke-width="1.6"/>
 
-  <rect x="28" y="304" width="104" height="112" fill="url(#zigzag-band)" stroke="#2956A3" stroke-width="1.2"/>
-  <path d="M40 360H120" stroke="#8A4A64" stroke-width="1.2"/>
-  <path d="M52 340L80 368L108 340" stroke="#1F6B5D" stroke-width="1.25"/>
-  <path d="M52 380L80 352L108 380" stroke="#B85A3B" stroke-width="1.25"/>
-  <circle cx="80" cy="360" r="8" fill="#FCF7ED" stroke="#2B2231" stroke-width="1.05"/>
-  <circle cx="80" cy="360" r="3.2" fill="#D08B18"/>
+  <!-- ═══ ZONE 2: Horseshoe arch panel ═══ -->
+  <rect x="26" y="94" width="108" height="196" fill="#F0E6D0" stroke="#8B3A2A" stroke-width="2"/>
+  <rect x="33" y="101" width="94" height="182" fill="none" stroke="#1A6B4A" stroke-width="1.4"/>
+  <rect x="37" y="107" width="86" height="170" fill="none" stroke="#B8780F" stroke-width="1.4"/>
+  <rect x="42" y="113" width="76" height="158" fill="#FAF3E5" stroke="#1E4D8C" stroke-width="1.3"/>
 
-  <rect x="28" y="436" width="104" height="252" fill="url(#tile-field)" stroke="#B85A3B" stroke-width="1.2"/>
-  <rect x="36" y="444" width="88" height="236" fill="none" stroke="#1F6B5D" stroke-width="0.9"/>
-  <path d="M36 506H124M36 570H124M36 634H124" stroke="#D08B18" stroke-width="0.9" opacity="0.8"/>
-  <circle cx="80" cy="474" r="9" fill="#FCF7ED" stroke="#2956A3" stroke-width="1.1"/>
-  <circle cx="80" cy="474" r="3.5" fill="#B85A3B"/>
-  <circle cx="80" cy="602" r="9" fill="#FCF7ED" stroke="#8A4A64" stroke-width="1.1"/>
-  <circle cx="80" cy="602" r="3.5" fill="#1F6B5D"/>
+  <!-- Horseshoe arch -->
+  <path d="M50 258V198C50 172 62 154 80 148C98 154 110 172 110 198V258" fill="none" stroke="#2A1F1A" stroke-width="2.4"/>
+  <!-- Inner arch echo -->
+  <path d="M56 258V202C56 180 66 164 80 158C94 164 104 180 104 202V258" fill="none" stroke="#6E3548" stroke-width="1.6"/>
 
-  <rect x="28" y="708" width="104" height="188" fill="#F9F2E6" stroke="#B85A3B" stroke-width="1.4"/>
-  <rect x="34" y="714" width="92" height="176" fill="none" stroke="#2956A3" stroke-width="1"/>
-  <rect x="38" y="720" width="84" height="164" fill="none" stroke="#D08B18" stroke-width="1"/>
-  <path d="M44 852V790C44 770 54 753 72 748C90 753 100 770 100 790V852" fill="none" stroke="#2B2231" stroke-width="1.6"/>
-  <path d="M60 754H84M56 774H88M52 794H92" stroke="#1F6B5D" stroke-width="1.05"/>
-  <path d="M80 760L86 776L102 782L86 788L80 804L74 788L58 782L74 776L80 760Z" fill="#2956A3" opacity="0.94"/>
-  <circle cx="80" cy="782" r="3.6" fill="#D08B18"/>
-  <path d="M104 726C96 732 92 740 94 748C87 742 78 740 70 744" stroke="#8A4A64" stroke-width="1.05"/>
-  <path d="M56 726C64 732 68 740 66 748C73 742 82 740 90 744" stroke="#8A4A64" stroke-width="1.05"/>
+  <!-- Spandrel arabesques -->
+  <path d="M62 128C70 136 73 146 71 156C78 149 88 147 96 152" stroke="#1A6B4A" stroke-width="1.5"/>
+  <path d="M98 128C90 136 87 146 89 156C82 149 72 147 64 152" stroke="#1A6B4A" stroke-width="1.5"/>
 
-  <rect x="22" y="918" width="116" height="260" fill="url(#tile-field)" stroke="#1F6B5D" stroke-width="1.2"/>
-  <rect x="28" y="924" width="104" height="62" fill="url(#kufic-band)" stroke="#B85A3B" stroke-width="1.1"/>
-  <rect x="28" y="998" width="104" height="74" fill="url(#zigzag-band)" stroke="#2956A3" stroke-width="1.1"/>
-  <path d="M40 1102H120" stroke="#2B2231" stroke-width="1.2"/>
-  <path d="M52 1120H108" stroke="#D08B18" stroke-width="0.95"/>
-  <path d="M64 1140H96" stroke="#8A4A64" stroke-width="0.85"/>
+  <!-- Central star medallion inside arch -->
+  <path d="M80 186L89 208L112 218L89 228L80 250L71 228L48 218L71 208L80 186Z" fill="#B8780F" opacity="0.92" stroke="#1E4D8C" stroke-width="1.4"/>
+  <path d="M80 198L85 211L98 216L85 221L80 234L75 221L62 216L75 211L80 198Z" fill="#FAF3E5" stroke="#8B3A2A" stroke-width="1"/>
+  <circle cx="80" cy="216" r="5" fill="#2A1F1A"/>
+  <circle cx="80" cy="216" r="2.2" fill="#B8780F"/>
+
+  <!-- ═══ ZONE 3: Zigzag dado band ═══ -->
+  <rect x="26" y="308" width="108" height="118" fill="url(#zigzag-band)" stroke="#1E4D8C" stroke-width="1.6"/>
+  <!-- Horizontal dividers -->
+  <path d="M38 366H122" stroke="#6E3548" stroke-width="1.6"/>
+  <!-- Diamond cross motif -->
+  <path d="M50 340L80 370L110 340" stroke="#1A6B4A" stroke-width="1.8"/>
+  <path d="M50 392L80 362L110 392" stroke="#8B3A2A" stroke-width="1.8"/>
+  <circle cx="80" cy="366" r="10" fill="#FAF3E5" stroke="#2A1F1A" stroke-width="1.6"/>
+  <circle cx="80" cy="366" r="4.2" fill="#B8780F"/>
+
+  <!-- ═══ ZONE 4: Large tile field ═══ -->
+  <rect x="26" y="444" width="108" height="260" fill="url(#tile-field)" stroke="#8B3A2A" stroke-width="1.8"/>
+  <rect x="34" y="452" width="92" height="244" fill="none" stroke="#1A6B4A" stroke-width="1.2"/>
+  <!-- Horizontal register lines -->
+  <path d="M34 510H126M34 576H126M34 642H126" stroke="#B8780F" stroke-width="1.2" opacity="0.75"/>
+  <!-- Rosette accents -->
+  <circle cx="80" cy="480" r="11" fill="#FAF3E5" stroke="#1E4D8C" stroke-width="1.6"/>
+  <circle cx="80" cy="480" r="4.5" fill="#8B3A2A"/>
+  <circle cx="80" cy="608" r="11" fill="#FAF3E5" stroke="#6E3548" stroke-width="1.6"/>
+  <circle cx="80" cy="608" r="4.5" fill="#1A6B4A"/>
+
+  <!-- ═══ ZONE 5: Second horseshoe arch panel ═══ -->
+  <rect x="26" y="722" width="108" height="196" fill="#F0E6D0" stroke="#8B3A2A" stroke-width="2"/>
+  <rect x="33" y="729" width="94" height="182" fill="none" stroke="#1E4D8C" stroke-width="1.4"/>
+  <rect x="37" y="735" width="86" height="170" fill="none" stroke="#B8780F" stroke-width="1.4"/>
+  <rect x="42" y="741" width="76" height="158" fill="#FAF3E5" stroke="#1A6B4A" stroke-width="1.3"/>
+
+  <!-- Horseshoe arch -->
+  <path d="M50 886V826C50 800 62 782 80 776C98 782 110 800 110 826V886" fill="none" stroke="#2A1F1A" stroke-width="2.4"/>
+  <path d="M56 886V830C56 808 66 792 80 786C94 792 104 808 104 830V886" fill="none" stroke="#1E4D8C" stroke-width="1.6"/>
+
+  <!-- Horizontal register lines inside arch -->
+  <path d="M58 770H102M54 790H106M50 810H110" stroke="#1A6B4A" stroke-width="1.4"/>
+
+  <!-- Central star (cobalt variant) -->
+  <path d="M80 800L88 818L106 826L88 834L80 852L72 834L54 826L72 818L80 800Z" fill="#1E4D8C" opacity="0.94" stroke="#B8780F" stroke-width="1.3"/>
+  <path d="M80 810L84 820L94 824L84 828L80 838L76 828L66 824L76 820L80 810Z" fill="#FAF3E5" stroke="#8B3A2A" stroke-width="0.9"/>
+  <circle cx="80" cy="824" r="4.4" fill="#B8780F"/>
+  <circle cx="80" cy="824" r="1.8" fill="#2A1F1A"/>
+
+  <!-- Spandrel arabesques -->
+  <path d="M54 742C63 750 66 760 64 770C71 763 82 761 90 766" stroke="#6E3548" stroke-width="1.5"/>
+  <path d="M106 742C97 750 94 760 96 770C89 763 78 761 70 766" stroke="#6E3548" stroke-width="1.5"/>
+
+  <!-- ═══ ZONE 6: Bottom composite register ═══ -->
+  <rect x="21" y="936" width="118" height="248" fill="url(#tile-field)" stroke="#1A6B4A" stroke-width="1.6"/>
+  <!-- Kufic sub-band -->
+  <rect x="27" y="942" width="106" height="64" fill="url(#kufic-band)" stroke="#8B3A2A" stroke-width="1.4"/>
+  <!-- Zigzag sub-band -->
+  <rect x="27" y="1016" width="106" height="80" fill="url(#zigzag-band)" stroke="#1E4D8C" stroke-width="1.4"/>
+  <!-- Closing horizontal lines -->
+  <path d="M38 1118H122" stroke="#2A1F1A" stroke-width="1.6"/>
+  <path d="M48 1138H112" stroke="#B8780F" stroke-width="1.3"/>
+  <path d="M58 1156H102" stroke="#6E3548" stroke-width="1.1"/>
+  <path d="M68 1170H92" stroke="#1A6B4A" stroke-width="1"/>
 </svg>

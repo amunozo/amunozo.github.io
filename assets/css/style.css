@@ -5,7 +5,7 @@
   --font-body: "Instrument Sans", system-ui, sans-serif;
   --font-mono: "Space Grotesk", monospace;
 
-  --paper: oklch(99.7% 0.001 40);
+  --paper: oklch(98.5% 0.006 70);
   --paper-soft: oklch(99.1% 0.006 20);
   --ink: oklch(18% 0.03 300);
   --text: oklch(33% 0.02 300);
@@ -13,18 +13,18 @@
   --line: oklch(89% 0.025 305);
   --line-strong: oklch(80% 0.04 305);
 
-  --upper-cobalt: #2956a3;
-  --upper-teal: #1f6b5d;
-  --upper-gold: #d08b18;
-  --upper-wine: #8a4a64;
-  --upper-ink: #2b2231;
+  --upper-cobalt: #1e4d8c;
+  --upper-teal: #1a6b4a;
+  --upper-gold: #b8780f;
+  --upper-wine: #6e3548;
+  --upper-ink: #2a1f1a;
 
-  --lower-rust: #c34a2c;
-  --lower-viridian: #2f6f57;
-  --lower-amber: #d09528;
-  --lower-mulberry: #7d4968;
-  --lower-marine: #2f5e8c;
-  --lower-ink: #233140;
+  --lower-rust: #8b3a2a;
+  --lower-viridian: #1a6b4a;
+  --lower-amber: #b8780f;
+  --lower-mulberry: #6e3548;
+  --lower-marine: #1e4d8c;
+  --lower-ink: #2a1f1a;
 
   --space-1: 4px;
   --space-2: 8px;
