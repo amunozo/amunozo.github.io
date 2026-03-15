@@ -19,28 +19,28 @@ permalink: /
 <section class="home-section">
   <div class="section-heading">
     <span class="section-number">01</span>
-    <h2>What I work on</h2>
+    <h2>Expertise</h2>
   </div>
 
   <div class="capability-list">
     <article class="capability-item">
       <p class="capability-label">Structured NLP</p>
-      <p>Including nested named entity recognition and other tasks where linguistic structure can be turned into practical modeling choices.</p>
+      <p>I have worked on nested named entity recognition and other problems where linguistic structure can be turned into practical modeling decisions.</p>
     </article>
 
     <article class="capability-item">
       <p class="capability-label">Multilingual and non-standard language modeling</p>
-      <p>Including transfer across language varieties with pixel-based models and work in settings where standard resources are limited.</p>
+      <p>I have studied transfer across language varieties and modeling in settings where standard resources are limited or language use is non-standardized.</p>
     </article>
 
     <article class="capability-item">
       <p class="capability-label">LLM analysis and evaluation</p>
-      <p>Including work on autoregressive transformers, linguistic probing, and the comparison between human and model-generated text.</p>
+      <p>I have worked on autoregressive transformers, linguistic probing, and the comparison between human and model-generated text.</p>
     </article>
 
     <article class="capability-item">
       <p class="capability-label">Reproducible ML experimentation</p>
-      <p>With Python, PyTorch, Hugging Face, Docker, and GPU-based workflows for training, evaluation, and iteration.</p>
+      <p>I build experiments with Python, PyTorch, Hugging Face, Docker, and GPU-based workflows for training, evaluation, and iteration.</p>
     </article>
   </div>
 </section>
