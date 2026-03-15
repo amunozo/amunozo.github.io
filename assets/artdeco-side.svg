@@ -1,0 +1,44 @@
+<svg width="180" height="1200" viewBox="0 0 180 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 24V1176" stroke="#2C223E" stroke-width="2.2"/>
+    <path d="M36 24V1176" stroke="#C18A2D" stroke-width="1.5"/>
+    <path d="M54 24V1176" stroke="#8B4D68" stroke-width="1.1" opacity="0.78"/>
+
+    <path d="M18 84C80 84 118 64 154 28" stroke="#4056C8" stroke-width="2"/>
+    <path d="M18 118C66 118 100 105 132 74" stroke="#1E7B6F" stroke-width="1.4"/>
+    <path d="M18 150C58 150 88 142 116 116" stroke="#C18A2D" stroke-width="1.1"/>
+
+    <circle cx="92" cy="220" r="29" stroke="#8B4D68" stroke-width="1.8"/>
+    <circle cx="92" cy="220" r="10" fill="#4056C8"/>
+    <path d="M70 198L114 242" stroke="#2C223E" stroke-width="1.4"/>
+    <path d="M114 198L70 242" stroke="#2C223E" stroke-width="1.4"/>
+
+    <path d="M18 324H114" stroke="#2C223E" stroke-width="1.6"/>
+    <path d="M18 338H96" stroke="#8B4D68" stroke-width="1.2"/>
+    <path d="M18 352H80" stroke="#C18A2D" stroke-width="1"/>
+
+    <path d="M92 430L112 450L92 470L72 450L92 430Z" fill="#C18A2D"/>
+    <path d="M126 466L138 478L126 490L114 478L126 466Z" fill="#1E7B6F"/>
+    <path d="M150 500L160 510L150 520L140 510L150 500Z" fill="#4056C8"/>
+
+    <path d="M18 612C80 612 118 592 154 556" stroke="#2B7A67" stroke-width="2"/>
+    <path d="M18 646C66 646 100 633 132 602" stroke="#75486D" stroke-width="1.4"/>
+    <path d="M18 678C58 678 88 670 116 644" stroke="#C98925" stroke-width="1.1"/>
+
+    <circle cx="92" cy="748" r="29" stroke="#3A5F91" stroke-width="1.8"/>
+    <circle cx="92" cy="748" r="10" fill="#985038"/>
+    <path d="M92 709V787" stroke="#2B4138" stroke-width="1.35"/>
+    <path d="M53 748H131" stroke="#2B4138" stroke-width="1.35"/>
+
+    <path d="M18 860H114" stroke="#2B4138" stroke-width="1.6"/>
+    <path d="M18 874H96" stroke="#985038" stroke-width="1.2"/>
+    <path d="M18 888H80" stroke="#C98925" stroke-width="1"/>
+
+    <path d="M76 980L108 1012L76 1044L44 1012L76 980Z" stroke="#75486D" stroke-width="1.7"/>
+    <circle cx="76" cy="1012" r="7" fill="#C98925"/>
+
+    <path d="M18 1092C80 1092 118 1072 154 1036" stroke="#3A5F91" stroke-width="2"/>
+    <path d="M18 1126C66 1126 100 1113 132 1082" stroke="#985038" stroke-width="1.4"/>
+    <path d="M18 1158C58 1158 88 1150 116 1124" stroke="#2B7A67" stroke-width="1.1"/>
+  </g>
+</svg>

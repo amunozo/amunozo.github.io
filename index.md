@@ -4,22 +4,66 @@ title: About me
 permalink: /
 ---
 
-<div style="float: left; margin-right: 20px; margin-bottom: 10px;">
-  <img src="./image.png" alt="My Picture" style="border-radius: 50%; width: 175px; height: auto;" />
-</div>
+<section class="hero">
+  <p class="section-kicker">NLP · research engineering · multilingual systems</p>
 
-Hi, I'm **Alberto Muñoz-Ortiz**, a final-year PhD student in **Natural Language Processing** at the [LyS group](https://www.grupolys.org/) at [Universidade da Coruña](https://www.udc.es/). My thesis defense is expected in **Q2 2026**.
+  <div class="hero-layout">
+    <div class="hero-copy">
+      <h1>Alberto Muñoz-Ortiz</h1>
+      <p class="hero-deck">I am a final-year PhD student in <strong>Natural Language Processing</strong> at the <a href="https://www.grupolys.org/">LyS group</a> at <a href="https://www.udc.es/">Universidade da Coruña</a>, based in <strong>Lausanne, Switzerland</strong>. My thesis defense is expected in <strong>Q2 2026</strong>.</p>
+      <p class="hero-seeking">I am seeking <strong>Research Engineer</strong> and <strong>Applied Scientist</strong> roles in NLP and LLMs.</p>
+    </div>
+  </div>
+</section>
 
-I am **seeking Research Engineer and Applied Scientist roles** in NLP and LLMs.
+<section class="home-section home-section--statement">
+  <p class="statement">My work focuses on <strong>efficient, robust, and interpretable language models</strong>, especially in <strong>multilingual, low-resource, and non-standard language settings</strong>. I combine research depth with hands-on experience building and evaluating models end to end.</p>
+</section>
 
-My work focuses on **efficient, robust, and interpretable language models**, especially in **multilingual, low-resource, and non-standard language settings**. I combine research depth with hands-on experience building and evaluating models end to end.
+<section class="home-section">
+  <div class="section-heading">
+    <span class="section-number">01</span>
+    <h2>What I work on</h2>
+  </div>
 
-I have worked on:
-- **structured NLP**, including nested named entity recognition
-- **multilingual and non-standard language modeling**, including transfer across language varieties with pixel-based models
-- **evaluation and analysis of LLMs and autoregressive transformers**
-- **reproducible experimental pipelines** with **Python, PyTorch, Hugging Face, Docker, and GPU workflows**
+  <div class="capability-list">
+    <article class="capability-item">
+      <p class="capability-label">Structured NLP</p>
+      <p>Including nested named entity recognition and other tasks where linguistic structure can be turned into practical modeling choices.</p>
+    </article>
 
-I was also a visiting researcher at the [MaiNLP Research Lab](https://mainlp.github.io/) at [LMU Munich](https://www.lmu.de/en/) and the [NLP Lab](https://nlp.epfl.ch/) at [EPFL Lausanne](https://www.epfl.ch/schools/ic/).
+    <article class="capability-item">
+      <p class="capability-label">Multilingual and non-standard language modeling</p>
+      <p>Including transfer across language varieties with pixel-based models and work in settings where standard resources are limited.</p>
+    </article>
 
-I have first-authored papers at **ACL, EMNLP, COLING, IJCNLP-AACL, and RANLP**.
+    <article class="capability-item">
+      <p class="capability-label">LLM analysis and evaluation</p>
+      <p>Including work on autoregressive transformers, linguistic probing, and the comparison between human and model-generated text.</p>
+    </article>
+
+    <article class="capability-item">
+      <p class="capability-label">Reproducible ML experimentation</p>
+      <p>With Python, PyTorch, Hugging Face, Docker, and GPU-based workflows for training, evaluation, and iteration.</p>
+    </article>
+  </div>
+</section>
+
+<section class="home-section home-columns">
+  <div>
+    <div class="section-heading">
+      <span class="section-number">02</span>
+      <h2>Research stays</h2>
+    </div>
+    <p>I was also a visiting researcher at the <a href="https://mainlp.github.io/">MaiNLP Research Lab</a> at <a href="https://www.lmu.de/en/">LMU Munich</a> and at the <a href="https://nlp.epfl.ch/">NLP Lab</a> at <a href="https://www.epfl.ch/schools/ic/">EPFL Lausanne</a>.</p>
+  </div>
+
+  <div>
+    <div class="section-heading">
+      <span class="section-number">03</span>
+      <h2>Publications</h2>
+    </div>
+    <p>I have first-authored papers at <strong>ACL, EMNLP, COLING, IJCNLP-AACL, and RANLP</strong>.</p>
+    <p class="section-link"><a href="/research/">See the full publication list</a></p>
+  </div>
+</section>
