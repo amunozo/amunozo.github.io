@@ -70,30 +70,6 @@ body {
   position: relative;
 }
 
-.page-side {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  width: clamp(104px, 12.3vw, 168px);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  pointer-events: none;
-  z-index: 0;
-  opacity: 0.76;
-}
-
-.page-side--left {
-  left: 8px;
-  background-image: url("/assets/mudejar-side.svg");
-}
-
-.page-side--right {
-  right: 8px;
-  background-image: url("/assets/mudejar-side.svg");
-  transform: scaleX(-1);
-}
-
 body::before {
   content: "";
   position: fixed;
@@ -607,11 +583,6 @@ a {
 }
 
 @media (max-width: 640px) {
-  .page-side {
-    width: 68px;
-    opacity: 0.36;
-  }
-
   .site-shell {
     width: min(100% - 18px, var(--shell-width));
     padding-top: var(--space-5);
