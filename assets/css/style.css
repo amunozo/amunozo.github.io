@@ -268,7 +268,7 @@ a {
 
 .hero {
   position: relative;
-  margin-bottom: var(--space-8);
+  margin-bottom: var(--space-6);
 }
 
 .hero-layout {
@@ -295,7 +295,7 @@ a {
 }
 
 .hero-seeking {
-  margin-top: var(--space-4);
+  margin-top: var(--space-3);
   max-width: none;
   color: var(--ink);
   font-size: clamp(1rem, 0.75vw + 0.88rem, 1.14rem);
@@ -308,18 +308,8 @@ a {
   border-top: 1px solid var(--line);
 }
 
-.home-section--statement {
-  margin-top: 0;
-  border-top: none;
-  padding-top: 0;
-}
-
-.statement {
-  max-width: none;
-  font-family: var(--font-body);
-  font-size: clamp(1rem, 0.75vw + 0.88rem, 1.14rem);
-  line-height: 1.58;
-  color: var(--ink);
+.hero + .home-section {
+  margin-top: var(--space-6);
 }
 
 .section-heading {

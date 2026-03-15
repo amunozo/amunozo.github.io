@@ -11,13 +11,9 @@ permalink: /
     <div class="hero-copy">
       <h1>Alberto Muñoz-Ortiz</h1>
       <p class="hero-deck">I am a final-year PhD student in <strong>Natural Language Processing</strong> at the <a href="https://www.grupolys.org/">LyS group</a> at <a href="https://www.udc.es/">Universidade da Coruña</a>, based in <strong>Lausanne, Switzerland</strong>. My thesis defense is expected in <strong>Q2 2026</strong>.</p>
-      <p class="hero-seeking">I am seeking <strong>Research Engineer</strong> and <strong>Applied Scientist</strong> roles in NLP and LLMs.</p>
+      <p class="hero-seeking">My work focuses on <strong>efficient, robust, and interpretable language models</strong>, especially in <strong>multilingual, low-resource, and non-standard language settings</strong>. I am seeking <strong>Research Engineer</strong> and <strong>Applied Scientist</strong> roles in NLP and LLMs where I can combine research depth with hands-on model development and evaluation.</p>
     </div>
   </div>
-</section>
-
-<section class="home-section home-section--statement">
-  <p class="statement">My work focuses on <strong>efficient, robust, and interpretable language models</strong>, especially in <strong>multilingual, low-resource, and non-standard language settings</strong>. I combine research depth with hands-on experience building and evaluating models end to end.</p>
 </section>
 
 <section class="home-section">
