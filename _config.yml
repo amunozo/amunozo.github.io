@@ -4,6 +4,7 @@ baseurl: ""
 url: "https://amunozo.github.io"
 theme: minima
 markdown: kramdown
+goatcounter_site: "amunozo"
 
 # Navigation links
 header_pages:
