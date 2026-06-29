@@ -1,10 +1,18 @@
 title: "Alberto Muñoz-Ortiz"
-description: "NLP researcher and engineer. Final-year PhD at Universidade da Coruña. Visiting researcher at LMU Munich and EPFL Lausanne."
+description: "NLP researcher and engineer. PhD in Computer Science from Universidade da Coruña. Visiting researcher at LMU Munich and EPFL Lausanne."
 baseurl: ""
 url: "https://amunozo.github.io"
 theme: minima
 markdown: kramdown
 goatcounter_site: "amunozo"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      permalink: /blog/:year/:month/:day/:title/
 
 # Navigation links
 header_pages:

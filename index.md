@@ -10,8 +10,9 @@ permalink: /
   <div class="hero-layout">
     <div class="hero-copy">
       <h1>Alberto Muñoz-Ortiz</h1>
-      <p class="hero-deck">I am a final-year PhD student in <strong>Natural Language Processing</strong> at the <a href="https://www.grupolys.org/">LyS group</a> at <a href="https://www.udc.es/">Universidade da Coruña</a>, based in <strong>Lausanne, Switzerland</strong>. My thesis defense is expected in <strong>Q2 2026</strong>.</p>
-      <p class="hero-seeking">My work focuses on <strong>efficient, robust, and interpretable language models</strong>, especially in <strong>multilingual, low-resource, and non-standard language settings</strong>. I am seeking <strong>Research Engineer</strong> and <strong>Applied Scientist</strong> roles in NLP and LLMs where I can combine research depth with hands-on model development and evaluation.</p>
+      <p class="hero-deck">I hold a <strong>PhD in Computer Science</strong> from the <a href="https://www.grupolys.org/">LyS group</a> at <a href="https://www.udc.es/">Universidade da Coruña</a>, with a thesis on <strong>Natural Language Processing</strong>. Based in <strong>Lausanne, Switzerland</strong>.</p>
+      <p class="hero-seeking">My work focuses on <strong>efficient, robust, and interpretable language models</strong>, especially in <strong>multilingual, low-resource, and non-standard language settings</strong>.</p>
+      <p class="hero-seeking">Available immediately. I am looking for <strong>Research Engineer</strong> and <strong>Applied Scientist</strong> roles in NLP and LLMs in <strong>Lausanne and the surrounding area</strong>.</p>
     </div>
   </div>
 </section>
