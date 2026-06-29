@@ -13,6 +13,9 @@ permalink: /
       <p class="hero-deck">I hold a <strong>PhD in Computer Science</strong> from the <a href="https://www.grupolys.org/">LyS group</a> at <a href="https://www.udc.es/">Universidade da Coruña</a>, with a thesis on <strong>Natural Language Processing</strong>. Based in <strong>Lausanne, Switzerland</strong>.</p>
       <p class="hero-seeking">My work focuses on <strong>efficient, robust, and interpretable language models</strong>, especially in <strong>multilingual, low-resource, and non-standard language settings</strong>.</p>
       <p class="hero-seeking">Available immediately. I am looking for <strong>Research Engineer</strong> and <strong>Applied Scientist</strong> roles in NLP and LLMs across <strong>Switzerland</strong> (based in Lausanne), on-site, hybrid, or remote.</p>
+      <p class="hero-actions">
+        <a class="btn" href="mailto:alberto.munoz.ortiz@proton.me">Get in touch</a>
+      </p>
     </div>
   </div>
 </section>

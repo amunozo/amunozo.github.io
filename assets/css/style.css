@@ -36,8 +36,8 @@
   --space-8: 64px;
   --space-9: 96px;
 
-  --shell-width: 1060px;
-  --content-width: 780px;
+  --shell-width: 960px;
+  --content-width: 720px;
 
   --duration-fast: 160ms;
   --duration-base: 260ms;
@@ -283,7 +283,35 @@ a {
   max-width: none;
   margin-left: -0.03em;
   font-size: clamp(1.85rem, 3.6vw, 3.05rem);
-  white-space: nowrap;
+}
+
+.hero-actions {
+  margin-top: var(--space-5);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.62em 1.25em;
+  border-radius: 999px;
+  background: color-mix(in oklch, var(--upper-cobalt) 90%, var(--upper-ink) 10%);
+  color: var(--paper);
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: background var(--duration-fast) var(--ease-out), transform var(--duration-fast) var(--ease-out);
+}
+
+.btn:hover,
+.btn:focus-visible {
+  background: color-mix(in oklch, var(--upper-teal) 72%, var(--upper-ink) 28%);
+  color: var(--paper);
+  text-decoration: none;
+  transform: translateY(-1px);
 }
 
 .hero-deck {
@@ -669,11 +697,6 @@ a {
     justify-content: flex-start;
   }
 
-  .hero-copy h1 {
-    max-width: none;
-    white-space: normal;
-  }
-
   .publication-year {
     gap: var(--space-3);
   }
@@ -692,10 +715,6 @@ a {
 
   .hero-deck {
     font-size: 1.04rem;
-  }
-
-  .statement {
-    font-size: 1.28rem;
   }
 
   .site-nav ul,
