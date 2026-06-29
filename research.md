@@ -8,6 +8,8 @@ permalink: /research/
   <p class="section-kicker">Publications and research</p>
   <h1>Research</h1>
   <p class="research-intro">My research focuses on structured, multilingual, and robust NLP. I work on efficient modeling approaches, cross-lingual transfer, and rigorous evaluation of language models. I have first-authored 8 papers at top NLP venues.</p>
+  <p class="research-thesis">PhD thesis: <em>"Encoding, Representation, and Interpretation of Linguistic Structure Across NLP Paradigms"</em>. <a href="https://www.udc.gal/en/teses/tese/?codigo=n2223">University of A Coruña thesis record</a>.</p>
+  <p class="research-press">My work on linguistic patterns in human and LLM-generated news text was cited in <a href="https://www.theguardian.com/commentisfree/2026/apr/14/ai-language-human-speech">The Guardian</a>.</p>
 </section>
 
 <section class="publication-year">

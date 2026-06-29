@@ -12,7 +12,7 @@ permalink: /
       <h1>Alberto Muñoz-Ortiz</h1>
       <p class="hero-deck">I hold a <strong>PhD in Computer Science</strong> from the <a href="https://www.grupolys.org/">LyS group</a> at <a href="https://www.udc.es/">Universidade da Coruña</a>, with a thesis on <strong>Natural Language Processing</strong>. Based in <strong>Lausanne, Switzerland</strong>.</p>
       <p class="hero-seeking">My work focuses on <strong>efficient, robust, and interpretable language models</strong>, especially in <strong>multilingual, low-resource, and non-standard language settings</strong>.</p>
-      <p class="hero-seeking">Available immediately. I am looking for <strong>Research Engineer</strong> and <strong>Applied Scientist</strong> roles in NLP and LLMs in <strong>Lausanne and the surrounding area</strong>.</p>
+      <p class="hero-seeking">Available immediately. I am looking for <strong>Research Engineer</strong> and <strong>Applied Scientist</strong> roles in NLP and LLMs across <strong>Switzerland</strong> (based in Lausanne), on-site, hybrid, or remote.</p>
     </div>
   </div>
 </section>
@@ -26,22 +26,22 @@ permalink: /
   <div class="capability-list">
     <article class="capability-item">
       <p class="capability-label">Structured NLP</p>
-      <p>I have worked on nested named entity recognition and other problems where linguistic structure can be turned into practical modeling decisions.</p>
+      <p>I have worked on nested named entity recognition and other problems where linguistic structure can be turned into practical modeling decisions. See my <a href="https://aclanthology.org/2025.findings-emnlp.530/">single-pass nested NER method</a> (Findings of EMNLP 2025).</p>
     </article>
 
     <article class="capability-item">
       <p class="capability-label">Multilingual and non-standard language modeling</p>
-      <p>I have studied transfer across language varieties and modeling in settings where standard resources are limited or language use is non-standardized.</p>
+      <p>I have studied transfer across language varieties and modeling in settings where standard resources are limited or language use is non-standardized. See my work on <a href="https://aclanthology.org/2025.coling-main.427/">pixel language models for non-standardized languages</a> (COLING 2025).</p>
     </article>
 
     <article class="capability-item">
       <p class="capability-label">LLM analysis and evaluation</p>
-      <p>I have worked on autoregressive transformers, linguistic probing, and the comparison between human and model-generated text.</p>
+      <p>I have worked on autoregressive transformers, linguistic probing, and the comparison between human and model-generated text. See <a href="https://link.springer.com/article/10.1007/s10462-024-10903-2">Contrasting Linguistic Patterns in Human and LLM-Generated News Text</a> (AI Review, 2024).</p>
     </article>
 
     <article class="capability-item">
       <p class="capability-label">Reproducible ML experimentation</p>
-      <p>I build experiments with Python, PyTorch, Hugging Face, Docker, and GPU-based workflows for training, evaluation, and iteration.</p>
+      <p>I build experiments with Python, PyTorch, Hugging Face, Docker, and GPU-based workflows for training, evaluation, and iteration. Code and experiment setups on <a href="https://github.com/amunozo">GitHub</a>.</p>
     </article>
   </div>
 </section>

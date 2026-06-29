@@ -412,6 +412,20 @@ a {
   max-width: 50ch;
 }
 
+.research-thesis {
+  margin-top: var(--space-4);
+  line-height: 1.6;
+  color: var(--muted);
+  max-width: 60ch;
+}
+
+.research-press {
+  margin-top: var(--space-3);
+  line-height: 1.6;
+  color: var(--muted);
+  max-width: 60ch;
+}
+
 .publication-year {
   display: grid;
   grid-template-columns: 128px minmax(0, 1fr);
