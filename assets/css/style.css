@@ -314,6 +314,19 @@ a {
   transform: translateY(-1px);
 }
 
+.btn-secondary {
+  border: 1px solid color-mix(in oklch, var(--upper-cobalt) 58%, var(--line-strong) 42%);
+  background: transparent;
+  color: color-mix(in oklch, var(--upper-cobalt) 86%, var(--upper-ink) 14%);
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus-visible {
+  border-color: color-mix(in oklch, var(--upper-teal) 58%, var(--upper-ink) 42%);
+  background: color-mix(in oklch, var(--paper) 92%, var(--upper-teal) 8%);
+  color: color-mix(in oklch, var(--upper-teal) 66%, var(--upper-ink) 34%);
+}
+
 .hero-deck {
   margin-top: var(--space-4);
   font-size: clamp(1rem, 0.75vw + 0.88rem, 1.14rem);

@@ -15,6 +15,7 @@ permalink: /
       <p class="hero-seeking">Available immediately. I am looking for <strong>Research Engineer</strong> and <strong>Applied Scientist</strong> roles in NLP and LLMs across <strong>Switzerland</strong> (based in Lausanne), on-site, hybrid, or remote.</p>
       <p class="hero-actions">
         <a class="btn" href="mailto:alberto.munoz.ortiz@proton.me">Get in touch</a>
+        <a class="btn btn-secondary" href="/cv.pdf" target="_blank" rel="noopener noreferrer">View CV</a>
       </p>
     </div>
   </div>
