@@ -17,11 +17,9 @@
  personal-info-position: center,
 )
 
-#align(center)[#text(size: 0.9em, weight: "bold")[NLP Research Engineer]]
-
 == Summary
 
-Research engineer with a PhD in Computer Science, a background in Physics, and over five years of experience building language-model training and evaluation workflows. First author of 8 papers at ACL, EMNLP, and COLING.
+Machine learning researcher and engineer with a PhD in Computer Science, a background in Physics, and over five years of experience developing NLP models and building training and evaluation workflows. First author of 8 papers at ACL, EMNLP, and COLING.
 
 #text(size: 0.85em, weight: "bold")[Available immediately.]
 
@@ -35,7 +33,7 @@ Research engineer with a PhD in Computer Science, a background in Physics, and o
 )
 - Published 8 first-author papers on LLM evaluation, data-efficient NLP, structured prediction, and multilingual transfer.
 - Developed sequence-labeling methods for parsing and nested named entity recognition.
-- Built pipelines comparing human and LLM-generated text across syntactic, lexical, and emotional features.
+- Built reusable PyTorch and Hugging Face training and evaluation frameworks, including analysis pipelines for human- and LLM-generated text.
 - Ran reproducible training and evaluation workflows on GPU clusters with Docker, Kubernetes, Slurm, Run:ai, and Weights & Biases.
 
 #work(
