@@ -43,7 +43,7 @@ Machine learning researcher and engineer with a PhD in Computer Science, a backg
  dates: dates-helper(start-date: "Oct 2024", end-date: "Mar 2025"),
 )
 - Studied how transformers represent and generalize knowledge in Antoine Bosselut's NLP Lab.
-- Built Docker and Run:ai workflows to queue, monitor, and log parallel GPU runs.
+- Built Docker and Run:ai workflows to queue, monitor, and log parallel experiments across multiple A100 GPUs.
 
 #work(
  title: "Visiting Researcher",
@@ -51,7 +51,7 @@ Machine learning researcher and engineer with a PhD in Computer Science, a backg
  company: "Ludwig-Maximilian University",
  dates: dates-helper(start-date: "Jul 2023", end-date: "Oct 2023"),
 )
-- Built and trained a pixel-based language model in PyTorch for non-standardized German dialects. The work was published at COLING 2025.
+- Trained and evaluated a pixel-based language model on four 80 GB A100 GPUs for zero-shot German dialect transfer; published at COLING 2025.
 
 #work(
  title: "Python Developer Intern",
@@ -69,7 +69,7 @@ Machine learning researcher and engineer with a PhD in Computer Science, a backg
  dates: dates-helper(start-date: "Oct 2021", end-date: "Jun 2026"),
  degree: "PhD in Computer Science",
 )
-- _Thesis:_ "Encoding, Representation, and Interpretation of Linguistic Structure Across NLP Paradigms".
+- Completed with _cum laude_ and International Doctorate distinctions.
 
 #edu(
  institution: "UNED",

@@ -1,109 +1,119 @@
 ---
 layout: default
-title: About me
+title: Language AI research
 permalink: /
+description: Alberto Muñoz-Ortiz, language AI researcher based in Lausanne. Research on linguistic structure, German dialects, and human and LLM-generated writing.
 ---
 
-<section class="hero">
-  <p class="section-kicker">NLP · research engineering · multilingual systems</p>
-
-  <div class="hero-layout">
-    <div class="hero-copy">
-      <h1>Alberto Muñoz-Ortiz</h1>
-      <p class="hero-deck">I hold a <strong>PhD in Computer Science</strong> from the <a href="https://www.grupolys.org/">LyS group</a> at <a href="https://www.udc.es/">Universidade da Coruña</a>, with a thesis on <strong>Natural Language Processing</strong>. Based in <strong>Lausanne, Switzerland</strong>.</p>
-      <p class="hero-seeking">My work focuses on <strong>efficient, robust, and interpretable language models</strong>, especially in <strong>multilingual, low-resource, and non-standard language settings</strong>.</p>
-      <p class="hero-seeking">Available immediately. I am looking for <strong>Research Engineer</strong> and <strong>Applied Scientist</strong> roles in NLP and LLMs across <strong>Switzerland</strong> (based in Lausanne), on-site, hybrid, or remote.</p>
-      <p class="hero-actions">
-        <a class="btn" href="mailto:alberto.munoz.ortiz@proton.me">Get in touch</a>
-        <a class="btn btn-secondary" href="/cv.pdf" target="_blank" rel="noopener noreferrer">View CV</a>
-      </p>
+<section class="research-hero" aria-labelledby="about">
+  <div class="about-profile">
+  <img class="profile-portrait" src="{{ '/assets/images/alberto.png' | relative_url }}" alt="Alberto Muñoz-Ortiz" width="799" height="1065">
+  <h2 id="about">About me</h2>
+  <p class="research-background">I am a language AI researcher based in Lausanne. I completed my PhD in Computer Science at the University of A Coruña in June 2026, and was a Visiting Researcher at LMU Munich and EPFL.</p>
+  <p class="research-background">My research focused on efficient, robust, and interpretable language models, especially in multilingual, low-resource, and non-standard language settings.</p>
+  <p class="research-background">I am looking for industry roles in Switzerland or remote. Available immediately; EU citizen.</p>
+  <div class="hero-actions">
+    <a class="btn" href="{{ '/cv.pdf' | relative_url }}">View CV (PDF)</a>
+    <a class="btn btn-secondary" href="mailto:alberto.munoz.ortiz@proton.me">Email me</a>
+    <div class="hero-socials">
+      <a href="https://github.com/amunozo">GitHub</a>
+      <a href="https://www.linkedin.com/in/alberto-mu%C3%B1oz-ortiz-683470106/">LinkedIn</a>
     </div>
+  </div>
   </div>
 </section>
 
-<section class="home-section">
-  <div class="section-heading">
-    <span class="section-number">01</span>
-    <h2>Expertise</h2>
-  </div>
+<h2 id="publications" class="publications-heading">Publications</h2>
 
-  <div class="capability-list">
-    <article class="capability-item">
-      <p class="capability-label">Structured NLP</p>
-      <p>I have worked on nested named entity recognition and other problems where linguistic structure can be turned into practical modeling decisions. See my <a href="https://aclanthology.org/2025.findings-emnlp.530/">single-pass nested NER method</a> (Findings of EMNLP 2025).</p>
-    </article>
-
-    <article class="capability-item">
-      <p class="capability-label">Multilingual and non-standard language modeling</p>
-      <p>I have studied transfer across language varieties and modeling in settings where standard resources are limited or language use is non-standardized. See my work on <a href="https://aclanthology.org/2025.coling-main.427/">pixel language models for non-standardized languages</a> (COLING 2025).</p>
-    </article>
-
-    <article class="capability-item">
-      <p class="capability-label">LLM analysis and evaluation</p>
-      <p>I have worked on autoregressive transformers, linguistic probing, and the comparison between human and model-generated text.</p>
-    </article>
-
-    <article class="capability-item">
-      <p class="capability-label">Reproducible ML experimentation</p>
-      <p>I build experiments with Python, PyTorch, Hugging Face, Docker, and GPU-based workflows for training, evaluation, and iteration. Code and experiment setups on <a href="https://github.com/amunozo">GitHub</a>.</p>
-    </article>
-  </div>
+<section class="publication-year">
+  <h2>2025</h2>
+  <ul class="pub-list">
+    <li>
+      <h3><a href="https://aclanthology.org/2025.findings-emnlp.530/">Nested Named Entity Recognition as Single-Pass Sequence Labeling</a></h3>
+      <p class="pub-authors"><strong>Alberto Muñoz-Ortiz</strong>, David Vilares, Caio Corro, and Carlos Gómez-Rodríguez.</p>
+      <p class="pub-venue">Findings of EMNLP 2025, Suzhou, China.</p>
+      <p class="pub-code"><a href="https://github.com/amunozo/nner_as_sl" aria-label="Code for Nested Named Entity Recognition as Single-Pass Sequence Labeling">View code</a></p>
+    </li>
+    <li>
+      <h3><a href="https://aclanthology.org/2025.coling-main.427/">Evaluating Pixel Language Models on Non-Standardized Languages</a></h3>
+      <p class="pub-authors"><strong>Alberto Muñoz-Ortiz</strong>, Verena Blaschke, and Barbara Plank.</p>
+      <p class="pub-venue">COLING 2025, Abu Dhabi, UAE.</p>
+    </li>
+    <li>
+      <h3><a href="http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6673">On the Impact of Syntactic Infusion for Gender Categorization Across Contextual Dimensions</a></h3>
+      <p class="pub-authors">Inés Veiga Menéndez, <strong>Alberto Muñoz-Ortiz</strong>, and David Vilares.</p>
+      <p class="pub-venue">Revista de Procesamiento de Lenguaje Natural, 2025.</p>
+    </li>
+  </ul>
 </section>
 
-<section class="home-section">
-  <div class="section-heading">
-    <span class="section-number">02</span>
-    <h2>Selected work</h2>
-  </div>
-
-  <div class="project-list">
-    <article class="project-item">
-      <div class="project-meta">
-        <p class="project-type">LLM behaviour analysis</p>
-        <p class="project-year">2024</p>
-      </div>
-      <div class="project-copy">
-        <h3>Contrasting Linguistic Patterns in Human and LLM-Generated News Text</h3>
-        <p>Compared human-written news with text generated by six language models across morphological, syntactic, psychometric, and sociolinguistic patterns.</p>
-        <p class="project-links">
-          <a href="https://doi.org/10.1007/s10462-024-10903-2">Paper</a>
-          <a href="https://github.com/amunozo/linguistic_patterns_LLMs">Code</a>
-        </p>
-      </div>
-    </article>
-
-    <article class="project-item">
-      <div class="project-meta">
-        <p class="project-type">Multilingual model evaluation</p>
-        <p class="project-year">2023</p>
-      </div>
-      <div class="project-copy">
-        <h3>Assessment of Pre-Trained Models Across Languages and Grammars</h3>
-        <p>Probed mBERT, XLM-R, CANINE-C, and CANINE-S across languages through dependency and constituency parsing.</p>
-        <p class="project-links">
-          <a href="https://aclanthology.org/2023.ijcnlp-main.23/">Paper</a>
-          <a href="https://github.com/amunozo/multilingual-assessment">Code</a>
-        </p>
-      </div>
-    </article>
-  </div>
+<section class="publication-year">
+  <h2>2024</h2>
+  <ul class="pub-list">
+    <li>
+      <h3><a href="https://link.springer.com/article/10.1007/s10462-024-10903-2">Contrasting Linguistic Patterns in Human and LLM-Generated News Text</a></h3>
+      <p class="pub-authors"><strong>Alberto Muñoz-Ortiz</strong>, Carlos Gómez-Rodríguez, and David Vilares.</p>
+      <p class="pub-venue">Artificial Intelligence Review, 2024.</p>
+      <p class="pub-code"><a href="https://github.com/amunozo/linguistic_patterns_LLMs" aria-label="Code for Contrasting Linguistic Patterns in Human and LLM-Generated News Text">View code</a></p>
+      <p class="pub-venue">Cited in <a href="https://www.theguardian.com/commentisfree/2026/apr/14/ai-language-human-speech">The Guardian</a>.</p>
+    </li>
+    <li>
+      <h3><a href="https://portalinvestigacion.udc.gal/documentos/67e30317d40c1252cde1f95d?lang=gl">Demographic Background Prompting Does Not Affect Linguistic Features on LLM-Generated News Texts</a></h3>
+      <p class="pub-authors"><strong>Alberto Muñoz-Ortiz</strong>, Carlos Gómez-Rodríguez and David Vilares.</p>
+      <p class="pub-venue">XoveTIC 2024.</p>
+    </li>
+  </ul>
 </section>
 
-<section class="home-section home-columns">
-  <div>
-    <div class="section-heading">
-      <span class="section-number">03</span>
-      <h2>Research stays</h2>
-    </div>
-    <p>I was also a visiting researcher at the <a href="https://mainlp.github.io/">MaiNLP Research Lab</a> at <a href="https://www.lmu.de/en/">LMU Munich</a> and at the <a href="https://nlp.epfl.ch/">NLP Lab</a> at <a href="https://www.epfl.ch/schools/ic/">EPFL Lausanne</a>.</p>
-  </div>
+<section class="publication-year">
+  <h2>2023</h2>
+  <ul class="pub-list">
+    <li>
+      <h3><a href="https://aclanthology.org/2023.ijcnlp-main.23/">Assessment of Pre-Trained Models Across Languages and Grammars</a></h3>
+      <p class="pub-authors"><strong>Alberto Muñoz-Ortiz</strong>, Carlos Gómez-Rodríguez, and David Vilares.</p>
+      <p class="pub-venue">IJCNLP-AACL 2023, Bali, Indonesia.</p>
+    </li>
+    <li>
+      <h3><a href="https://ruc.udc.es/dspace/handle/2183/33478">LyS A Coruña at GUA-SPA@IberLEF2023: Multi-Task Learning with Large Language Model Encoders for Guarani-Spanish Code Switching Analysis</a></h3>
+      <p class="pub-authors"><strong>Alberto Muñoz-Ortiz</strong> and David Vilares.</p>
+      <p class="pub-venue">IberLEF 2023, Jaén, Spain.</p>
+    </li>
+    <li>
+      <h3><a href="https://aclanthology.org/2023.findings-acl.459/">Another Dead End for Morphological Tags? Perturbed Inputs and Parsing</a></h3>
+      <p class="pub-authors"><strong>Alberto Muñoz-Ortiz</strong> and David Vilares.</p>
+      <p class="pub-venue">Findings of ACL 2023, Toronto, Canada.</p>
+    </li>
+  </ul>
+</section>
 
-  <div>
-    <div class="section-heading">
-      <span class="section-number">04</span>
-      <h2>Publications</h2>
-    </div>
-    <p>I have first-authored papers at <strong>ACL, EMNLP, COLING, IJCNLP-AACL, and RANLP</strong>.</p>
-    <p class="section-link"><a href="/research/">See the full publication list</a></p>
-  </div>
+<section class="publication-year">
+  <h2>2022</h2>
+  <ul class="pub-list">
+    <li>
+      <h3><a href="https://aclanthology.org/2022.aacl-short.16/">Parsing Linearizations Appreciate PoS Tags – but Some Are Fussy about Errors</a></h3>
+      <p class="pub-authors"><strong>Alberto Muñoz-Ortiz</strong>, Mark Anderson, David Vilares, and Carlos Gómez-Rodríguez.</p>
+      <p class="pub-venue">IJCNLP-AACL 2022, Online.</p>
+    </li>
+    <li>
+      <h3><a href="https://aclanthology.org/2022.insights-1.7/">Cross-lingual Inflection as a Data Augmentation Method</a></h3>
+      <p class="pub-authors"><strong>Alberto Muñoz-Ortiz</strong>, Carlos Gómez-Rodríguez, and David Vilares.</p>
+      <p class="pub-venue">3rd Workshop on Insights from Negative Results in NLP, Dublin, Ireland.</p>
+    </li>
+  </ul>
+</section>
+
+<section class="publication-year publication-year--last">
+  <h2>2021</h2>
+  <ul class="pub-list">
+    <li>
+      <h3><a href="https://aclanthology.org/2021.ranlp-1.111/">Not All Linearizations Are Equally Data-Hungry in Sequence Labeling Parsing</a></h3>
+      <p class="pub-authors"><strong>Alberto Muñoz-Ortiz</strong>, Michalina Strzyz, and David Vilares.</p>
+      <p class="pub-venue">RANLP 2021, Online.</p>
+    </li>
+  </ul>
+</section>
+
+<section class="home-section" aria-labelledby="thesis">
+  <h2 id="thesis">PhD thesis</h2>
+  <p class="research-thesis"><em>"Encoding, Representation, and Interpretation of Linguistic Structure Across NLP Paradigms"</em>. <a href="https://www.udc.gal/en/teses/tese/?codigo=n2223">University of A Coruña thesis record</a>.</p>
 </section>

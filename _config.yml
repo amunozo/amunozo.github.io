@@ -1,7 +1,7 @@
 title: "Alberto Muñoz-Ortiz"
-description: "NLP researcher and engineer. PhD in Computer Science from Universidade da Coruña. Visiting researcher at LMU Munich and EPFL Lausanne."
+description: "Language AI researcher and engineer. PhD in Computer Science from Universidade da Coruña. Visiting researcher at LMU Munich and EPFL Lausanne."
 baseurl: ""
-url: "https://amunozo.com"
+url: "https://www.amunozo.com"
 theme: minima
 markdown: kramdown
 goatcounter_site: "amunozo"

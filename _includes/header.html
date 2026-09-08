@@ -1,14 +1,17 @@
 <header class="site-header">
   <div class="site-header__inner">
     <a href="{{ '/' | relative_url }}" class="site-brand">
+      {% if page.url == '/' %}
+      <h1 class="site-brand__name">Alberto Muñoz-Ortiz</h1>
+      {% else %}
       <span class="site-brand__name">Alberto Muñoz-Ortiz</span>
-      <span class="site-brand__tag">NLP · Research Engineering</span>
+      {% endif %}
     </a>
     <div class="site-header__meta">
       <nav class="site-nav" aria-label="Primary">
         <ul>
           {% for item in site.data.navigation.main %}
-          <li><a href="{{ item.link | relative_url }}">{{ item.name }}</a></li>
+          <li><a href="{{ item.link | relative_url }}"{% if page.url == item.link %} aria-current="page"{% endif %}>{{ item.name }}</a></li>
           {% endfor %}
         </ul>
       </nav>
