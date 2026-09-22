@@ -1,20 +1,19 @@
 #import "@preview/basic-resume:0.2.9": *
 
 #let name = "Alberto Muñoz Ortiz"
-#let location = "Lausanne, Switzerland | EU Citizen"
 #let email = "alberto.munoz.ortiz@proton.me"
 #let github = "github.com/amunozo"
 
 #show: resume.with(
- author: name,
- location: location,
- email: email,
- github: github,
- accent-color: "#26428c",
- font: "New Computer Modern",
- paper: "a4",
- author-position: center,
- personal-info-position: center,
+  author: name,
+  email: email,
+  github: github,
+  accent-color: "#26428c",
+  font: "New Computer Modern",
+  font-size: 9.5pt,
+  paper: "a4",
+  author-position: center,
+  personal-info-position: center,
 )
 
 == Summary
@@ -26,10 +25,10 @@ Machine learning researcher and engineer with a PhD in Computer Science, a backg
 == Work Experience
 
 #work(
- title: "PhD Researcher",
- location: "A Coruña, Spain",
- company: "University of A Coruña",
- dates: dates-helper(start-date: "Mar 2021", end-date: "Jun 2026"),
+  title: "PhD Researcher",
+  location: "A Coruña, Spain",
+  company: "University of A Coruña",
+  dates: dates-helper(start-date: "Mar 2021", end-date: "Jun 2026"),
 )
 - Published 8 first-author papers on LLM evaluation, data-efficient NLP, structured prediction, and multilingual transfer.
 - Developed sequence-labeling methods for parsing and nested named entity recognition.
@@ -37,53 +36,58 @@ Machine learning researcher and engineer with a PhD in Computer Science, a backg
 - Ran reproducible training and evaluation workflows on GPU clusters with Docker, Kubernetes, Slurm, Run:ai, and Weights & Biases.
 
 #work(
- title: "Visiting Researcher",
- location: "Lausanne, Switzerland",
- company: "EPFL",
- dates: dates-helper(start-date: "Oct 2024", end-date: "Mar 2025"),
+  title: "Visiting Researcher",
+  location: "Lausanne, Switzerland",
+  company: "EPFL",
+  dates: dates-helper(start-date: "Oct 2024", end-date: "Mar 2025"),
 )
 - Studied how transformers represent and generalize knowledge in Antoine Bosselut's NLP Lab.
 - Built Docker and Run:ai workflows to queue, monitor, and log parallel experiments across multiple A100 GPUs.
 
 #work(
- title: "Visiting Researcher",
- location: "Munich, Germany",
- company: "Ludwig-Maximilian University",
- dates: dates-helper(start-date: "Jul 2023", end-date: "Oct 2023"),
+  title: "Visiting Researcher",
+  location: "Munich, Germany",
+  company: "Ludwig-Maximilian University",
+  dates: dates-helper(start-date: "Jul 2023", end-date: "Oct 2023"),
 )
 - Trained and evaluated a pixel-based language model on four 80 GB A100 GPUs for zero-shot German dialect transfer; published at COLING 2025.
 
 #work(
- title: "Python Developer Intern",
- location: "Madrid, Spain",
- company: "Alstom",
- dates: dates-helper(start-date: "Nov 2019", end-date: "Nov 2020"),
+  title: "Python Developer Intern",
+  location: "Madrid, Spain",
+  company: "Alstom",
+  dates: dates-helper(start-date: "Nov 2019", end-date: "Nov 2020"),
 )
 - Replaced a manual spreadsheet process with a Python and SQLite application. Added validation and reporting used by engineering stakeholders.
 
 == Education
 
 #edu(
- institution: "University of A Coruña",
- location: "A Coruña, Spain",
- dates: dates-helper(start-date: "Oct 2021", end-date: "Jun 2026"),
- degree: "PhD in Computer Science",
-)
-- Completed with _cum laude_ and International Doctorate distinctions.
-
-#edu(
- institution: "UNED",
- location: "Spain",
- dates: dates-helper(start-date: "2020", end-date: "2021"),
- degree: "MSc in Language Technologies",
+  institution: "University of A Coruña",
+  location: "A Coruña, Spain",
+  dates: dates-helper(start-date: "Oct 2021", end-date: "Jun 2026"),
+  degree: "PhD in Computer Science, cum laude, International Doctorate",
 )
 
 #edu(
- institution: "Complutense University of Madrid",
- location: "Madrid, Spain",
- dates: dates-helper(start-date: "2014", end-date: "2019"),
- degree: "BSc in Physics",
+  institution: "UNED",
+  location: "Spain",
+  dates: dates-helper(start-date: "2020", end-date: "2021"),
+  degree: "MSc in Language Technologies",
 )
+
+#edu(
+  institution: "Complutense University of Madrid",
+  location: "Madrid, Spain",
+  dates: dates-helper(start-date: "2014", end-date: "2019"),
+  degree: "BSc in Physics",
+)
+
+== Selected Publications
+
+- *Alberto Muñoz-Ortiz*, David Vilares, Caio Corro, Carlos Gómez-Rodríguez. #link("https://aclanthology.org/2025.findings-emnlp.530/")[_Nested Named Entity Recognition as Single-Pass Sequence Labeling_]. Findings of EMNLP 2025.
+- *Alberto Muñoz-Ortiz*, Verena Blaschke, Barbara Plank. #link("https://aclanthology.org/2025.coling-main.427/")[_Evaluating Pixel Language Models on Non-Standardized Languages_]. COLING 2025.
+- *Alberto Muñoz-Ortiz*, Carlos Gómez-Rodríguez, David Vilares. #link("https://link.springer.com/article/10.1007/s10462-024-10903-2")[_Contrasting Linguistic Patterns in Human and LLM-Generated News Text_]. AI Review, 2024.
 
 == Skills
 
