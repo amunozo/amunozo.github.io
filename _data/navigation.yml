@@ -1,4 +1,6 @@
 main:
+  - name: Projects
+    link: /#projects
   - name: Publications
     link: /#publications
   - name: CV
