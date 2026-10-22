@@ -11,7 +11,7 @@ description: Alberto Muñoz-Ortiz, AI engineer and researcher in Lausanne. PhD i
   <h2 id="about">About me</h2>
   <p class="research-background">I am an AI engineer and researcher based in Lausanne. I completed my PhD in Computer Science at the University of A Coruña in June 2026, and was a Visiting Researcher at LMU Munich and EPFL. Before that, I studied Physics (BSc, Complutense University of Madrid) and Language Technologies (MSc, UNED).</p>
   <p class="research-background">My research focused on efficient, robust, and interpretable language models, especially in multilingual, low-resource, and non-standard language settings.</p>
-  <p class="research-background">I am looking for industry roles in Switzerland or remote. Available immediately; EU citizen.</p>
+  <p class="research-background">I am looking for roles in Switzerland or remote. Available immediately; EU citizen.</p>
   <div class="hero-actions">
     <a class="btn" href="{{ '/cv.pdf' | relative_url }}">View CV (PDF)</a>
     <a class="btn btn-secondary" href="mailto:alberto.munoz.ortiz@proton.me">Email me</a>
