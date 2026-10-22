@@ -1,8 +1,7 @@
 title: "Alberto Muñoz-Ortiz"
-description: "Language AI researcher and engineer. PhD in Computer Science from Universidade da Coruña. Visiting researcher at LMU Munich and EPFL Lausanne."
+description: "AI engineer and researcher. PhD in Computer Science from the University of A Coruña. Visiting Researcher at LMU Munich and EPFL Lausanne."
 baseurl: ""
 url: "https://www.amunozo.com"
-theme: minima
 markdown: kramdown
 goatcounter_site: "amunozo"
 
@@ -16,22 +15,3 @@ defaults:
     values:
       layout: post
       permalink: /blog/:year/:month/:day/:title/
-
-# Navigation links
-header_pages:
-  - research.md
-  #- cv.md
-
-# Social links
-#twitter_username: amunozo
-#github_username: amunozo
-#linkedin_username: alberto-munoz-ortiz-683470106
-#scholar_userid: sS5dz4QAAAAJ&hl
-
-# Minima theme settings
-#minima:
-#  social_links:
-#    twitter: amunozo
-#    github: amunozo
-#    linkedin: alberto-munoz-ortiz-683470106
-#    google_scholar: sS5dz4QAAAAJ&hl

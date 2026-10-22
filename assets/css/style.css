@@ -860,3 +860,20 @@ a:focus-visible {
     clear: both;
   }
 }
+
+.publication-year--selected h2 {
+  font-size: clamp(1.4rem, 2vw, 1.7rem);
+}
+
+.edu-list {
+  padding: 0;
+  list-style: none;
+  margin-top: var(--space-4);
+  display: grid;
+  gap: var(--space-3);
+  max-width: 65ch;
+}
+
+.edu-list .research-thesis {
+  margin-top: var(--space-1);
+}
