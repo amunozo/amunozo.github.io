@@ -69,7 +69,7 @@ AI engineer and researcher with a PhD in Computer Science and a BSc in Physics. 
 == Projects
 
 #project(
-  name: "Hack Apertus 2026 (solo)",
+  name: "Hack Apertus 2026: Winner, Track 2A (solo)",
   url: "github.com/amunozo/apertus-swissgov-rsd",
   dates: "Oct 2026",
 )

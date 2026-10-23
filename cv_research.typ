@@ -75,7 +75,7 @@ NLP researcher with a PhD in Computer Science and a BSc in Physics. Research on 
 == Projects
 
 #project(
- name: "Hack Apertus 2026 (solo)",
+ name: "Hack Apertus 2026: Winner, Track 2A (solo)",
  url: "github.com/amunozo/apertus-swissgov-rsd",
  dates: "Oct 2026",
 )

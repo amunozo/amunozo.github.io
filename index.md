@@ -31,7 +31,7 @@ description: Alberto Muñoz-Ortiz, AI engineer and researcher in Lausanne. PhD i
   <ul class="pub-list">
     <li>
       <h3><a href="https://github.com/amunozo/apertus-swissgov-rsd">Reading Cross-Lingual Semantic Differences from Apertus</a></h3>
-      <p class="pub-authors">Solo submission to Hack Apertus 2026, Track 2A (UZH SwissGov-RSD challenge).</p>
+      <p class="pub-authors"><strong>Winner of Hack Apertus 2026, Track 2A.</strong> Solo submission to the UZH SwissGov-RSD challenge.</p>
       <p class="pub-venue">Scores each word of parallel Swiss government web pages (English vs. German, French, and Italian) for how much its meaning differs from the other version, using Apertus 8B as a frozen reader. Middle-layer hidden-state alignment and contrastive surprisal, combined by a logistic regression head, reach 37.4 Spearman on the held-out test, vs. 17.1 for the best released baseline.</p>
       <p class="pub-code"><a href="https://github.com/amunozo/apertus-swissgov-rsd">View code</a> <a href="https://github.com/amunozo/apertus-swissgov-rsd/blob/main/track_2a/technical_report.md">Technical report</a> <a href="https://www.amunozo.com/apertus-swissgov-rsd/track_2a/docs/heatmaps/">Interactive heatmaps</a></p>
     </li>
