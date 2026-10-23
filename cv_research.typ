@@ -40,9 +40,9 @@ NLP researcher with a PhD in Computer Science and a BSc in Physics. Research on 
  dates: dates-helper(start-date: "Mar 2021", end-date: "Jun 2026"),
 )
 - Compared human news text with output from six LLMs (three families, four sizes) across morphological, syntactic, psychometric, and sociolinguistic features. Toxicity rose with model size, and five of the six models amplified the sexist bias found in human text (_Artificial Intelligence Review_, 2024).
-- Designed a lexical-perturbation attack across 14 UD treebanks to test parser robustness. Morphological tags made transition- and graph-based parsers degrade faster but helped sequence-labeling parsers (Findings of ACL 2023).
+- Designed a robustness evaluation for parsers on 14 UD treebanks with increasing rates of adversarial typos. Morphological tags made transition- and graph-based parsers degrade faster but helped sequence-labeling parsers (Findings of ACL 2023).
 - Assessed how mBERT, XLM-RoBERTa, and CANINE encode syntax on 13 dependency and 10 constituent treebanks. Whether a language appeared in pre-training mattered more than the amount of task data, and subword models represented syntax better than character-level ones (IJCNLP-AACL 2023).
-- Developed sequence-labeling methods for dependency, constituent, and semantic parsing, and recast nested named entity recognition as plain token classification with exactly _n_ tagging actions, competitive with less efficient systems (Findings of EMNLP 2025).
+- Developed sequence-labeling methods for dependency, constituent, and semantic parsing, and recast nested named entity recognition as linear-time token classification, close in accuracy to quadratic-time methods (Findings of EMNLP 2025).
 - Built reusable PyTorch and Hugging Face frameworks for training and evaluation; ran reproducible workflows on GPU clusters with Docker, Kubernetes, Slurm, Run:ai, and Weights & Biases.
 - Contributed to the ERC Starting Grant project #link("https://fastparse.grupolys.org/")[FASTPARSE] on fast and accurate parsing.
 

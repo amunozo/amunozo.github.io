@@ -23,7 +23,7 @@
 
 == Summary
 
-AI engineer and researcher with a PhD in Computer Science and a BSc in Physics. Five years building PyTorch pipelines to study how language models encode linguistic structure and how it can make NLP more efficient, robust, and interpretable, mainly for multilingual and non-standard languages. First author of 8 papers at NLP venues including ACL, EMNLP, and COLING.
+AI engineer and researcher with a PhD in Computer Science and a BSc in Physics. Five years building PyTorch training and evaluation pipelines for language models, with a focus on robustness, efficiency, and multilingual and dialect text. First author of 8 papers at NLP venues including ACL, EMNLP, and COLING.
 
 #text(size: 0.85em, weight: "bold")[Available immediately.]
 
@@ -35,9 +35,9 @@ AI engineer and researcher with a PhD in Computer Science and a BSc in Physics. 
   company: "University of A Coruña",
   dates: dates-helper(start-date: "Mar 2021", end-date: "Jun 2026"),
 )
-- Compared human news text with output from six LLMs across morphological, syntactic, psychometric, and sociolinguistic features. Toxicity rose with model size, and five of the six models amplified the sexist bias in human text.
-- Designed a lexical-perturbation attack across 14 UD treebanks to test parser robustness.
-- Recast nested NER as plain token classification with exactly _n_ tagging actions, competitive with less efficient systems.
+- Compared text from six LLMs with human-written news on word use, sentence structure, emotion, and gender bias. Toxicity rose with model size, and five of the six models amplified the sexist bias in human text.
+- Designed a robustness evaluation for syntactic parsers on text with increasing amounts of typos, in 14 languages.
+- Recast nested named entity recognition as linear-time token classification, close in accuracy to quadratic-time methods.
 - Built reusable PyTorch and Hugging Face training and evaluation code; ran reproducible GPU experiments with Docker, Kubernetes, Slurm, Run:ai, and Weights & Biases.
 
 #work(
@@ -55,7 +55,8 @@ AI engineer and researcher with a PhD in Computer Science and a BSc in Physics. 
   company: "Ludwig-Maximilian University",
   dates: dates-helper(start-date: "Jul 2023", end-date: "Oct 2023"),
 )
-- Pretrained a pixel-based (tokenizer-free) language model from scratch on German text on four 80 GB A100 GPUs and released it on #link("https://huggingface.co/amunozo/pixel-base-german")[Hugging Face]. In zero-shot transfer to Swiss German, Bavarian, and other dialects, it beat token-based models on POS tagging, parsing, and intent detection by up to 26 points.
+- Pretrained a pixel-based (tokenizer-free) German language model from scratch on four A100 GPUs; released on #link("https://huggingface.co/amunozo/pixel-base-german")[Hugging Face].
+- In zero-shot tests on Swiss German and other dialects, it beat token-based models on most tasks, by up to 26 points.
 
 #work(
   title: "Python Developer Intern",
@@ -72,7 +73,8 @@ AI engineer and researcher with a PhD in Computer Science and a BSc in Physics. 
   url: "github.com/amunozo/apertus-swissgov-rsd",
   dates: "Oct 2026",
 )
-- Scored word-level meaning differences between parallel Swiss government pages in four languages with Apertus 8B (no fine-tuning): rank correlation with human labels of 0.37 vs. 0.17 for the best released baseline. Reproducible CPU Docker pipeline.
+- Found words whose meaning differs between translated Swiss government pages in four languages with frozen Apertus 8B: 0.37 rank correlation with human labels, more than double the best released baseline (0.17).
+- Combined middle-layer hidden states and surprisal with logistic regression; reproducible CPU Docker pipeline.
 
 == Education
 
