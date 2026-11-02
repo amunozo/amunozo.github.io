@@ -115,7 +115,7 @@ NLP researcher with a PhD in Computer Science and a BSc in Physics. Research on 
 
 - *Research areas:* LLM evaluation, robustness and perturbation testing, multilingual and dialect transfer, data-efficient NLP, structured prediction, information extraction, probing, error analysis
 - *ML stack:* Python, PyTorch, Hugging Face (Transformers, Datasets), scikit-learn, pandas, NumPy, SciPy, spaCy, NLTK
-- *Research infrastructure:* Docker, Kubernetes, Slurm, Run:ai, Git, Linux, pytest, Weights & Biases, SQLite
+- *Research infrastructure:* Docker, Kubernetes, Slurm, Run:ai, Git, Linux, pytest, Weights & Biases, SQL (SQLite)
 - *Languages:* Spanish (Native), English (C2), French (B2), German (B1), Chinese (A2)
 
 == Selected Publications

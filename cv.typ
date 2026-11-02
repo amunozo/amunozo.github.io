@@ -108,6 +108,6 @@ AI engineer and researcher with a PhD in Computer Science and a BSc in Physics. 
 
 - *Research:* LLM evaluation, robustness and perturbation testing, multilingual and dialect transfer, structured prediction, information extraction, probing, error analysis
 - *ML stack:* Python, PyTorch, Hugging Face (Transformers, Datasets), scikit-learn, pandas, NumPy, SciPy, spaCy, NLTK
-- *Infrastructure:* Docker, Kubernetes, Slurm, Run:ai, Git, Linux, pytest, Weights & Biases, SQLite
+- *Infrastructure:* Docker, Kubernetes, Slurm, Run:ai, Git, Linux, pytest, Weights & Biases, SQL (SQLite)
 - *Working knowledge:* OpenAI API, LLM-as-a-judge, RAG and hybrid retrieval, LoRA/QLoRA
 - *Languages:* Spanish (Native), English (C2), French (B2), German (B1), Chinese (A2)
