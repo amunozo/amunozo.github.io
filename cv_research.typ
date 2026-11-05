@@ -14,14 +14,14 @@
 #show link: set text(fill: rgb("#26428c"))
 
 #show: resume.with(
-  author: name,
-  email: email,
-  github: website,
-  accent-color: "#26428c",
-  font: "New Computer Modern",
-  paper: "a4",
-  author-position: center,
-  personal-info-position: center,
+ author: name,
+ email: email,
+ github: website,
+ accent-color: "#26428c",
+ font: "New Computer Modern",
+ paper: "a4",
+ author-position: center,
+ personal-info-position: center,
 )
 #set text(hyphenate: false)
 
@@ -82,6 +82,14 @@ NLP researcher with a PhD in Computer Science and a BSc in Physics. Research on 
 - Detected word-level meaning differences between parallel Swiss government web pages (English vs. German, French, and Italian) using Apertus 8B as a frozen reader. A logistic regression head over middle-layer hidden-state alignment and contrastive surprisal reached 37.4 Spearman on the held-out test, vs. 17.1 for the best released baseline.
 - Layer choice mattered most: the benchmark's last-layer recipe scored 6.9 on development data and the best middle layer 30.0. Released the code with a CPU Docker pipeline that reproduces the test score.
 
+#project(
+ name: "jobfacts: job-posting pipeline with measured LLM extraction",
+ url: "github.com/amunozo/jobfacts",
+ dates: dates-helper(start-date: "Nov 2026", end-date: "present"),
+)
+- Collects AI and data job postings daily from 141 employer job boards into PostgreSQL. An LLM fills a fixed schema per posting (work mode, remote from Switzerland, language level, seniority), each value with the sentence from the posting that supports it, so every fact can be checked.
+- Accuracy measured on a held-out set in English, German, and French: 92–100% on nine of ten fields. Docker Compose, about 500 pytest tests. Built with coding agents under my direction.
+
 #pagebreak()
 
 == Education
@@ -115,7 +123,7 @@ NLP researcher with a PhD in Computer Science and a BSc in Physics. Research on 
 
 - *Research areas:* LLM evaluation, robustness and perturbation testing, multilingual and dialect transfer, data-efficient NLP, structured prediction, information extraction, probing, error analysis
 - *ML stack:* Python, PyTorch, Hugging Face (Transformers, Datasets), scikit-learn, pandas, NumPy, SciPy, spaCy, NLTK
-- *Research infrastructure:* Docker, Kubernetes, Slurm, Run:ai, Git, Linux, pytest, Weights & Biases, SQL (SQLite)
+- *Research infrastructure:* SQL (PostgreSQL, SQLite), Docker, Kubernetes, Slurm, Run:ai, Git, Linux, pytest, Weights & Biases
 - *Languages:* Spanish (Native), English (C2), French (B2), German (B1), Chinese (A2)
 
 == Selected Publications

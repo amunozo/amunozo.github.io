@@ -10,11 +10,11 @@
 #show: resume.with(
   author: name,
   email: email,
-  linkedin: "linkedin.com/in/alberto-muñoz-ortiz-683470106",
   github: github,
+  linkedin: "linkedin.com/in/alberto-muñoz-ortiz-683470106",
   accent-color: "#26428c",
   font: "New Computer Modern",
-  font-size: 9.5pt,
+  font-size: 9.25pt,
   paper: "a4",
   author-position: center,
   personal-info-position: center,
@@ -37,7 +37,7 @@ AI engineer and researcher with a PhD in Computer Science and a BSc in Physics. 
 )
 - Compared text from six LLMs with human-written news on word use, sentence structure, emotion, and gender bias. Toxicity rose with model size, and five of the six models amplified the sexist bias in human text.
 - Designed a robustness evaluation for syntactic parsers on text with increasing amounts of typos, in 14 languages.
-- Recast nested named entity recognition as linear-time token classification, close in accuracy to quadratic-time methods.
+- Assessed how multilingual token-based and character-based encoders represent syntax across treebanks: a language's presence in the pre-training data mattered more than task data size, and token-based models represented syntax better.
 - Built reusable PyTorch and Hugging Face training and evaluation code; ran reproducible GPU experiments with Docker, Kubernetes, Slurm, Run:ai, and Weights & Biases.
 
 #work(
@@ -47,7 +47,6 @@ AI engineer and researcher with a PhD in Computer Science and a BSc in Physics. 
   dates: dates-helper(start-date: "Oct 2024", end-date: "Mar 2025"),
 )
 - Studied how transformers represent and generalize knowledge in Antoine Bosselut's NLP Lab.
-- Automated queueing, monitoring, and logging for parallel experiments across multiple A100 GPUs with Docker and Run:ai.
 
 #work(
   title: "Visiting Researcher",
@@ -55,8 +54,7 @@ AI engineer and researcher with a PhD in Computer Science and a BSc in Physics. 
   company: "Ludwig-Maximilian University",
   dates: dates-helper(start-date: "Jul 2023", end-date: "Oct 2023"),
 )
-- Pretrained a pixel-based (tokenizer-free) German language model from scratch on four A100 GPUs; released on #link("https://huggingface.co/amunozo/pixel-base-german")[Hugging Face].
-- In zero-shot tests on Swiss German and other dialects, it beat token-based models on most tasks, by up to 26 points.
+- Pretrained a pixel-based (tokenizer-free) German language model from scratch on four A100 GPUs (#link("https://huggingface.co/amunozo/pixel-base-german")[Hugging Face]); in zero-shot tests on Swiss German and other dialects it beat token-based models on most tasks, by up to 26 points.
 
 #work(
   title: "Python Developer Intern",
@@ -69,12 +67,18 @@ AI engineer and researcher with a PhD in Computer Science and a BSc in Physics. 
 == Projects
 
 #project(
+  name: "jobfacts: job-posting pipeline with measured LLM fact extraction",
+  url: "github.com/amunozo/jobfacts",
+  dates: dates-helper(start-date: "Nov 2026", end-date: "present"),
+)
+- Collects AI job postings daily into PostgreSQL; an LLM extracts fixed facts per posting (work mode, language level, seniority), each with the sentence that supports it, checked on a labelled held-out set.
+
+#project(
   name: "Hack Apertus 2026: Winner, Track 2A (solo)",
   url: "github.com/amunozo/apertus-swissgov-rsd",
   dates: "Oct 2026",
 )
-- Found words whose meaning differs between translated Swiss government pages in four languages with frozen Apertus 8B: 0.37 rank correlation with human labels, more than double the best released baseline (0.17).
-- Combined middle-layer hidden states and surprisal with logistic regression; reproducible CPU Docker pipeline.
+- Detected word-level meaning differences between translated Swiss government pages using middle-layer hidden states and contrastive surprisal from a frozen Apertus 8B: double the correlation with human labels of the best released baseline.
 
 == Education
 
@@ -106,8 +110,8 @@ AI engineer and researcher with a PhD in Computer Science and a BSc in Physics. 
 
 == Skills
 
-- *Research:* LLM evaluation, robustness and perturbation testing, multilingual and dialect transfer, structured prediction, information extraction, probing, error analysis
+- *Research:* LLM evaluation, robustness testing, multilingual and dialect transfer, information extraction, error analysis
 - *ML stack:* Python, PyTorch, Hugging Face (Transformers, Datasets), scikit-learn, pandas, NumPy, SciPy, spaCy, NLTK
-- *Infrastructure:* Docker, Kubernetes, Slurm, Run:ai, Git, Linux, pytest, Weights & Biases, SQL (SQLite)
+- *Infrastructure:* SQL (PostgreSQL, SQLite), Docker, Kubernetes, Slurm, Run:ai, Git, Linux, pytest, Weights & Biases
 - *Working knowledge:* OpenAI API, LLM-as-a-judge, RAG and hybrid retrieval, LoRA/QLoRA
 - *Languages:* Spanish (Native), English (C2), French (B2), German (B1), Chinese (A2)
