@@ -87,8 +87,8 @@ NLP researcher with a PhD in Computer Science and a BSc in Physics. Research on 
  url: "github.com/amunozo/jobfacts",
  dates: dates-helper(start-date: "Nov 2026", end-date: "present"),
 )
-- Collects AI and data job postings daily from about 165 employer job boards into PostgreSQL. An LLM fills a fixed schema per posting (work mode, remote from Switzerland, language level, seniority), each value with the sentence from the posting that supports it, so every fact can be checked.
-- Accuracy measured on 50 labelled postings in English, German, and French: 92–100% per field. Docker Compose, about 890 pytest tests. Built with coding agents under my direction.
+- Collects AI and data job postings daily from about 170 employer job boards into PostgreSQL. An LLM fills a fixed schema per posting (work mode, remote from Switzerland, language level, seniority), each value with the sentence from the posting that supports it, so every fact can be checked.
+- Accuracy measured on 50 labelled postings in English, German, and French: 90–100% on the extracted fields. Docker Compose, about 930 pytest tests. Built with coding agents under my direction.
 
 #pagebreak()
 
