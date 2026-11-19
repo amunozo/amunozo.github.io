@@ -82,18 +82,18 @@ AI engineer and researcher with a PhD in Computer Science and a BSc in Physics. 
 == Projects
 
 #project(
-  name: "jobfacts: job-posting pipeline with measured LLM fact extraction",
+  name: "jobfacts: job-posting pipeline with measured fact extraction",
   url: "github.com/amunozo/jobfacts",
   dates: "Nov 2026 – present",
 )
-- Collects AI job postings daily into PostgreSQL; an LLM extracts fixed facts per posting (work mode, language level, seniority), each with the sentence that supports it, with accuracy measured on labelled postings.
+- Collects AI job postings daily from about 170 job boards into PostgreSQL; a classifier model extracts facts per posting (work mode, language level, seniority), each with its supporting sentence: 90–100% accuracy per field on 50 held-out postings.
 
 #project(
   name: "Hack Apertus 2026: Winner, Track 2A (solo)",
   url: "github.com/amunozo/apertus-swissgov-rsd",
   dates: "Oct 2026",
 )
-- Detected word-level meaning differences between translated Swiss government pages using middle-layer hidden states and contrastive surprisal from a frozen Apertus 8B: double the correlation with human labels of the best released baseline.
+- Detected word-level meaning differences between translated Swiss government pages using middle-layer hidden states and contrastive surprisal from a frozen Apertus 8B: 37.4 Spearman against human labels, vs. 17.1 for the best released baseline.
 
 == Education
 
