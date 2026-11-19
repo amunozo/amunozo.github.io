@@ -52,7 +52,7 @@ description: Alberto Muñoz-Ortiz, AI engineer and researcher in Lausanne. PhD i
       <h3><a href="https://link.springer.com/article/10.1007/s10462-024-10903-2">Contrasting Linguistic Patterns in Human and LLM-Generated News Text</a></h3>
       <p class="pub-authors"><strong>Alberto Muñoz-Ortiz</strong>, Carlos Gómez-Rodríguez, and David Vilares.</p>
       <p class="pub-venue">Artificial Intelligence Review, 2024. 267 citations; cited in <a href="https://www.theguardian.com/commentisfree/2026/apr/14/ai-language-human-speech">The Guardian</a>.</p>
-      <p class="pub-venue">Compares human news text with the output of six LLMs. Toxicity rose with model size, and five of the six models amplified the sexist bias found in human text.</p>
+      <p class="pub-venue">Compares human news text with the output of six LLMs. Negative emotions rose with model size, and five of the six models amplified the sexist bias found in human text.</p>
       <p class="pub-code"><a href="https://github.com/amunozo/linguistic_patterns_LLMs" aria-label="Code for Contrasting Linguistic Patterns in Human and LLM-Generated News Text">View code</a></p>
     </li>
     <li>

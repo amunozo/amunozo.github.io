@@ -50,7 +50,7 @@ AI engineer and researcher with a PhD in Computer Science and a BSc in Physics. 
   company: "University of A Coruña",
   dates: dates-helper(start-date: "Mar 2021", end-date: "Jun 2026"),
 )
-- Compared text from six LLMs with human-written news on word use, sentence structure, emotion, and gender bias. Toxicity rose with model size, and five of the six models amplified the sexist bias in human text.
+- Compared text from six LLMs with human-written news on word use, sentence structure, emotion, and gender bias. Negative emotions rose with model size, and five of the six models amplified the sexist bias in human text.
 - Designed a robustness evaluation for syntactic parsers on text with increasing amounts of typos, in 14 languages.
 - Assessed how multilingual token-based and character-based encoders represent syntax across treebanks: a language's presence in the pre-training data mattered more than task data size, and token-based models represented syntax better.
 - Built reusable PyTorch and Hugging Face training and evaluation code; ran reproducible GPU experiments with Docker, Kubernetes, Slurm, Run:ai, and Weights & Biases.
