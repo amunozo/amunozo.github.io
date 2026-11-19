@@ -87,8 +87,8 @@ NLP researcher with a PhD in Computer Science and a BSc in Physics. Research on 
  url: "github.com/amunozo/jobfacts",
  dates: dates-helper(start-date: "Nov 2026", end-date: "present"),
 )
-- Collects AI and data job postings daily from 141 employer job boards into PostgreSQL. An LLM fills a fixed schema per posting (work mode, remote from Switzerland, language level, seniority), each value with the sentence from the posting that supports it, so every fact can be checked.
-- Accuracy measured on a held-out set in English, German, and French: 92–100% on nine of ten fields. Docker Compose, about 500 pytest tests. Built with coding agents under my direction.
+- Collects AI and data job postings daily from about 165 employer job boards into PostgreSQL. An LLM fills a fixed schema per posting (work mode, remote from Switzerland, language level, seniority), each value with the sentence from the posting that supports it, so every fact can be checked.
+- Accuracy measured on 50 labelled postings in English, German, and French: 92–100% per field. Docker Compose, about 890 pytest tests. Built with coding agents under my direction.
 
 #pagebreak()
 
@@ -98,9 +98,8 @@ NLP researcher with a PhD in Computer Science and a BSc in Physics. Research on 
  institution: "University of A Coruña",
  location: "A Coruña, Spain",
  dates: dates-helper(start-date: "Oct 2021", end-date: "Jun 2026"),
- degree: "PhD in Computer Science",
+ degree: "Doctorate (PhD) in Computer Science",
 )
-- Completed with _cum laude_ and International Doctorate distinctions.
 - _Thesis:_ "Encoding, Representation, and Interpretation of Linguistic Structure Across NLP Paradigms". Examines how linguistic structure can support efficient NLP systems and help evaluate language models.
 
 #edu(

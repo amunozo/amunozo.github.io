@@ -152,7 +152,7 @@ description: Alberto Muñoz-Ortiz, AI engineer and researcher in Lausanne. PhD i
   <h2 id="education">Education</h2>
   <ul class="edu-list">
     <li>
-      <p><strong>PhD in Computer Science</strong>, cum laude, International Doctorate. University of A Coruña, 2021–2026.</p>
+      <p><strong>Doctorate (PhD) in Computer Science</strong>. University of A Coruña, 2021–2026.</p>
       <p class="research-thesis">Thesis: <em>"Encoding, Representation, and Interpretation of Linguistic Structure Across NLP Paradigms"</em>. <a href="https://www.udc.gal/en/teses/tese/?codigo=n2223">Thesis record</a>.</p>
     </li>
     <li>

@@ -3,6 +3,21 @@
 // Local override: en dash instead of the template em dash (more reliable for ATS date parsing).
 #let dates-helper(start-date: "", end-date: "") = start-date + " – " + end-date
 
+// Local override: one-column entry headers (no right-aligned cells). Workday and
+// similar parsers read the template's stretched lines as two columns and detach
+// dates and locations from their entries (seen 6 Nov 2026 on myworkdayjobs forms).
+#let work(title: "", dates: "", company: "", location: "") = [
+  *#title*, #company \
+  _#dates · #location _
+]
+#let edu(institution: "", dates: "", degree: "", location: "", gpa: "", consistent: false) = [
+  *#degree* \
+  #institution · _#dates · #location _
+]
+#let project(name: "", url: "", dates: "", role: "") = [
+  *#name*#if url != "" [ (#link("https://" + url)[#url])]#if dates != "" [, #dates]
+]
+
 #let name = "Alberto Muñoz Ortiz"
 #let email = "alberto.munoz.ortiz@proton.me"
 #let github = "github.com/amunozo"
@@ -69,9 +84,9 @@ AI engineer and researcher with a PhD in Computer Science and a BSc in Physics. 
 #project(
   name: "jobfacts: job-posting pipeline with measured LLM fact extraction",
   url: "github.com/amunozo/jobfacts",
-  dates: dates-helper(start-date: "Nov 2026", end-date: "present"),
+  dates: "Nov 2026 – present",
 )
-- Collects AI job postings daily into PostgreSQL; an LLM extracts fixed facts per posting (work mode, language level, seniority), each with the sentence that supports it, checked on a labelled held-out set.
+- Collects AI job postings daily into PostgreSQL; an LLM extracts fixed facts per posting (work mode, language level, seniority), each with the sentence that supports it, with accuracy measured on labelled postings.
 
 #project(
   name: "Hack Apertus 2026: Winner, Track 2A (solo)",
@@ -86,7 +101,7 @@ AI engineer and researcher with a PhD in Computer Science and a BSc in Physics. 
   institution: "University of A Coruña",
   location: "A Coruña, Spain",
   dates: dates-helper(start-date: "Oct 2021", end-date: "Jun 2026"),
-  degree: "PhD in Computer Science, cum laude, International Doctorate",
+  degree: "Doctorate (PhD) in Computer Science",
 )
 
 #edu(
@@ -112,6 +127,6 @@ AI engineer and researcher with a PhD in Computer Science and a BSc in Physics. 
 
 - *Research:* LLM evaluation, robustness testing, multilingual and dialect transfer, information extraction, error analysis
 - *ML stack:* Python, PyTorch, Hugging Face (Transformers, Datasets), scikit-learn, pandas, NumPy, SciPy, spaCy, NLTK
-- *Infrastructure:* SQL (PostgreSQL, SQLite), Docker, Kubernetes, Slurm, Run:ai, Git, Linux, pytest, Weights & Biases
+- *Infrastructure:* SQL (PostgreSQL, SQLite), Docker, Kubernetes, Slurm, Run:ai, Git, GitHub Actions (CI), Linux, pytest
 - *Working knowledge:* OpenAI API, LLM-as-a-judge, RAG and hybrid retrieval, LoRA/QLoRA
 - *Languages:* Spanish (Native), English (C2), French (B2), German (B1), Chinese (A2)
