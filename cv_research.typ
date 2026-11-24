@@ -83,12 +83,13 @@ NLP researcher with a PhD in Computer Science and a BSc in Physics. Research on 
 - Layer choice mattered most: the benchmark's last-layer recipe scored 6.9 on development data and the best middle layer 30.0. Released the code with a CPU Docker pipeline that reproduces the test score.
 
 #project(
- name: "jobfacts: job-posting pipeline with measured fact extraction",
+ name: "jobfacts: job-posting pipeline & hybrid search service",
  url: "github.com/amunozo/jobfacts",
  dates: dates-helper(start-date: "Nov 2026", end-date: "present"),
 )
-- Collects AI and data job postings daily from about 170 employer job boards into PostgreSQL. A classifier model fills a fixed schema per posting (work mode, remote from Switzerland, language level, seniority), each value with the sentence from the posting that supports it, so every fact can be checked.
-- Accuracy measured on 50 labelled postings in English, German, and French: 90–100% on the extracted fields. Docker Compose, about 930 pytest tests. Built with coding agents under my direction.
+- Collects AI and data job postings daily from about 190 employer job boards into PostgreSQL (pgvector). A classifier model fills a fixed schema per posting (work mode, remote from Switzerland, language level, seniority), each value with its supporting sentence.
+- Hybrid full-text and vector search (Mistral embeddings, reciprocal rank fusion, similarity floor), evaluated across three embedding models on past applications; 90–100% accuracy across 10 fields on 50 held-out EN/DE/FR postings.
+- Deployed on AWS Lightsail (FastAPI, Docker Compose, Caddy HTTPS, systemd daily runs) with about 940 pytest tests and an encrypted CI accuracy regression gate in GitHub Actions. Built with coding agents under my direction.
 
 #pagebreak()
 
@@ -120,9 +121,9 @@ NLP researcher with a PhD in Computer Science and a BSc in Physics. Research on 
 
 == Skills
 
-- *Research areas:* LLM evaluation, robustness and perturbation testing, multilingual and dialect transfer, data-efficient NLP, structured prediction, information extraction, probing, error analysis
+- *Research areas:* LLM evaluation, robustness and perturbation testing, multilingual and dialect transfer, data-efficient NLP, structured prediction, information extraction, hybrid retrieval, probing, error analysis
 - *ML stack:* Python, PyTorch, Hugging Face (Transformers, Datasets), scikit-learn, pandas, NumPy, SciPy, spaCy, NLTK
-- *Research infrastructure:* SQL (PostgreSQL, SQLite), Docker, Kubernetes, Slurm, Run:ai, Git, Linux, pytest, Weights & Biases
+- *Infrastructure:* FastAPI, SQL (PostgreSQL/pgvector, SQLite), Docker, Kubernetes, Slurm, Run:ai, AWS Lightsail, Git, GitHub Actions (CI), Linux, pytest, Weights & Biases
 - *Languages:* Spanish (Native), English (C2), French (B2), German (B1), Chinese (A2)
 
 == Selected Publications

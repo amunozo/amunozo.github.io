@@ -82,11 +82,12 @@ AI engineer and researcher with a PhD in Computer Science and a BSc in Physics. 
 == Projects
 
 #project(
-  name: "jobfacts: job-posting pipeline with measured fact extraction",
+  name: "jobfacts: deployed job-posting pipeline and hybrid search service",
   url: "github.com/amunozo/jobfacts",
   dates: "Nov 2026 – present",
 )
-- Collects AI job postings daily from about 170 job boards into PostgreSQL; a classifier model extracts facts per posting (work mode, language level, seniority), each with its supporting sentence: 90–100% accuracy per field on 50 held-out postings.
+- Daily collector (about 190 boards) in PostgreSQL/pgvector; classifier extracts quoted facts (90–100%, 50 held-out postings).
+- FastAPI hybrid search (RRF) on AWS Lightsail (Docker Compose, Caddy HTTPS); CI accuracy gate, about 940 tests.
 
 #project(
   name: "Hack Apertus 2026: Winner, Track 2A (solo)",
@@ -125,8 +126,8 @@ AI engineer and researcher with a PhD in Computer Science and a BSc in Physics. 
 
 == Skills
 
-- *Research:* LLM evaluation, robustness testing, multilingual and dialect transfer, information extraction, error analysis
+- *Research:* LLM evaluation, robustness, multilingual/dialect transfer, information extraction, hybrid retrieval, error analysis
 - *ML stack:* Python, PyTorch, Hugging Face (Transformers, Datasets), scikit-learn, pandas, NumPy, SciPy, spaCy, NLTK
-- *Infrastructure:* SQL (PostgreSQL, SQLite), Docker, Kubernetes, Slurm, Run:ai, Git, GitHub Actions (CI), Linux, pytest
-- *Working knowledge:* OpenAI API, LLM-as-a-judge, RAG and hybrid retrieval, LoRA/QLoRA
+- *Infrastructure:* FastAPI, PostgreSQL/pgvector, Docker, Kubernetes, Slurm, Run:ai, AWS, GitHub Actions, Linux, pytest
+- *Working knowledge:* OpenAI API, LLM-as-a-judge, RAG, LoRA/QLoRA
 - *Languages:* Spanish (Native), English (C2), French (B2), German (B1), Chinese (A2)

@@ -30,8 +30,8 @@ description: Alberto Muñoz-Ortiz, AI engineer and researcher in Lausanne. PhD i
   <h2>2026</h2>
   <ul class="pub-list">
     <li>
-      <h3><a href="https://github.com/amunozo/jobfacts">jobfacts: job-posting pipeline with measured fact extraction</a></h3>
-      <p class="pub-venue">Collects AI and data job postings daily from about 170 employer job boards into PostgreSQL. A classifier model fills a fixed schema per posting (work mode, remote from Switzerland, language level, seniority), each value with the sentence from the posting that supports it, so every fact can be checked. On a held-out set of 50 postings in English, German, and French, the extracted fields are 90–100% correct. Built with coding agents under my direction.</p>
+      <h3><a href="https://github.com/amunozo/jobfacts">jobfacts: deployed job-posting pipeline and hybrid search service</a></h3>
+      <p class="pub-venue">Collects AI and data job postings daily from about 190 employer job boards into PostgreSQL (pgvector). A classifier model fills a fixed schema per posting (work mode, remote from Switzerland, language level, seniority), each value with the sentence from the posting that supports it, so every fact can be checked (90–100% accuracy across 10 fields on a held-out set of 50 postings in English, German, and French). Combines full-text and vector search (Mistral embeddings, reciprocal rank fusion) behind a FastAPI service and web UI deployed on AWS Lightsail (Docker Compose, Caddy HTTPS, systemd daily runs), with about 940 pytest tests and an encrypted CI accuracy regression gate in GitHub Actions. Built with coding agents under my direction.</p>
       <p class="pub-code"><a href="https://github.com/amunozo/jobfacts">View code</a></p>
     </li>
     <li>
