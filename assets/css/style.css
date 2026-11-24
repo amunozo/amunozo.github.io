@@ -898,3 +898,87 @@ a:focus-visible {
   flex-wrap: wrap;
   gap: 0 var(--space-4);
 }
+
+/* Switch repeat(2, ...) to 3 columns once there are 5+ items (or 4 with shorter cards / wider shell). */
+.misc-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-5);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.misc-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--paper-soft);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: border-color var(--duration-fast) var(--ease-out);
+}
+
+.misc-card:hover {
+  border-color: var(--line-strong);
+}
+
+.misc-card__media {
+  display: block;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-bottom: 1px solid var(--line);
+  background: var(--ink);
+}
+
+.misc-card__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--duration-base) var(--ease-out);
+}
+
+.misc-card__media:hover img,
+.misc-card__media:focus-visible img {
+  transform: scale(1.02);
+}
+
+.misc-card__body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: var(--space-4) var(--space-5) var(--space-3);
+}
+
+.misc-card__body h2 {
+  font-size: clamp(1.35rem, 1.8vw, 1.55rem);
+  line-height: 1.2;
+  margin-bottom: var(--space-2);
+}
+
+.misc-card__desc {
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  flex: 1;
+}
+
+.misc-card__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 var(--space-4);
+  margin-top: var(--space-2);
+}
+
+.misc-card__links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .misc-grid {
+    grid-template-columns: 1fr;
+  }
+}

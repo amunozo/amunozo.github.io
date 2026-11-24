@@ -3,5 +3,7 @@ main:
     link: /#projects
   - name: Publications
     link: /#publications
+  - name: Misc
+    link: /misc/
   - name: CV
     link: /cv.pdf
